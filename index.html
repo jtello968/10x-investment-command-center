@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111827">
+<title>10X Investment Command Center</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:#f4f6f8;
+  color:#111827;
+}
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+h1{margin:0;font-size:28px}
+h2{font-size:19px;margin:0 0 14px}
+.subtitle{color:#6b7280;margin:5px 0 20px}
+.card{
+  background:white;
+  border-radius:16px;
+  padding:18px;
+  margin-bottom:16px;
+  box-shadow:0 2px 10px rgba(0,0,0,.06);
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+@media(max-width:600px){
+  .grid{grid-template-columns:1fr}
+}
+.metric{
+  background:#f8fafc;
+  border-radius:12px;
+  padding:14px;
+}
+.metric-label{
+  color:#6b7280;
+  font-size:13px;
+}
+.metric-value{
+  font-size:23px;
+  font-weight:800;
+  margin-top:4px;
+}
+button{
+  border:0;
+  border-radius:10px;
+  padding:12px 16px;
+  min-height:44px;
+  font-weight:700;
+  cursor:pointer;
+  margin:4px 4px 4px 0;
+}
+.primary{background:#111827;color:white}
+.secondary{background:#e5e7eb;color:#111827}
+.green{background:#dcfce7;color:#166534}
+.yellow{background:#fef3c7;color:#92400e}
+.red{background:#fee2e2;color:#991b1b}
+.blue{background:#dbeafe;color:#1e40af}
+
+input,select{
+  width:100%;
+  padding:12px;
+  border:1px solid #d1d5db;
+  border-radius:9px;
+  font-size:16px;
+  background:white;
+}
+label{
+  display:block;
+  font-size:13px;
+  color:#6b7280;
+  margin-bottom:5px;
+}
+.form-group{margin-bottom:12px}
+
+.status{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:800;
+}
+.buy{background:#dcfce7;color:#166534}
+.hold{background:#fef3c7;color:#92400e}
+.sell{background:#fee2e2;color:#991b1b}
+.wait{background:#e5e7eb;color:#374151}
+
+.stock{
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:14px;
+  margin-bottom:10px;
+}
+.stock-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+}
+.ticker{
+  font-size:18px;
+  font-weight:900;
+}
+.company{color:#6b7280;font-size:13px}
+.stock-details{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+  margin-top:12px;
+}
+@media(max-width:500px){
+  .stock-details{grid-template-columns:1fr 1fr}
+}
+.detail-label{
+  font-size:11px;
+  color:#6b7280;
+}
+.detail-value{font-weight:700}
+
+.progress{
+  height:10px;
+  background:#e5e7eb;
+  border-radius:99px;
+  overflow:hidden;
+  margin-top:8px;
+}
+.progress-bar{
+  height:100%;
+  background:#111827;
+  width:0%;
+}
+
+.notice{
+  padding:12px;
+  border-radius:10px;
+  background:#f3f4f6;
+  font-size:14px;
+  line-height:1.5;
+}
+.small{font-size:13px;color:#6b7280}
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+}
+th,td{
+  padding:10px 6px;
+  border-bottom:1px solid #e5e7eb;
+  text-align:left;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="card">
+    <h1>🚀 10X Investment Command Center</h1>
+    <div class="subtitle">
+      High-risk / high-upside portfolio decision system
+    </div>
+
+    <button class="primary" onclick="runToday()">
+      RUN TODAY
+    </button>
+
+    <button class="secondary" onclick="showBuyPlan()">
+      BUY PLAN
+    </button>
+
+    <button class="secondary" onclick="showThesis()">
+      CHECK THESIS
+    </button>
+  </div>
+
+
+  <!-- PORTFOLIO SUMMARY -->
+
+  <div class="card">
+    <h2>💰 Capital Dashboard</h2>
+
+    <div class="grid">
+
+      <div class="metric">
+        <div class="metric-label">Total Capital</div>
+        <div class="metric-value" id="totalCapital">$35,000</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Invested</div>
+        <div class="metric-value" id="invested">$0</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Cash / Reserve</div>
+        <div class="metric-value" id="reserve">$35,000</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Portfolio Value</div>
+        <div class="metric-value" id="portfolioValue">$35,000</div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:16px">
+      <div class="small">Capital deployed</div>
+      <div class="progress">
+        <div class="progress-bar" id="capitalProgress"></div>
+      </div>
+    </div>
+
+    <button class="secondary" onclick="openSettings()">
+      ⚙️ Edit Capital
+    </button>
+  </div>
+
+
+  <!-- ROUND MANAGEMENT -->
+
+  <div class="card">
+    <h2>🎯 Capital Rounds</h2>
+
+    <div class="grid">
+
+      <div class="metric">
+        <div class="metric-label">Round 1</div>
+        <div class="metric-value" id="round1">$15,000</div>
+        <div class="small">Initial positions</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Round 2</div>
+        <div class="metric-value" id="round2">$10,000</div>
+        <div class="small">Correction fund</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Round 3</div>
+        <div class="metric-value" id="round3">$10,000</div>
+        <div class="small">Winner fund</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Uncommitted</div>
+        <div class="metric-value" id="uncommitted">$35,000</div>
+        <div class="small">Available reserve</div>
+      </div>
+
+    </div>
+
+    <button class="secondary" onclick="editRounds()">
+      Edit Rounds
+    </button>
+  </div>
+
+
+  <!-- TODAY -->
+
+  <div class="card" id="todayCard">
+
+    <h2>📊 Today's Decision</h2>
+
+    <div class="notice">
+      Press <b>RUN TODAY</b> to generate the current decision framework.
+      <br><br>
+      The independent version will later connect to live market/news data.
+    </div>
+
+  </div>
+
+
+  <!-- WATCHLIST -->
+
+  <div class="card">
+
+    <h2>🏆 10X Watchlist</h2>
+
+    <div id="watchlist"></div>
+
+  </div>
+
+
+  <!-- TRANSACTIONS -->
+
+  <div class="card">
+
+    <h2>📝 Record Your Trades</h2>
+
+    <div class="grid">
+
+      <div class="form-group">
+        <label>Ticker</label>
+        <select id="tradeTicker">
+          <option>RKLB</option>
+          <option>ASTS</option>
+          <option>SPCX</option>
+          <option>IREN</option>
+          <option>CRSP</option>
+          <option>CAVA</option>
+          <option>MELI</option>
+          <option>OKLO</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Action</label>
+        <select id="tradeAction">
+          <option>BUY</option>
+          <option>SELL</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Amount ($)</label>
+        <input id="tradeAmount" type="number" min="0" step="100" placeholder="2500">
+      </div>
+
+      <div class="form-group">
+        <label>Price / Share</label>
+        <input id="tradePrice" type="number" min="0" step="0.01" placeholder="62.50">
+      </div>
+
+    </div>
+
+    <button class="primary" onclick="recordTrade()">
+      Record Trade
+    </button>
+
+    <div id="tradeMessage" class="small" style="margin-top:10px"></div>
+
+  </div>
+
+
+  <!-- POSITIONS -->
+
+  <div class="card">
+
+    <h2>📈 My Positions</h2>
+
+    <div id="positions"></div>
+
+  </div>
+
+
+  <!-- HISTORY -->
+
+  <div class="card">
+
+    <h2>📜 Trade History</h2>
+
+    <div id="history"></div>
+
+  </div>
+
+
+  <!-- SETTINGS -->
+
+  <div class="card" id="settingsCard" style="display:none">
+
+    <h2>⚙️ Portfolio Settings</h2>
+
+    <div class="form-group">
+      <label>Total Capital</label>
+      <input id="capitalInput" type="number" min="0" step="1000">
+    </div>
+
+    <div class="grid">
+
+      <div class="form-group">
+        <label>Round 1</label>
+        <input id="r1Input" type="number" min="0" step="500">
+      </div>
+
+      <div class="form-group">
+        <label>Round 2</label>
+        <input id="r2Input" type="number" min="0" step="500">
+      </div>
+
+      <div class="form-group">
+        <label>Round 3</label>
+        <input id="r3Input" type="number" min="0" step="500">
+      </div>
+
+    </div>
+
+    <button class="primary" onclick="saveSettings()">
+      Save Settings
+    </button>
+
+    <button class="secondary" onclick="closeSettings()">
+      Cancel
+    </button>
+
+  </div>
+
+</div>
+
+
+<script>
+
+const defaultData = {
+
+  capital:35000,
+
+  rounds:{
+    r1:15000,
+    r2:10000,
+    r3:10000
+  },
+
+  trades:[],
+
+  positions:{},
+
+  watchlist:[
+
+    {
+      ticker:"RKLB",
+      name:"Rocket Lab",
+      sector:"Space",
+      score:9.4,
+      signal:"BUY",
+      thesis:"Space infrastructure, launch cadence and Neutron potential."
+    },
+
+    {
+      ticker:"ASTS",
+      name:"AST SpaceMobile",
+      sector:"Space / Telecom",
+      score:9.2,
+      signal:"WAIT",
+      thesis:"Extremely large satellite-to-phone opportunity with major execution risk."
+    },
+
+    {
+      ticker:"SPCX",
+      name:"SpaceX",
+      sector:"Space / Starlink / AI",
+      score:9.0,
+      signal:"BUY",
+      thesis:"Exceptional assets and Starlink growth, but enormous valuation."
+    },
+
+    {
+      ticker:"IREN",
+      name:"IREN",
+      sector:"AI Infrastructure / Energy",
+      score:8.9,
+      signal:"BUY",
+      thesis:"High-risk AI infrastructure and energy expansion."
+    },
+
+    {
+      ticker:"CRSP",
+      name:"CRISPR Therapeutics",
+      sector:"Biotech",
+      score:8.5,
+      signal:"WAIT",
+      thesis:"Gene-editing platform with enormous upside and clinical risk."
+    },
+
+    {
+      ticker:"CAVA",
+      name:"CAVA",
+      sector:"Consumer",
+      score:7.8,
+      signal:"WAIT",
+      thesis:"Potential high-growth restaurant platform."
+    },
+
+    {
+      ticker:"MELI",
+      name:"MercadoLibre",
+      sector:"Commerce / Fintech",
+      score:7.7,
+      signal:"BUY",
+      thesis:"Amazon-like ecosystem across Latin America."
+    },
+
+    {
+      ticker:"OKLO",
+      name:"Oklo",
+      sector:"Nuclear Energy",
+      score:7.6,
+      signal:"WAIT",
+      thesis:"Extreme nuclear/AI power opportunity with significant execution risk."
+    }
+
+  ]
+
+};
+
+
+let data =
+  JSON.parse(localStorage.getItem("x10Data")) ||
+  defaultData;
+
+
+function save(){
+
+  localStorage.setItem(
+    "x10Data",
+    JSON.stringify(data)
+  );
+
+}
+
+
+function money(value){
+
+  return new Intl.NumberFormat(
+    "en-US",
+    {
+      style:"currency",
+      currency:"USD",
+      maximumFractionDigits:0
+    }
+  ).format(value);
+
+}
+
+
+function updateDashboard(){
+
+  let invested = 0;
+
+  Object.values(data.positions)
+    .forEach(p=>{
+      invested += p.cost;
+    });
+
+  let reserve =
+    data.capital - invested;
+
+  if(reserve < 0)
+    reserve = 0;
+
+  document.getElementById("totalCapital")
+    .textContent = money(data.capital);
+
+  document.getElementById("invested")
+    .textContent = money(invested);
+
+  document.getElementById("reserve")
+    .textContent = money(reserve);
+
+  document.getElementById("portfolioValue")
+    .textContent =
+      money(data.capital);
+
+  document.getElementById("round1")
+    .textContent =
+      money(data.rounds.r1);
+
+  document.getElementById("round2")
+    .textContent =
+      money(data.rounds.r2);
+
+  document.getElementById("round3")
+    .textContent =
+      money(data.rounds.r3);
+
+  document.getElementById("uncommitted")
+    .textContent =
+      money(reserve);
+
+  let percentage =
+    data.capital > 0
+      ? (invested/data.capital)*100
+      : 0;
+
+  document.getElementById("capitalProgress")
+    .style.width =
+      Math.min(percentage,100)+"%";
+
+}
+
+
+function renderWatchlist(){
+
+  const box =
+    document.getElementById("watchlist");
+
+  box.innerHTML="";
+
+  data.watchlist
+    .forEach(stock=>{
+
+      let cls =
+        stock.signal.toLowerCase();
+
+      let div =
+        document.createElement("div");
+
+      div.className="stock";
+
+      div.innerHTML=`
+
+        <div class="stock-top">
+
+          <div>
+
+            <div class="ticker">
+              ${stock.ticker}
+            </div>
+
+            <div class="company">
+              ${stock.name} • ${stock.sector}
+            </div>
+
+          </div>
+
+          <span class="status ${cls}">
+            ${stock.signal}
+          </span>
+
+        </div>
+
+        <div class="stock-details">
+
+          <div>
+            <div class="detail-label">
+              10X SCORE
+            </div>
+            <div class="detail-value">
+              ${stock.score}/10
+            </div>
+          </div>
+
+          <div>
+            <div class="detail-label">
+              CURRENT ACTION
+            </div>
+            <div class="detail-value">
+              ${stock.signal}
+            </div>
+          </div>
+
+          <div>
+            <div class="detail-label">
+              THESIS
+            </div>
+            <div class="detail-value">
+              ${stock.thesis}
+            </div>
+          </div>
+
+        </div>
+
+      `;
+
+      box.appendChild(div);
+
+    });
+
+}
+
+
+function renderPositions(){
+
+  const box =
+    document.getElementById("positions");
+
+  let keys =
+    Object.keys(data.positions);
+
+  if(keys.length===0){
+
+    box.innerHTML =
+      `<div class="notice">
+        No trades recorded yet.
+        <br>
+        Your full $35K remains in reserve.
+      </div>`;
+
+    return;
+
+  }
+
+  box.innerHTML="";
+
+  keys.forEach(ticker=>{
+
+    let p =
+      data.positions[ticker];
+
+    let shares =
+      p.shares || 0;
+
+    let avg =
+      shares > 0
+        ? p.cost/shares
+        : 0;
+
+    let div =
+      document.createElement("div");
+
+    div.className="stock";
+
+    div.innerHTML=`
+
+      <div class="stock-top">
+
+        <div>
+          <div class="ticker">
+            ${ticker}
+          </div>
+          <div class="company">
+            ${shares.toFixed(3)} shares
+          </div>
+        </div>
+
+        <div class="detail-value">
+          ${money(p.cost)}
+        </div>
+
+      </div>
+
+      <div class="stock-details">
+
+        <div>
+          <div class="detail-label">
+            COST
+          </div>
+          <div class="detail-value">
+            ${money(p.cost)}
+          </div>
+        </div>
+
+        <div>
+          <div class="detail-label">
+            SHARES
+          </div>
+          <div class="detail-value">
+            ${shares.toFixed(3)}
+          </div>
+        </div>
+
+        <div>
+          <div class="detail-label">
+            AVG PRICE
+          </div>
+          <div class="detail-value">
+            ${money(avg)}
+          </div>
+        </div>
+
+      </div>
+
+    `;
+
+    box.appendChild(div);
+
+  });
+
+}
+
+
+function renderHistory(){
+
+  const box =
+    document.getElementById("history");
+
+  if(data.trades.length===0){
+
+    box.innerHTML =
+      `<div class="small">
+        No trades recorded.
+      </div>`;
+
+    return;
+
+  }
+
+  let rows =
+    data.trades
+      .slice()
+      .reverse()
+      .map(t=>`
+
+        <tr>
+
+          <td>${t.date}</td>
+          <td><b>${t.ticker}</b></td>
+          <td>${t.action}</td>
+          <td>${money(t.amount)}</td>
+          <td>${money(t.price)}</td>
+
+        </tr>
+
+      `)
+      .join("");
+
+  box.innerHTML=`
+
+    <div style="overflow:auto">
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Ticker</th>
+            <th>Action</th>
+            <th>Amount</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          ${rows}
+        </tbody>
+
+      </table>
+
+    </div>
+
+  `;
+
+}
+
+
+function recordTrade(){
+
+  let ticker =
+    document.getElementById("tradeTicker")
+      .value;
+
+  let action =
+    document.getElementById("tradeAction")
+      .value;
+
+  let amount =
+    Number(
+      document.getElementById("tradeAmount")
+        .value
+    );
+
+  let price =
+    Number(
+      document.getElementById("tradePrice")
+        .value
+    );
+
+  if(
+    !ticker ||
+    !amount ||
+    amount<=0 ||
+    !price ||
+    price<=0
+  ){
+
+    document.getElementById("tradeMessage")
+      .textContent =
+      "Please enter ticker, amount and price.";
+
+    return;
+
+  }
+
+  let invested = 0;
+
+  Object.values(data.positions)
+    .forEach(p=>{
+      invested += p.cost;
+    });
+
+  let reserve =
+    data.capital-invested;
+
+  if(action==="BUY" && amount>reserve){
+
+    document.getElementById("tradeMessage")
+      .textContent =
+      "Not enough reserve available.";
+
+    return;
+
+  }
+
+
+  if(!data.positions[ticker]){
+
+    data.positions[ticker]={
+      shares:0,
+      cost:0
+    };
+
+  }
+
+
+  let position =
+    data.positions[ticker];
+
+  let shares =
+    amount/price;
+
+
+  if(action==="BUY"){
+
+    position.shares += shares;
+
+    position.cost += amount;
+
+  }
+
+
+  if(action==="SELL"){
+
+    if(shares > position.shares){
+
+      document.getElementById("tradeMessage")
+        .textContent =
+        "You cannot sell more shares than you own.";
+
+      return;
+
+    }
+
+    position.shares -= shares;
+
+    position.cost -= amount;
+
+    if(position.shares<=0.000001){
+
+      delete data.positions[ticker];
+
+    }
+
+  }
+
+
+  data.trades.push({
+
+    date:new Date()
+      .toLocaleDateString(),
+
+    ticker,
+
+    action,
+
+    amount,
+
+    price
+
+  });
+
+
+  save();
+
+  updateDashboard();
+
+  renderPositions();
+
+  renderHistory();
+
+  document.getElementById("tradeMessage")
+    .textContent =
+    `${action} recorded successfully.`;
+
+  document.getElementById("tradeAmount")
+    .value="";
+
+  document.getElementById("tradePrice")
+    .value="";
+
+}
+
+
+function runToday(){
+
+  const box =
+    document.getElementById("todayCard");
+
+  box.innerHTML=`
+
+    <h2>🚨 RUN TODAY</h2>
+
+    <div class="notice">
+
+      <b>Market posture: 🟡 CAUTION / SCALE IN</b>
+
+      <br><br>
+
+      Do not automatically deploy the entire
+      $35,000.
+
+      <br><br>
+
+      <b>Suggested framework:</b>
+
+      <br>
+      • Round 1: initial positions
+      <br>
+      • Round 2: correction opportunity
+      <br>
+      • Round 3: concentrate behind the strongest proven thesis
+
+      <br><br>
+
+      <b>Current priority:</b>
+      RKLB / SPCX / IREN
+
+      <br><br>
+
+      <b>WAIT:</b>
+      ASTS / CRSP / CAVA / OKLO
+
+      <br><br>
+
+      The independent app currently uses the
+      stored watchlist. Live market/news data will
+      be connected in the next development stage.
+
+    </div>
+
+    <br>
+
+    <button class="green"
+      onclick="quickDecision('BUY')">
+      🟢 BUY
+    </button>
+
+    <button class="yellow"
+      onclick="quickDecision('HOLD')">
+      🟡 HOLD
+    </button>
+
+    <button class="red"
+      onclick="quickDecision('SELL')">
+      🔴 SELL
+    </button>
+
+    <button class="secondary"
+      onclick="quickDecision('WAIT')">
+      ⚪ WAIT
+    </button>
+
+  `;
+
+}
+
+
+function quickDecision(action){
+
+  alert(
+    "Decision selected: "+action+
+    "\\n\\nYou still execute the trade manually in your brokerage."
+  );
+
+}
+
+
+function showBuyPlan(){
+
+  document.getElementById("todayCard")
+    .innerHTML=`
+
+      <h2>💰 BUY PLAN</h2>
+
+      <div class="notice">
+
+        <b>Initial capital target: $15,000</b>
+
+        <br><br>
+
+        RKLB — $2,500
+        <br>
+        SPCX — $2,000
+        <br>
+        IREN — $1,250
+        <br>
+        MELI — $1,000
+        <br>
+        CRSP — $750
+
+        <br><br>
+
+        <b>Initial deployment:
+        approximately $7,500.</b>
+
+        <br><br>
+
+        Remaining capital stays in reserve
+        until market conditions or company
+        fundamentals create a better opportunity.
+
+      </div>
+
+    `;
+
+}
+
+
+function showThesis(){
+
+  document.getElementById("todayCard")
+    .innerHTML=`
+
+      <h2>🔎 THESIS CHECK</h2>
+
+      <div class="notice">
+
+        Every 10X candidate must pass these tests:
+
+        <br><br>
+
+        <b>1. Market size</b>
+        <br>
+        Can the company become enormous?
+
+        <br><br>
+
+        <b>2. Growth</b>
+        <br>
+        Is revenue/backlog accelerating?
+
+        <br><br>
+
+        <b>3. Competitive advantage</b>
+        <br>
+        Can competitors easily copy it?
+
+        <br><br>
+
+        <b>4. Capital</b>
+        <br>
+        Does it have enough cash to execute?
+
+        <br><br>
+
+        <b>5. Execution</b>
+        <br>
+        Is management delivering?
+
+        <br><br>
+
+        <b>6. Valuation</b>
+        <br>
+        Is the potential already priced into the stock?
+
+      </div>
+
+    `;
+
+}
+
+
+function openSettings(){
+
+  document.getElementById("settingsCard")
+    .style.display="block";
+
+  document.getElementById("capitalInput")
+    .value=data.capital;
+
+  document.getElementById("r1Input")
+    .value=data.rounds.r1;
+
+  document.getElementById("r2Input")
+    .value=data.rounds.r2;
+
+  document.getElementById("r3Input")
+    .value=data.rounds.r3;
+
+}
+
+
+function closeSettings(){
+
+  document.getElementById("settingsCard")
+    .style.display="none";
+
+}
+
+
+function saveSettings(){
+
+  let capital =
+    Number(
+      document.getElementById("capitalInput")
+        .value
+    );
+
+  let r1 =
+    Number(
+      document.getElementById("r1Input")
+        .value
+    );
+
+  let r2 =
+    Number(
+      document.getElementById("r2Input")
+        .value
+    );
+
+  let r3 =
+    Number(
+      document.getElementById("r3Input")
+        .value
+    );
+
+
+  if(
+    capital<0 ||
+    r1<0 ||
+    r2<0 ||
+    r3<0
+  ){
+
+    alert("Values cannot be negative.");
+
+    return;
+
+  }
+
+
+  data.capital=capital;
+
+  data.rounds={
+    r1,
+    r2,
+    r3
+  };
+
+
+  save();
+
+  updateDashboard();
+
+  closeSettings();
+
+}
+
+
+function editRounds(){
+
+  openSettings();
+
+}
+
+
+updateDashboard();
+
+renderWatchlist();
+
+renderPositions();
+
+renderHistory();
+
+</script>
+
+</body>
+</html>
