@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-09-04T13:27:11.987304+00:00",
+  "quotes": {
+    "RKLB": {
+      "current": 63.81,
+      "changePct": 1.1252,
+      "change": 0.71,
+      "previousClose": 63.1
+    },
+    "ASTS": {
+      "current": 62.13,
+      "changePct": -0.4327,
+      "change": -0.27,
+      "previousClose": 62.4
+    },
+    "IREN": {
+      "current": 41.65,
+      "changePct": 5.1768,
+      "change": 2.05,
+      "previousClose": 39.6
+    },
+    "CRSP": {
+      "current": 56.49,
+      "changePct": -0.7554,
+      "change": -0.43,
+      "previousClose": 56.92
+    },
+    "CAVA": {
+      "current": 61.67,
+      "changePct": -0.1942,
+      "change": -0.12,
+      "previousClose": 61.79
+    },
+    "MELI": {
+      "current": 1991.055,
+      "changePct": -0.7737,
+      "change": -15.525,
+      "previousClose": 2006.58
+    },
+    "OKLO": {
+      "current": 39.84,
+      "changePct": 0.8097,
+      "change": 0.32,
+      "previousClose": 39.52
+    }
+  },
+  "news": {
+    "RKLB": [
+      {
+        "headline": "Space Rally Is Narrower Than It Looks as One Mega-Cap Masks Sector Slump",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=7079a5c0051904581a7cc0214d1f4a25320eb8ded5b33b9258b8a6991dcbcd07",
+        "datetime": 1788525572,
+        "summary": "Space theme's gains hide a narrow rally: mega-cap SPCX surges while most space stocks fall, with RKLB, ASTS, and VSAT diverging."
+      },
+      {
+        "headline": "SpaceX Stock Is Still Below Its First Closing Price. One Analyst Sees 450% Upside From Here",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=914036e8ca00b005262ce03b6ba70e18c650c02b57c45762fca9b57b77acd4cc",
+        "datetime": 1788525511,
+        "summary": "SpaceX debuted as one of the most anticipated IPOs in history, yet the stock still sits below its first closing price while one analyst has staked out a target that towers above every other call on Wall Street."
+      },
+      {
+        "headline": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=771d398546c31cd12a92ba2fec8ba4b6b130ed67562accfadd3f0121406088e9",
+        "datetime": 1788515229,
+        "summary": "Retail sentiment on Stocktwits remained \u2018bearish\u2019 on SPY and flipped to \u2018bullish\u2019 on QQQ."
+      },
+      {
+        "headline": "SPCX Stock Blasts Past ASTS, RKLB, LUNR, PL \u2014 Here\u2019s Everything Shaking Up Space Stocks This Week",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=04f6433a592cc1ea06c99be7e7bf66a9f3fda784a02cac95e5e05dbe8257e0b0",
+        "datetime": 1788513240,
+        "summary": "Oppenheimer raised its SpaceX target to $280, while Gavin Baker said orbital data centers could eventually propel its valuation to $20 trillion."
+      },
+      {
+        "headline": "Is Rocket Lab Stock a Millionaire Maker?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=975d7d91577dd96a59ce5a2293dbd12f314a3c72ab1b1b3e3a4a82efc2526a64",
+        "datetime": 1788498000,
+        "summary": "Rocket Lab has some exciting things happening with its launch business, but keep your head out of the clouds."
+      }
+    ],
+    "ASTS": [
+      {
+        "headline": "Space Rally Is Narrower Than It Looks as One Mega-Cap Masks Sector Slump",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=7079a5c0051904581a7cc0214d1f4a25320eb8ded5b33b9258b8a6991dcbcd07",
+        "datetime": 1788525572,
+        "summary": "Space theme's gains hide a narrow rally: mega-cap SPCX surges while most space stocks fall, with RKLB, ASTS, and VSAT diverging."
+      },
+      {
+        "headline": "AST SpaceMobile: The Selloff Has Gone Too Far",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=23a8dcf6963855d810f1b20b1450d170660827e7635f3fba59fe7cc814046f48",
+        "datetime": 1788409569,
+        "summary": "AST SpaceMobile targets ~$1B in revenue in its first commercial year (2027), with 45 BlueBird satellites in orbit. Read why ASTS stock is a buy."
+      },
+      {
+        "headline": "12 Communication Services Stocks Moving In Wednesday's Intraday Session",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=fa7537de320fd7bf8ee37868432cf435a18bbc0525282e8615ab71b628e09f3d",
+        "datetime": 1788354394,
+        "summary": "Gainers\n\nCable One (NYSE:CABO) shares rose 20.2% to $28.69 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $135.4 million. \nAmber International (NASDAQ:AMBR) stock increased by 17.6% to"
+      },
+      {
+        "headline": "Why Is AST SpaceMobile Stock Soaring Wednesday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=4d219cb8217639a8b7ea4f38ee63a49aaea921d857ef2ee8cb564e9adceaad11",
+        "datetime": 1788350358,
+        "summary": "AST SpaceMobile (ASTS) stock surged over 9% following SEC filings revealing director insider purchases and a new analyst Buy rating."
+      },
+      {
+        "headline": "Berenberg Initiates Coverage On AST SpaceMobile with Buy Rating, Announces Price Target of $92",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1bc5b2a10852fd14cf25689583522e2cd771ecf341008c96a53195639db41213",
+        "datetime": 1788348540,
+        "summary": "Berenberg  analyst Michael Filatov   initiates coverage on AST SpaceMobile (NASDAQ:ASTS) with a Buy rating and announces Price Target of $92."
+      }
+    ],
+    "IREN": [
+      {
+        "headline": "Shares of crypto-linked stocks are trading higher as Bitcoin prices hit $80,000 amid lower yields and a weaker dollar. Fed's Waller's comments that he is inclined to support holding interest rates steady may have further supported the speculative asset by easing concerns about tighter monetary policy and improving risk appetite.",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=294a5afd3408b398c4f843c22711b6f75713334b08b0e604db4d134e752a2249",
+        "datetime": 1788438129,
+        "summary": ""
+      },
+      {
+        "headline": "IREN's Customers Are Starting To Fund The Build",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d3b6def29aa4af9e7a2f656ef0aedfa73a4f9dea8cef93fd38edaac37706bc31",
+        "datetime": 1788355329,
+        "summary": "IREN\u00e2\u0080\u0099s AI power deals drive higher pricing, big ARR, and lower GPU CapEx via prepayments\u00e2\u0080\u0094plus a valuation discount vs. CoreWeave and Nebius. Click for more on IREN stock."
+      },
+      {
+        "headline": "Iren: I See The Silver Lining",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=5767155c8d3b7f9b18f22156c6f4fe2ea40d8dc9c2a36efae23619e95253fa0b",
+        "datetime": 1788349935,
+        "summary": "IREN Limited update: weak quarter, but AI Cloud now tops mining. $4B+ ARR fully contracted points to 2027 upside. Click for more on IREN stock."
+      },
+      {
+        "headline": "Sam Altman Flags 'First Signs' of a Bubble: Neoclouds on Watch",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=3eb007fa8cd5ed801fdbd509284eadaee116908214cb8fe6e15698bb2869a662",
+        "datetime": 1788344733,
+        "summary": "OpenAI&#39;s Sam Altman warns the AI infrastructure boom may be unsustainable, putting speculative neoclouds plays at risk."
+      },
+      {
+        "headline": "IREN: AI Pivot Is Finally Gaining Real Traction Now (Upgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e5d7897cd08448bb3444de0ee53d863ac574c7dad3716749f5fda7ac8305243f",
+        "datetime": 1788339600,
+        "summary": "IREN Limited is upgraded to a Buy, as valuations have normalized, finding robust support at the $35 level. Read more on IREN stock here."
+      }
+    ],
+    "CRSP": [
+      {
+        "headline": "Next Biotech Boom May Be Cancer Vaccines: Watch These ETFs",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=4f91f46ba2696ef86a00fd668abea30ee391a07d5822b5a8219287f5f296dad8",
+        "datetime": 1788265512,
+        "summary": "Moderna\u2019s cancer vaccine breakthrough puts biotech, mRNA and genomics ETFs in focus. Here are the funds worth watching."
+      },
+      {
+        "headline": "Citizens Reiterates Market Outperform on CRISPR Therapeutics, Maintains $80 Price Target",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=993b7816955222f66121ad967b8aef87803ffc78cb7f15934e94b880e1b38d98",
+        "datetime": 1788165338,
+        "summary": "Citizens  analyst Silvan Turkcan   reiterates CRISPR Therapeutics (NASDAQ:CRSP) with a Market Outperform and maintains $80 price target."
+      },
+      {
+        "headline": "Needham Reiterates Buy on CRISPR Therapeutics, Maintains $82 Price Target",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=a07e04092de834e751d3b86f1ecdb8c121be3bde74fa7b26fdb5429c35115894",
+        "datetime": 1788156197,
+        "summary": "Needham  analyst Gil Blum   reiterates CRISPR Therapeutics (NASDAQ:CRSP) with a Buy and maintains $82 price target."
+      },
+      {
+        "headline": "CRISPR Therapeutics Data From Its Phase 1 Clinical Study Of CTX Shows 79% Mean Reductions From Baseline For ANGPTL3, 48% Maximum For Triglycerides",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=7242bfebba6764885e79a8d8099330610705e65032e5e0aac63f84d8fe3e9502",
+        "datetime": 1787913319,
+        "summary": "CRISPR Therapeutics (NASDAQ:CRSP) today presented durability data from its Phase 1a clinical trial evaluating CTX310\u00ae, an investigational, in vivo CRISPR/Cas9 gene editing therapy targeting ANGPTL3. A single-course"
+      }
+    ],
+    "CAVA": [
+      {
+        "headline": "Can CAVA's 2024 Cohort Support Its Next Phase of Unit Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=84c0b1132fd0004d058bb56199723be601f9295292d77b720ce3128f999ef753",
+        "datetime": 1788369840,
+        "summary": "CAVA targets 75-77 net new openings in 2026, with strong restaurant vintages, new-unit productivity and broad-based demand supporting growth."
+      },
+      {
+        "headline": "Panera makes major change to how customers earn rewards",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=50b4adeb360cdc2ed125f34107f24866671b98fdf25f809460bea66e8cb0775a",
+        "datetime": 1788319980,
+        "summary": "Panera\u2019s latest offering rewards loyalty."
+      },
+      {
+        "headline": "Dutch Bros Sell-Off Creates a Growth Opportunity",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=246bd74e73117c5f8d02889b95ea9a52621d174f0b2c8145bff8ad318b60f851",
+        "datetime": 1788289200,
+        "summary": "Dutch Bros beat Q2 estimates with 32.5% revenue growth and raised guidance, yet shares fell 19% on softer Q3 same-shop sales guidance despite analysts' bullish price targets."
+      },
+      {
+        "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f38657bc46dc1be31ab955eeee80a322d5274f99909d288a96a4d0d1a47beafb",
+        "datetime": 1788269719,
+        "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often"
+      }
+    ],
+    "MELI": [
+      {
+        "headline": "MercadoLibre Is Building the Infrastructure Latin America's Economy Will Run on for Decades. Here's Why That Makes It a Forever Hold.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e11d7cd7b8cd430c719fd9db4a5e51c3f6da74dca9ddcd563c26d598aab8f544",
+        "datetime": 1788519600,
+        "summary": "Latin America's top e-commerce company still has a bright future."
+      },
+      {
+        "headline": "BTIG Reiterates Buy on MercadoLibre, Maintains $2150 Price Target",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=e83934df7f8b93c7853048b60c3c065443ac194da88e73d1f32994ff608d0605",
+        "datetime": 1788412406,
+        "summary": "BTIG  analyst Marvin Fong   reiterates MercadoLibre (NASDAQ:MELI) with a Buy and maintains $2150 price target."
+      },
+      {
+        "headline": "2 Monster Stocks to Hold for the Next 10 Years",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=17153d600083c241d213dd9044b7dbcd094cb0eca390747ebe50ae0803acd661",
+        "datetime": 1788374400,
+        "summary": "Costco and MercadoLibre have great track records and excellent opportunities."
+      },
+      {
+        "headline": "Netflix, MercadoLibre, and Tesla Are All Underperforming the S&P 500. Here's the 1 Stock I'd Buy in September.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4ab3729282338cfefe6a97590867edf0735d8329cc1c2d1fabafcc40a7bb66cc",
+        "datetime": 1788366660,
+        "summary": "Three stocks you know are trading lower this year. One should bounce back soon."
+      },
+      {
+        "headline": "My 3 Favorite Growth Stocks to Buy Right Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3c7c16f7705d0123b7a8daf52644fcfc649ecd25df8db48aca6522e140c50dea",
+        "datetime": 1788286380,
+        "summary": "The three have long-term opportunities in varied industries."
+      }
+    ],
+    "OKLO": [
+      {
+        "headline": "Oklo Inc.: The AI Power Trade Is Getting More Tangible",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=cb265463f27dc709ee5fa1a47f0226bae91d720f2bb79d635fa02d846385b162",
+        "datetime": 1788496201,
+        "summary": "Oklo now has an organization that has designed, procured, constructed, authorized, commissioned, and operated a nuclear facility. Read more on OKLO stock here."
+      },
+      {
+        "headline": "URNM: The Uranium Supply Crunch Is Far From Over",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a35f461dc55a0cc7bd55bde45ed7ef37b58209d0cd43f718f3ebdb1aaf7ff524",
+        "datetime": 1788360114,
+        "summary": "Bullish on URNM: concentrated uranium miners & physical uranium exposure."
+      },
+      {
+        "headline": "Nuclear Energy Scaling Up Through New Federal Projects",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7988e3cefa6f34396cdef092033c8dac6ba7e35550f8a93f864c49517c18c86c",
+        "datetime": 1788193800,
+        "summary": "The Nuclear Energy Launch Pad added 13 reactor and fuel cycle technology projects to its pipeline. The US Army announced Project Janus to move five reactor development projects forward."
+      }
+    ]
+  }
+}
