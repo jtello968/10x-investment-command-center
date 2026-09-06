@@ -2,1265 +2,446 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#111827">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>10X Investment Command Center</title>
-
+<meta name="theme-color" content="#0d1117">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="10X Command">
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="icon" href="/icons/icon-192.png">
 <style>
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
-  background:#f4f6f8;
-  color:#111827;
-}
-.container{
-  max-width:900px;
-  margin:auto;
-  padding:20px;
-}
-h1{margin:0;font-size:28px}
-h2{font-size:19px;margin:0 0 14px}
-.subtitle{color:#6b7280;margin:5px 0 20px}
-.card{
-  background:white;
-  border-radius:16px;
-  padding:18px;
-  margin-bottom:16px;
-  box-shadow:0 2px 10px rgba(0,0,0,.06);
-}
-.grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:12px;
-}
-@media(max-width:600px){
-  .grid{grid-template-columns:1fr}
-}
-.metric{
-  background:#f8fafc;
-  border-radius:12px;
-  padding:14px;
-}
-.metric-label{
-  color:#6b7280;
-  font-size:13px;
-}
-.metric-value{
-  font-size:23px;
-  font-weight:800;
-  margin-top:4px;
-}
-button{
-  border:0;
-  border-radius:10px;
-  padding:12px 16px;
-  min-height:44px;
-  font-weight:700;
-  cursor:pointer;
-  margin:4px 4px 4px 0;
-}
-.primary{background:#111827;color:white}
-.secondary{background:#e5e7eb;color:#111827}
-.green{background:#dcfce7;color:#166534}
-.yellow{background:#fef3c7;color:#92400e}
-.red{background:#fee2e2;color:#991b1b}
-.blue{background:#dbeafe;color:#1e40af}
-
-input,select{
-  width:100%;
-  padding:12px;
-  border:1px solid #d1d5db;
-  border-radius:9px;
-  font-size:16px;
-  background:white;
-}
-label{
-  display:block;
-  font-size:13px;
-  color:#6b7280;
-  margin-bottom:5px;
-}
-.form-group{margin-bottom:12px}
-
-.status{
-  display:inline-block;
-  padding:6px 10px;
-  border-radius:999px;
-  font-size:12px;
-  font-weight:800;
-}
-.buy{background:#dcfce7;color:#166534}
-.hold{background:#fef3c7;color:#92400e}
-.sell{background:#fee2e2;color:#991b1b}
-.wait{background:#e5e7eb;color:#374151}
-
-.stock{
-  border:1px solid #e5e7eb;
-  border-radius:12px;
-  padding:14px;
-  margin-bottom:10px;
-}
-.stock-top{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:10px;
-}
-.ticker{
-  font-size:18px;
-  font-weight:900;
-}
-.company{color:#6b7280;font-size:13px}
-.stock-details{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:8px;
-  margin-top:12px;
-}
-@media(max-width:500px){
-  .stock-details{grid-template-columns:1fr 1fr}
-}
-.detail-label{
-  font-size:11px;
-  color:#6b7280;
-}
-.detail-value{font-weight:700}
-
-.progress{
-  height:10px;
-  background:#e5e7eb;
-  border-radius:99px;
-  overflow:hidden;
-  margin-top:8px;
-}
-.progress-bar{
-  height:100%;
-  background:#111827;
-  width:0%;
-}
-
-.notice{
-  padding:12px;
-  border-radius:10px;
-  background:#f3f4f6;
-  font-size:14px;
-  line-height:1.5;
-}
-.small{font-size:13px;color:#6b7280}
-table{
-  width:100%;
-  border-collapse:collapse;
-  font-size:14px;
-}
-th,td{
-  padding:10px 6px;
-  border-bottom:1px solid #e5e7eb;
-  text-align:left;
-}
+  :root{
+    --bg: #0d1117; --panel: #131a24; --panel-2: #0f151e; --line: #232d3a; --line-soft: #1a2330;
+    --ink: #e6ecf3; --ink-dim: #8b98a9; --ink-faint: #5b6675; --gold: #c9a227; --gold-soft: #7d692c;
+    --buy: #3fb27f; --buy-bg: #10241c; --sell: #d1554a; --sell-bg: #2a1414;
+    --hold: #4a90c9; --hold-bg: #101c28; --wait: #c98a2c; --wait-bg: #241a0e;
+    --notrade: #6b7684; --notrade-bg: #171c22;
+    --mono: 'SFMono-Regular', Consolas, Menlo, monospace; --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  *{box-sizing:border-box;} html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;}
+  body{padding-bottom:60px;} a{color:var(--gold);}
+  .num{font-family:var(--mono);font-variant-numeric:tabular-nums;}
+  header.top{position:sticky;top:0;z-index:40;background:linear-gradient(180deg,#0d1117 80%,rgba(13,17,23,0));backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:14px 16px 10px;}
+  .brand{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+  .brand h1{font-size:15px;letter-spacing:.3px;margin:0;font-weight:600;} .brand h1 span{color:var(--gold);}
+  .datastrip{font-size:11px;color:var(--ink-faint);font-family:var(--mono);display:flex;gap:14px;flex-wrap:wrap;margin-top:6px;}
+  .datastrip b{color:var(--ink-dim);font-weight:500;}
+  main{max-width:1180px;margin:0 auto;padding:16px;} section{margin-bottom:22px;}
+  h2.sec{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--ink-faint);margin:0 0 10px;font-weight:600;}
+  .runbar{display:flex;gap:10px;align-items:stretch;margin-top:12px;flex-wrap:wrap;}
+  .runbtn{flex:1 1 220px;background:var(--gold);color:#1a1400;border:none;border-radius:6px;padding:14px 18px;font-size:14px;font-weight:700;letter-spacing:.4px;cursor:pointer;box-shadow:0 1px 0 rgba(255,255,255,.25) inset;}
+  .runbtn:disabled{opacity:.55;cursor:progress;}
+  .runbtn:hover:not(:disabled){filter:brightness(1.08);}
+  .ghostbtn{background:transparent;border:1px solid var(--line);color:var(--ink-dim);border-radius:6px;padding:14px 16px;font-size:13px;cursor:pointer;}
+  .ghostbtn:hover{border-color:var(--gold-soft);color:var(--ink);}
+  .posture{border:1px solid var(--line);border-radius:8px;padding:16px;background:var(--panel);margin-top:14px;}
+  .posture .label{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--ink-faint);}
+  .posture .val{font-size:20px;font-weight:700;margin-top:4px;}
+  .posture-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:14px;}
+  @media(min-width:720px){.posture-grid{grid-template-columns:1fr 1fr;}}
+  .posture-block h4{margin:0 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--gold);}
+  .posture-block p{margin:0;font-size:13px;color:var(--ink-dim);line-height:1.5;}
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;} @media(min-width:640px){.cards{grid-template-columns:repeat(4,1fr);}}
+  .card{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:12px;}
+  .card .k{font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--ink-faint);} .card .v{font-size:17px;margin-top:4px;font-weight:600;}
+  .v.pos{color:var(--buy);} .v.neg{color:var(--sell);}
+  .rounds{display:grid;grid-template-columns:1fr;gap:10px;} @media(min-width:720px){.rounds{grid-template-columns:repeat(3,1fr);}}
+  .round-card{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:12px;} .round-card h4{margin:0 0 8px;font-size:12px;color:var(--ink);}
+  .round-row{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-dim);padding:3px 0;}
+  .round-bar{height:5px;background:var(--line-soft);border-radius:3px;margin-top:8px;overflow:hidden;} .round-bar i{display:block;height:100%;background:var(--gold-soft);}
+  .edit-inline{background:var(--panel-2);border:1px solid var(--line);color:var(--ink);border-radius:4px;padding:2px 6px;font-size:12px;width:90px;font-family:var(--mono);}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  thead th{text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--ink-faint);border-bottom:1px solid var(--line);padding:8px 8px;white-space:nowrap;}
+  tbody td{padding:9px 8px;border-bottom:1px solid var(--line-soft);vertical-align:middle;white-space:nowrap;}
+  tbody tr:hover{background:var(--panel-2);cursor:pointer;} .wl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);}
+  .badge{display:inline-block;padding:3px 9px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.3px;}
+  .b-BUY{background:var(--buy-bg);color:var(--buy);} .b-SELL{background:var(--sell-bg);color:var(--sell);}
+  .b-HOLD{background:var(--hold-bg);color:var(--hold);} .b-WAIT{background:var(--wait-bg);color:var(--wait);}
+  .b-NOTRADE{background:var(--notrade-bg);color:var(--notrade);} .b-NODATA{background:var(--panel-2);color:var(--ink-faint);border:1px dashed var(--line);}
+  .status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;}
+  .s-LIVE{background:var(--buy);} .s-STALE{background:var(--wait);} .s-NODATA{background:var(--ink-faint);}
+  .ticker-cell{font-weight:700;} .ticker-cell small{display:block;font-weight:400;color:var(--ink-faint);font-size:10px;}
+  .btn{background:var(--panel-2);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:9px 12px;font-size:12.5px;cursor:pointer;}
+  .btn:hover{border-color:var(--gold-soft);} .btn.primary{background:var(--gold);color:#1a1400;border:none;font-weight:700;}
+  .btn.danger{color:var(--sell);border-color:var(--sell-bg);} .btn.small{padding:5px 9px;font-size:11.5px;}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  input,select,textarea{background:var(--panel-2);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:8px 10px;font-size:13px;font-family:var(--sans);width:100%;}
+  textarea{resize:vertical;min-height:56px;} label{font-size:11px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px;}
+  .field{margin-bottom:10px;} .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .panel{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:14px;}
+  .modal-bg{position:fixed;inset:0;background:rgba(4,6,9,.72);z-index:100;display:flex;align-items:flex-start;justify-content:center;padding:20px 12px;overflow-y:auto;}
+  .modal{background:var(--panel);border:1px solid var(--line);border-radius:10px;max-width:760px;width:100%;padding:20px;margin:20px 0 60px;}
+  .modal h3{margin:0 0 4px;font-size:16px;} .modal .sub{font-size:12px;color:var(--ink-faint);margin-bottom:16px;}
+  .modal-close{position:sticky;float:right;top:0;background:none;border:none;color:var(--ink-faint);font-size:20px;cursor:pointer;}
+  .thesis-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0;} @media(min-width:600px){.thesis-grid{grid-template-columns:repeat(4,1fr);}}
+  .tscore{border:1px solid var(--line);border-radius:6px;padding:8px;text-align:center;background:var(--panel-2);}
+  .tscore .n{font-size:18px;font-weight:700;font-family:var(--mono);} .tscore .l{font-size:9.5px;color:var(--ink-faint);text-transform:uppercase;margin-top:2px;}
+  .bullbear{display:grid;grid-template-columns:1fr;gap:10px;margin-top:10px;} @media(min-width:600px){.bullbear{grid-template-columns:1fr 1fr;}}
+  .bull-box{border:1px solid #1c3a2c;background:#0e1a14;border-radius:8px;padding:10px;} .bear-box{border:1px solid #3a1c1c;background:#1a0e0e;border-radius:8px;padding:10px;}
+  .bull-box h5{color:var(--buy);margin:0 0 6px;font-size:11px;text-transform:uppercase;} .bear-box h5{color:var(--sell);margin:0 0 6px;font-size:11px;text-transform:uppercase;}
+  .bull-box p,.bear-box p{margin:0;font-size:12.5px;color:var(--ink-dim);line-height:1.5;}
+  .newsitem{border-bottom:1px solid var(--line-soft);padding:10px 0;} .newsitem:last-child{border-bottom:none;}
+  .newsitem .h{font-size:13px;font-weight:600;} .newsitem .meta{font-size:10.5px;color:var(--ink-faint);margin:2px 0 5px;font-family:var(--mono);}
+  .newsitem .s{font-size:12.5px;color:var(--ink-dim);line-height:1.5;}
+  .warn{border:1px solid var(--gold-soft);background:#1c1608;color:var(--wait);border-radius:6px;padding:10px 12px;font-size:12.5px;margin-bottom:14px;}
+  .info{border:1px solid var(--line);background:var(--panel-2);color:var(--ink-dim);border-radius:6px;padding:10px 12px;font-size:12.5px;margin-bottom:14px;}
+  .footer-note{text-align:center;color:var(--ink-faint);font-size:11px;margin-top:30px;padding:0 10px;line-height:1.6;}
 </style>
 </head>
-
 <body>
 
-<div class="container">
-
-  <div class="card">
-    <h1>🚀 10X Investment Command Center</h1>
-    <div class="subtitle">
-      High-risk / high-upside portfolio decision system
+<header class="top">
+  <div class="brand">
+    <h1>10X <span>INVESTMENT COMMAND CENTER</span></h1>
+    <div class="row">
+      <button class="ghostbtn" onclick="openSettings()">Settings</button>
     </div>
-
-    <button class="primary" onclick="runToday()">
-      RUN TODAY
-    </button>
-
-    <button class="secondary" onclick="showBuyPlan()">
-      BUY PLAN
-    </button>
-
-    <button class="secondary" onclick="showThesis()">
-      CHECK THESIS
-    </button>
   </div>
+  <div class="datastrip" id="dataStrip"></div>
+</header>
 
-
-  <!-- PORTFOLIO SUMMARY -->
-
-  <div class="card">
-    <h2>💰 Capital Dashboard</h2>
-
-    <div class="grid">
-
-      <div class="metric">
-        <div class="metric-label">Total Capital</div>
-        <div class="metric-value" id="totalCapital">$35,000</div>
-      </div>
-
-      <div class="metric">
-        <div class="metric-label">Invested</div>
-        <div class="metric-value" id="invested">$0</div>
-      </div>
-
-      <div class="metric">
-        <div class="metric-label">Cash / Reserve</div>
-        <div class="metric-value" id="reserve">$35,000</div>
-      </div>
-
-      <div class="metric">
-        <div class="metric-label">Portfolio Value</div>
-        <div class="metric-value" id="portfolioValue">$35,000</div>
-      </div>
-
+<main>
+  <section>
+    <div class="posture" id="postureBox"></div>
+    <div class="runbar">
+      <button class="runbtn" id="runBtn" onclick="runToday()">RUN TODAY</button>
+      <button class="ghostbtn" onclick="openTradeForm()">Record a Trade</button>
     </div>
+    <div id="runError"></div>
+  </section>
 
-    <div style="margin-top:16px">
-      <div class="small">Capital deployed</div>
-      <div class="progress">
-        <div class="progress-bar" id="capitalProgress"></div>
-      </div>
+  <section><h2 class="sec">Portfolio</h2><div class="cards" id="summaryCards"></div></section>
+  <section><h2 class="sec">Capital Rounds</h2><div class="rounds" id="roundsBox"></div></section>
+
+  <section>
+    <div class="row" style="justify-content:space-between;">
+      <h2 class="sec" style="margin:0;">Watchlist</h2>
+      <button class="btn small" onclick="openAddCompany()">+ Add Company</button>
     </div>
+    <div class="wl-wrap"><table id="watchlistTable"></table></div>
+  </section>
 
-    <button class="secondary" onclick="openSettings()">
-      ⚙️ Edit Capital
-    </button>
-  </div>
+  <section><h2 class="sec">Positions</h2><div class="wl-wrap"><table id="positionsTable"></table></div></section>
+  <section><h2 class="sec">Trade History</h2><div class="wl-wrap"><table id="historyTable"></table></div></section>
+</main>
 
+<div class="footer-note">Decision-support only. No trades are placed automatically. You execute all trades manually at Fidelity, then record them here.</div>
 
-  <!-- ROUND MANAGEMENT -->
-
-  <div class="card">
-    <h2>🎯 Capital Rounds</h2>
-
-    <div class="grid">
-
-      <div class="metric">
-        <div class="metric-label">Round 1</div>
-        <div class="metric-value" id="round1">$15,000</div>
-        <div class="small">Initial positions</div>
-      </div>
-
-      <div class="metric">
-        <div class="metric-label">Round 2</div>
-        <div class="metric-value" id="round2">$10,000</div>
-        <div class="small">Correction fund</div>
-      </div>
-
-      <div class="metric">
-        <div class="metric-label">Round 3</div>
-        <div class="metric-value" id="round3">$10,000</div>
-        <div class="small">Winner fund</div>
-      </div>
-
-      <div class="metric">
-        <div class="metric-label">Uncommitted</div>
-        <div class="metric-value" id="uncommitted">$35,000</div>
-        <div class="small">Available reserve</div>
-      </div>
-
-    </div>
-
-    <button class="secondary" onclick="editRounds()">
-      Edit Rounds
-    </button>
-  </div>
-
-
-  <!-- TODAY -->
-
-  <div class="card" id="todayCard">
-
-    <h2>📊 Today's Decision</h2>
-
-    <div class="notice">
-      Press <b>RUN TODAY</b> to generate the current decision framework.
-      <br><br>
-      The independent version will later connect to live market/news data.
-    </div>
-
-  </div>
-
-
-  <!-- WATCHLIST -->
-
-  <div class="card">
-
-    <h2>🏆 10X Watchlist</h2>
-
-    <div id="watchlist"></div>
-
-  </div>
-
-
-  <!-- TRANSACTIONS -->
-
-  <div class="card">
-
-    <h2>📝 Record Your Trades</h2>
-
-    <div class="grid">
-
-      <div class="form-group">
-        <label>Ticker</label>
-        <select id="tradeTicker">
-          <option>RKLB</option>
-          <option>ASTS</option>
-          <option>SPCX</option>
-          <option>IREN</option>
-          <option>CRSP</option>
-          <option>CAVA</option>
-          <option>MELI</option>
-          <option>OKLO</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label>Action</label>
-        <select id="tradeAction">
-          <option>BUY</option>
-          <option>SELL</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label>Amount ($)</label>
-        <input id="tradeAmount" type="number" min="0" step="100" placeholder="2500">
-      </div>
-
-      <div class="form-group">
-        <label>Price / Share</label>
-        <input id="tradePrice" type="number" min="0" step="0.01" placeholder="62.50">
-      </div>
-
-    </div>
-
-    <button class="primary" onclick="recordTrade()">
-      Record Trade
-    </button>
-
-    <div id="tradeMessage" class="small" style="margin-top:10px"></div>
-
-  </div>
-
-
-  <!-- POSITIONS -->
-
-  <div class="card">
-
-    <h2>📈 My Positions</h2>
-
-    <div id="positions"></div>
-
-  </div>
-
-
-  <!-- HISTORY -->
-
-  <div class="card">
-
-    <h2>📜 Trade History</h2>
-
-    <div id="history"></div>
-
-  </div>
-
-
-  <!-- SETTINGS -->
-
-  <div class="card" id="settingsCard" style="display:none">
-
-    <h2>⚙️ Portfolio Settings</h2>
-
-    <div class="form-group">
-      <label>Total Capital</label>
-      <input id="capitalInput" type="number" min="0" step="1000">
-    </div>
-
-    <div class="grid">
-
-      <div class="form-group">
-        <label>Round 1</label>
-        <input id="r1Input" type="number" min="0" step="500">
-      </div>
-
-      <div class="form-group">
-        <label>Round 2</label>
-        <input id="r2Input" type="number" min="0" step="500">
-      </div>
-
-      <div class="form-group">
-        <label>Round 3</label>
-        <input id="r3Input" type="number" min="0" step="500">
-      </div>
-
-    </div>
-
-    <button class="primary" onclick="saveSettings()">
-      Save Settings
-    </button>
-
-    <button class="secondary" onclick="closeSettings()">
-      Cancel
-    </button>
-
-  </div>
-
-</div>
-
+<div id="modalRoot"></div>
 
 <script>
-
-const defaultData = {
-
-  capital:35000,
-
-  rounds:{
-    r1:15000,
-    r2:10000,
-    r3:10000
+/* ---------------- STATE ---------------- */
+const STORAGE_KEY = 'tenx-command-center-state-v1';
+const DEFAULT_STATE = () => ({
+  totalCapital: 35000,
+  cash: 35000,
+  rounds: {
+    r1: {label:"Round 1 — Initial Positions", allocated: 20000},
+    r2: {label:"Round 2 — Correction / Opportunity Fund", allocated: 9000},
+    r3: {label:"Round 3 — Winner / Concentration Fund", allocated: 6000}
   },
+  watchlist: [
+    {ticker:"RKLB", name:"Rocket Lab", sector:"Space / Launch & Systems", type:"public"},
+    {ticker:"ASTS", name:"AST SpaceMobile", sector:"Satellite / Direct-to-Device", type:"public"},
+    {ticker:"SPCX", name:"SpaceX", sector:"Space / Launch", type:"private"},
+    {ticker:"IREN", name:"IREN", sector:"Data Centers / Compute", type:"public"},
+    {ticker:"CRSP", name:"CRISPR Therapeutics", sector:"Gene Editing / Biotech", type:"public"},
+    {ticker:"CAVA", name:"CAVA Group", sector:"Restaurants / Fast Casual", type:"public"},
+    {ticker:"MELI", name:"MercadoLibre", sector:"LatAm E-commerce / Fintech", type:"public"},
+    {ticker:"OKLO", name:"Oklo", sector:"Advanced Nuclear / Energy", type:"public"}
+  ],
+  companyData: {},
+  trades: [],
+  lastRun: null
+});
+let state = null;
+function loadState(){ try{ state = JSON.parse(localStorage.getItem(STORAGE_KEY)); if(!state) state = DEFAULT_STATE(); }catch(e){ state = DEFAULT_STATE(); } }
+function saveState(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
 
-  trades:[],
+/* ---------------- HELPERS ---------------- */
+const fmt$ = n => (n<0?'-$':'$') + Math.abs(Math.round(n)).toLocaleString('en-US');
+const fmtPct = n => (n>0?'+':'') + n.toFixed(1) + '%';
+function escapeHtml(s){ if(s===undefined||s===null) return ''; return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
-  positions:{},
-
-  watchlist:[
-
-    {
-      ticker:"RKLB",
-      name:"Rocket Lab",
-      sector:"Space",
-      score:9.4,
-      signal:"BUY",
-      thesis:"Space infrastructure, launch cadence and Neutron potential."
-    },
-
-    {
-      ticker:"ASTS",
-      name:"AST SpaceMobile",
-      sector:"Space / Telecom",
-      score:9.2,
-      signal:"WAIT",
-      thesis:"Extremely large satellite-to-phone opportunity with major execution risk."
-    },
-
-    {
-      ticker:"SPCX",
-      name:"SpaceX",
-      sector:"Space / Starlink / AI",
-      score:9.0,
-      signal:"BUY",
-      thesis:"Exceptional assets and Starlink growth, but enormous valuation."
-    },
-
-    {
-      ticker:"IREN",
-      name:"IREN",
-      sector:"AI Infrastructure / Energy",
-      score:8.9,
-      signal:"BUY",
-      thesis:"High-risk AI infrastructure and energy expansion."
-    },
-
-    {
-      ticker:"CRSP",
-      name:"CRISPR Therapeutics",
-      sector:"Biotech",
-      score:8.5,
-      signal:"WAIT",
-      thesis:"Gene-editing platform with enormous upside and clinical risk."
-    },
-
-    {
-      ticker:"CAVA",
-      name:"CAVA",
-      sector:"Consumer",
-      score:7.8,
-      signal:"WAIT",
-      thesis:"Potential high-growth restaurant platform."
-    },
-
-    {
-      ticker:"MELI",
-      name:"MercadoLibre",
-      sector:"Commerce / Fintech",
-      score:7.7,
-      signal:"BUY",
-      thesis:"Amazon-like ecosystem across Latin America."
-    },
-
-    {
-      ticker:"OKLO",
-      name:"Oklo",
-      sector:"Nuclear Energy",
-      score:7.6,
-      signal:"WAIT",
-      thesis:"Extreme nuclear/AI power opportunity with significant execution risk."
+function positions(){
+  const pos = {};
+  const sorted = [...state.trades].sort((a,b)=> new Date(a.date)-new Date(b.date));
+  for(const t of sorted){
+    if(!pos[t.ticker]) pos[t.ticker] = {shares:0, costBasis:0, realizedGL:0};
+    const p = pos[t.ticker];
+    if(t.action==='BUY'){ p.shares += t.shares; p.costBasis += t.amount; }
+    else {
+      const avgCost = p.shares>0 ? p.costBasis/p.shares : 0;
+      const soldCB = avgCost * t.shares;
+      p.realizedGL += (t.amount - soldCB);
+      p.shares -= t.shares; p.costBasis -= soldCB;
+      if(p.shares<0.0000001) p.shares=0; if(p.costBasis<0.0000001) p.costBasis=0;
     }
-
-  ]
-
-};
-
-
-let data =
-  JSON.parse(localStorage.getItem("x10Data")) ||
-  defaultData;
-
-
-function save(){
-
-  localStorage.setItem(
-    "x10Data",
-    JSON.stringify(data)
-  );
-
+  }
+  return pos;
 }
-
-
-function money(value){
-
-  return new Intl.NumberFormat(
-    "en-US",
-    {
-      style:"currency",
-      currency:"USD",
-      maximumFractionDigits:0
-    }
-  ).format(value);
-
+function currentPrice(ticker){ const cd = state.companyData[ticker]; return (cd && typeof cd.price==='number') ? cd.price : null; }
+function portfolioTotals(){
+  const pos = positions(); let invested=0, marketValue=0, realized=0, staleOrMissing=false;
+  for(const t in pos){ const p=pos[t]; if(p.shares<=0){ realized+=p.realizedGL; continue; }
+    invested += p.costBasis; const price = currentPrice(t);
+    if(price===null){ staleOrMissing=true; marketValue += p.costBasis; } else { marketValue += price*p.shares; }
+    realized += p.realizedGL;
+  }
+  const unrealized = marketValue - invested;
+  return {invested, marketValue, unrealized, realized, totalReturn: realized+unrealized, staleOrMissing, pos};
 }
+function roundUsage(){ const used={r1:0,r2:0,r3:0}; for(const t of state.trades){ const r=t.round||'r1'; used[r] += (t.action==='BUY'? t.amount : -t.amount); } return used; }
+function dataAgeLabel(iso){ if(!iso) return null; const ms=Date.now()-new Date(iso).getTime(); const hrs=ms/3600000; if(hrs<1) return Math.round(ms/60000)+"m ago"; if(hrs<48) return hrs.toFixed(1)+"h ago"; return (hrs/24).toFixed(1)+"d ago"; }
 
+/* ---------------- RENDER ---------------- */
+function renderTop(){
+  const strip = document.getElementById('dataStrip'); const lr = state.lastRun;
+  if(!lr){ strip.innerHTML = `<span><b>Last Updated:</b> never — press RUN TODAY</span>`; }
+  else { strip.innerHTML = `<span><b>Last Updated:</b> ${new Date(lr.runDate).toLocaleString()}</span><span><b>Data Age:</b> ${dataAgeLabel(lr.runDate)}</span><span><b>Source:</b> ${lr.dataSource||'—'}</span>`; }
 
-function updateDashboard(){
-
-  let invested = 0;
-
-  Object.values(data.positions)
-    .forEach(p=>{
-      invested += p.cost;
-    });
-
-  let reserve =
-    data.capital - invested;
-
-  if(reserve < 0)
-    reserve = 0;
-
-  document.getElementById("totalCapital")
-    .textContent = money(data.capital);
-
-  document.getElementById("invested")
-    .textContent = money(invested);
-
-  document.getElementById("reserve")
-    .textContent = money(reserve);
-
-  document.getElementById("portfolioValue")
-    .textContent =
-      money(data.capital);
-
-  document.getElementById("round1")
-    .textContent =
-      money(data.rounds.r1);
-
-  document.getElementById("round2")
-    .textContent =
-      money(data.rounds.r2);
-
-  document.getElementById("round3")
-    .textContent =
-      money(data.rounds.r3);
-
-  document.getElementById("uncommitted")
-    .textContent =
-      money(reserve);
-
-  let percentage =
-    data.capital > 0
-      ? (invested/data.capital)*100
-      : 0;
-
-  document.getElementById("capitalProgress")
-    .style.width =
-      Math.min(percentage,100)+"%";
-
+  const box = document.getElementById('postureBox');
+  if(!lr){ box.innerHTML = `<div class="label">Market Posture</div><div class="val" style="color:var(--notrade)">NO DATA — NO TRADE TODAY</div><div class="info" style="margin-top:12px;">Press RUN TODAY to fetch live prices and news from the backend.</div>`; return; }
+  box.innerHTML = `<div class="label">Market Posture</div><div class="val">${escapeHtml(lr.marketPosture||'—')}</div>
+    <div class="posture-grid">
+      <div class="posture-block"><h4>Why Today?</h4><p>${escapeHtml(lr.whyToday||'—')}</p></div>
+      <div class="posture-block"><h4>What Changed?</h4><p>${escapeHtml(lr.whatChanged||'—')}</p></div>
+      <div class="posture-block"><h4>Risks</h4><p>${escapeHtml(lr.risksToday||'—')}</p></div>
+      <div class="posture-block"><h4>Watch Next</h4><p>${escapeHtml(lr.watchNext||'—')}</p></div>
+    </div>`;
 }
+function renderSummary(){
+  const t = portfolioTotals();
+  const cards = [
+    ['Total Capital', fmt$(state.totalCapital), ''], ['Invested Capital', fmt$(t.invested), ''],
+    ['Cash / Reserve', fmt$(state.cash), ''], ['Portfolio Value', fmt$(t.marketValue)+(t.staleOrMissing?' *':''), ''],
+    ['Unrealized G/L', fmt$(t.unrealized), t.unrealized>=0?'pos':'neg'], ['Realized G/L', fmt$(t.realized), t.realized>=0?'pos':'neg'],
+    ['Total Return', fmt$(t.totalReturn), t.totalReturn>=0?'pos':'neg'],
+    ['Return %', state.totalCapital? fmtPct(100*t.totalReturn/state.totalCapital):'—%', t.totalReturn>=0?'pos':'neg'],
+  ];
+  document.getElementById('summaryCards').innerHTML = cards.map(c=>`<div class="card"><div class="k">${c[0]}</div><div class="v ${c[2]}">${c[1]}</div></div>`).join('')
+    + (t.staleOrMissing? `<div class="warn" style="grid-column:1/-1;">* One or more positions have no live price on file — cost basis used until you Run Today.</div>`:'');
+}
+function renderRounds(){
+  const used = roundUsage();
+  document.getElementById('roundsBox').innerHTML = Object.entries(state.rounds).map(([key,r])=>{
+    const u = used[key]||0; const remaining = r.allocated-u; const pct = r.allocated>0? Math.min(100,Math.max(0,(u/r.allocated)*100)):0;
+    return `<div class="round-card"><h4>${escapeHtml(r.label)}</h4>
+      <div class="round-row"><span>Allocated</span><span class="num"><input class="edit-inline" type="number" value="${r.allocated}" onchange="updateRoundAllocated('${key}', this.value)"></span></div>
+      <div class="round-row"><span>Used</span><span class="num">${fmt$(u)}</span></div>
+      <div class="round-row"><span>Remaining</span><span class="num" style="color:${remaining<0?'var(--sell)':'var(--ink)'}">${fmt$(remaining)}</span></div>
+      <div class="round-bar"><i style="width:${pct}%"></i></div></div>`;
+  }).join('');
+}
+function updateRoundAllocated(key,val){ state.rounds[key].allocated = parseFloat(val)||0; saveState(); renderRounds(); }
 
-
+function statusDot(status){ if(!status) return ''; const cls = status==='LIVE'?'s-LIVE':status==='STALE'?'s-STALE':'s-NODATA'; return `<span class="status-dot ${cls}"></span>${status}`; }
+function badgeFor(rec, status){
+  if(!status || status==='NO DATA') return `<span class="badge b-NODATA">NO DATA</span>`;
+  if(!rec) return `<span class="badge b-NOTRADE">NO TRADE TODAY</span>`;
+  const map = {BUY:'b-BUY',SELL:'b-SELL',HOLD:'b-HOLD',WAIT:'b-WAIT','NO TRADE TODAY':'b-NOTRADE'};
+  return `<span class="badge ${map[rec]||'b-NOTRADE'}">${rec}</span>`;
+}
 function renderWatchlist(){
-
-  const box =
-    document.getElementById("watchlist");
-
-  box.innerHTML="";
-
-  data.watchlist
-    .forEach(stock=>{
-
-      let cls =
-        stock.signal.toLowerCase();
-
-      let div =
-        document.createElement("div");
-
-      div.className="stock";
-
-      div.innerHTML=`
-
-        <div class="stock-top">
-
-          <div>
-
-            <div class="ticker">
-              ${stock.ticker}
-            </div>
-
-            <div class="company">
-              ${stock.name} • ${stock.sector}
-            </div>
-
-          </div>
-
-          <span class="status ${cls}">
-            ${stock.signal}
-          </span>
-
-        </div>
-
-        <div class="stock-details">
-
-          <div>
-            <div class="detail-label">
-              10X SCORE
-            </div>
-            <div class="detail-value">
-              ${stock.score}/10
-            </div>
-          </div>
-
-          <div>
-            <div class="detail-label">
-              CURRENT ACTION
-            </div>
-            <div class="detail-value">
-              ${stock.signal}
-            </div>
-          </div>
-
-          <div>
-            <div class="detail-label">
-              THESIS
-            </div>
-            <div class="detail-value">
-              ${stock.thesis}
-            </div>
-          </div>
-
-        </div>
-
-      `;
-
-      box.appendChild(div);
-
-    });
-
+  const rows = state.watchlist.map(w=>{
+    const cd = state.companyData[w.ticker] || {};
+    const priceStr = w.type!=='public' ? 'PRIVATE' : (typeof cd.price==='number' ? '$'+cd.price.toFixed(2) : 'NO DATA');
+    const chgStr = typeof cd.change==='number' ? `<span class="num" style="color:${cd.change>=0?'var(--buy)':'var(--sell)'}">${fmtPct(cd.change)}</span>` : '<span class="num" style="color:var(--ink-faint)">—</span>';
+    const score = typeof cd.score==='number' ? cd.score : null;
+    return `<tr onclick="openCompany('${w.ticker}')">
+      <td class="ticker-cell">${w.ticker}<small>${escapeHtml(w.name)}</small></td>
+      <td>${escapeHtml(w.sector||'')}</td>
+      <td style="font-size:11px;">${w.type==='private'?'PRIVATE':statusDot(cd.status)}</td>
+      <td class="num">${priceStr}</td>
+      <td>${chgStr}</td>
+      <td class="num">${score!==null? score+'/100':'—'}</td>
+      <td>${badgeFor(cd.recommendation, w.type==='private'?'PRIVATE':cd.status)}</td>
+      <td class="num">${cd.recommendation==='BUY' && cd.suggestedAmount ? fmt$(cd.suggestedAmount) : '$0'}</td>
+      <td>${cd.confidence?escapeHtml(cd.confidence):'—'}</td>
+      <td><button class="btn small" onclick="event.stopPropagation();removeCompany('${w.ticker}')">Remove</button></td>
+    </tr>`;
+  }).join('');
+  document.getElementById('watchlistTable').innerHTML = `<thead><tr><th>Ticker</th><th>Sector</th><th>Status</th><th>Price</th><th>Chg</th><th>10X Score</th><th>Rec.</th><th>Suggested</th><th>Confidence</th><th></th></tr></thead>
+    <tbody>${rows || '<tr><td colspan="10" style="color:var(--ink-faint);">Watchlist is empty.</td></tr>'}</tbody>`;
 }
-
-
 function renderPositions(){
-
-  const box =
-    document.getElementById("positions");
-
-  let keys =
-    Object.keys(data.positions);
-
-  if(keys.length===0){
-
-    box.innerHTML =
-      `<div class="notice">
-        No trades recorded yet.
-        <br>
-        Your full $35K remains in reserve.
-      </div>`;
-
-    return;
-
-  }
-
-  box.innerHTML="";
-
-  keys.forEach(ticker=>{
-
-    let p =
-      data.positions[ticker];
-
-    let shares =
-      p.shares || 0;
-
-    let avg =
-      shares > 0
-        ? p.cost/shares
-        : 0;
-
-    let div =
-      document.createElement("div");
-
-    div.className="stock";
-
-    div.innerHTML=`
-
-      <div class="stock-top">
-
-        <div>
-          <div class="ticker">
-            ${ticker}
-          </div>
-          <div class="company">
-            ${shares.toFixed(3)} shares
-          </div>
-        </div>
-
-        <div class="detail-value">
-          ${money(p.cost)}
-        </div>
-
-      </div>
-
-      <div class="stock-details">
-
-        <div>
-          <div class="detail-label">
-            COST
-          </div>
-          <div class="detail-value">
-            ${money(p.cost)}
-          </div>
-        </div>
-
-        <div>
-          <div class="detail-label">
-            SHARES
-          </div>
-          <div class="detail-value">
-            ${shares.toFixed(3)}
-          </div>
-        </div>
-
-        <div>
-          <div class="detail-label">
-            AVG PRICE
-          </div>
-          <div class="detail-value">
-            ${money(avg)}
-          </div>
-        </div>
-
-      </div>
-
-    `;
-
-    box.appendChild(div);
-
-  });
-
+  const t = portfolioTotals();
+  const rows = Object.entries(t.pos).filter(([_,p])=>p.shares>0.0000001).map(([ticker,p])=>{
+    const avgCost = p.costBasis/p.shares; const price = currentPrice(ticker); const mv = price!==null? price*p.shares : p.costBasis;
+    const ugl = mv-p.costBasis; const uglPct = p.costBasis? (ugl/p.costBasis*100):0; const pctPort = t.marketValue? (mv/t.marketValue*100):0;
+    return `<tr onclick="openCompany('${ticker}')">
+      <td class="ticker-cell">${ticker}</td><td class="num">${p.shares.toLocaleString('en-US',{maximumFractionDigits:4})}</td>
+      <td class="num">$${avgCost.toFixed(2)}</td><td class="num">${price!==null?'$'+price.toFixed(2):'NO DATA'}</td>
+      <td class="num">${fmt$(p.costBasis)}</td><td class="num">${fmt$(mv)}</td>
+      <td class="num" style="color:${ugl>=0?'var(--buy)':'var(--sell)'}">${fmt$(ugl)}</td>
+      <td class="num" style="color:${ugl>=0?'var(--buy)':'var(--sell)'}">${fmtPct(uglPct)}</td>
+      <td class="num">${pctPort.toFixed(1)}%</td></tr>`;
+  }).join('');
+  document.getElementById('positionsTable').innerHTML = `<thead><tr><th>Ticker</th><th>Shares</th><th>Avg Cost</th><th>Price</th><th>Cost Basis</th><th>Mkt Value</th><th>Unreal. G/L</th><th>Unreal. %</th><th>Port. %</th></tr></thead>
+    <tbody>${rows || '<tr><td colspan="9" style="color:var(--ink-faint);">No open positions.</td></tr>'}</tbody>`;
 }
-
-
 function renderHistory(){
-
-  const box =
-    document.getElementById("history");
-
-  if(data.trades.length===0){
-
-    box.innerHTML =
-      `<div class="small">
-        No trades recorded.
-      </div>`;
-
-    return;
-
-  }
-
-  let rows =
-    data.trades
-      .slice()
-      .reverse()
-      .map(t=>`
-
-        <tr>
-
-          <td>${t.date}</td>
-          <td><b>${t.ticker}</b></td>
-          <td>${t.action}</td>
-          <td>${money(t.amount)}</td>
-          <td>${money(t.price)}</td>
-
-        </tr>
-
-      `)
-      .join("");
-
-  box.innerHTML=`
-
-    <div style="overflow:auto">
-
-      <table>
-
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Ticker</th>
-            <th>Action</th>
-            <th>Amount</th>
-            <th>Price</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          ${rows}
-        </tbody>
-
-      </table>
-
-    </div>
-
-  `;
-
+  const rows = [...state.trades].sort((a,b)=> new Date(b.date)-new Date(a.date)).map(t=>`<tr>
+    <td class="num">${t.date}</td><td class="ticker-cell">${t.ticker}</td>
+    <td><span class="badge ${t.action==='BUY'?'b-BUY':'b-SELL'}">${t.action}</span></td>
+    <td class="num">${t.shares.toLocaleString('en-US',{maximumFractionDigits:4})}</td><td class="num">$${t.price.toFixed(2)}</td>
+    <td class="num">${fmt$(t.amount)}</td><td class="num" style="color:${(t.realizedGL||0)>=0?'var(--buy)':'var(--sell)'}">${t.action==='SELL'?fmt$(t.realizedGL||0):'—'}</td>
+    <td><button class="btn small danger" onclick="deleteTrade('${t.id}')">Delete</button></td></tr>`).join('');
+  document.getElementById('historyTable').innerHTML = `<thead><tr><th>Date</th><th>Ticker</th><th>Action</th><th>Shares</th><th>Price</th><th>Amount</th><th>Realized G/L</th><th></th></tr></thead>
+    <tbody>${rows || '<tr><td colspan="8" style="color:var(--ink-faint);">No trades recorded yet.</td></tr>'}</tbody>`;
 }
+function deleteTrade(id){ if(!confirm('Delete this trade?')) return; state.trades = state.trades.filter(t=>t.id!==id); saveState(); renderAll(); }
 
-
-function recordTrade(){
-
-  let ticker =
-    document.getElementById("tradeTicker")
-      .value;
-
-  let action =
-    document.getElementById("tradeAction")
-      .value;
-
-  let amount =
-    Number(
-      document.getElementById("tradeAmount")
-        .value
-    );
-
-  let price =
-    Number(
-      document.getElementById("tradePrice")
-        .value
-    );
-
-  if(
-    !ticker ||
-    !amount ||
-    amount<=0 ||
-    !price ||
-    price<=0
-  ){
-
-    document.getElementById("tradeMessage")
-      .textContent =
-      "Please enter ticker, amount and price.";
-
-    return;
-
-  }
-
-  let invested = 0;
-
-  Object.values(data.positions)
-    .forEach(p=>{
-      invested += p.cost;
+/* ---------------- RUN TODAY (real backend call) ---------------- */
+async function runToday(){
+  const btn = document.getElementById('runBtn');
+  btn.disabled = true; btn.textContent = 'ANALYZING…';
+  document.getElementById('runError').innerHTML = '';
+  try{
+    const pos = positions();
+    const heldTickers = Object.entries(pos).filter(([_,p])=>p.shares>0.0000001).map(([t])=>t);
+    const resp = await fetch('/api/run-today', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({
+        watchlist: state.watchlist.map(w=>({ticker:w.ticker, type:w.type})),
+        availableCash: state.cash,
+        heldTickers
+      })
     });
-
-  let reserve =
-    data.capital-invested;
-
-  if(action==="BUY" && amount>reserve){
-
-    document.getElementById("tradeMessage")
-      .textContent =
-      "Not enough reserve available.";
-
-    return;
-
-  }
-
-
-  if(!data.positions[ticker]){
-
-    data.positions[ticker]={
-      shares:0,
-      cost:0
+    if(!resp.ok){
+      const err = await resp.json().catch(()=>({error:'Request failed ('+resp.status+')'}));
+      throw new Error(err.error || 'Request failed');
+    }
+    const data = await resp.json();
+    state.lastRun = {
+      runDate: data.runDate, dataSource: data.dataSource, marketPosture: data.marketPosture,
+      whyToday: data.whyToday, whatChanged: data.whatChanged, risksToday: data.risksToday, watchNext: data.watchNext
     };
-
-  }
-
-
-  let position =
-    data.positions[ticker];
-
-  let shares =
-    amount/price;
-
-
-  if(action==="BUY"){
-
-    position.shares += shares;
-
-    position.cost += amount;
-
-  }
-
-
-  if(action==="SELL"){
-
-    if(shares > position.shares){
-
-      document.getElementById("tradeMessage")
-        .textContent =
-        "You cannot sell more shares than you own.";
-
-      return;
-
+    for(const ticker in data.companies){
+      state.companyData[ticker] = Object.assign(state.companyData[ticker]||{}, data.companies[ticker]);
     }
-
-    position.shares -= shares;
-
-    position.cost -= amount;
-
-    if(position.shares<=0.000001){
-
-      delete data.positions[ticker];
-
-    }
-
+    saveState(); renderAll();
+  } catch(e){
+    document.getElementById('runError').innerHTML = `<div class="warn">Run Today failed: ${escapeHtml(e.message)}. No data was changed.</div>`;
+  } finally {
+    btn.disabled = false; btn.textContent = 'RUN TODAY';
   }
-
-
-  data.trades.push({
-
-    date:new Date()
-      .toLocaleDateString(),
-
-    ticker,
-
-    action,
-
-    amount,
-
-    price
-
-  });
-
-
-  save();
-
-  updateDashboard();
-
-  renderPositions();
-
-  renderHistory();
-
-  document.getElementById("tradeMessage")
-    .textContent =
-    `${action} recorded successfully.`;
-
-  document.getElementById("tradeAmount")
-    .value="";
-
-  document.getElementById("tradePrice")
-    .value="";
-
 }
 
+/* ---------------- MODALS: company detail, add/remove, trades, settings ---------------- */
+function closeModal(){ document.getElementById('modalRoot').innerHTML=''; }
 
-function runToday(){
-
-  const box =
-    document.getElementById("todayCard");
-
-  box.innerHTML=`
-
-    <h2>🚨 RUN TODAY</h2>
-
-    <div class="notice">
-
-      <b>Market posture: 🟡 CAUTION / SCALE IN</b>
-
-      <br><br>
-
-      Do not automatically deploy the entire
-      $35,000.
-
-      <br><br>
-
-      <b>Suggested framework:</b>
-
-      <br>
-      • Round 1: initial positions
-      <br>
-      • Round 2: correction opportunity
-      <br>
-      • Round 3: concentrate behind the strongest proven thesis
-
-      <br><br>
-
-      <b>Current priority:</b>
-      RKLB / SPCX / IREN
-
-      <br><br>
-
-      <b>WAIT:</b>
-      ASTS / CRSP / CAVA / OKLO
-
-      <br><br>
-
-      The independent app currently uses the
-      stored watchlist. Live market/news data will
-      be connected in the next development stage.
-
-    </div>
-
-    <br>
-
-    <button class="green"
-      onclick="quickDecision('BUY')">
-      🟢 BUY
-    </button>
-
-    <button class="yellow"
-      onclick="quickDecision('HOLD')">
-      🟡 HOLD
-    </button>
-
-    <button class="red"
-      onclick="quickDecision('SELL')">
-      🔴 SELL
-    </button>
-
-    <button class="secondary"
-      onclick="quickDecision('WAIT')">
-      ⚪ WAIT
-    </button>
-
-  `;
-
-}
-
-
-function quickDecision(action){
-
-  alert(
-    "Decision selected: "+action+
-    "\\n\\nYou still execute the trade manually in your brokerage."
-  );
-
-}
-
-
-function showBuyPlan(){
-
-  document.getElementById("todayCard")
-    .innerHTML=`
-
-      <h2>💰 BUY PLAN</h2>
-
-      <div class="notice">
-
-        <b>Initial capital target: $15,000</b>
-
-        <br><br>
-
-        RKLB — $2,500
-        <br>
-        SPCX — $2,000
-        <br>
-        IREN — $1,250
-        <br>
-        MELI — $1,000
-        <br>
-        CRSP — $750
-
-        <br><br>
-
-        <b>Initial deployment:
-        approximately $7,500.</b>
-
-        <br><br>
-
-        Remaining capital stays in reserve
-        until market conditions or company
-        fundamentals create a better opportunity.
-
+function openCompany(ticker){
+  const w = state.watchlist.find(x=>x.ticker===ticker); if(!w) return;
+  const cd = state.companyData[ticker] || {};
+  const sb = cd.scoreBreakdown || {};
+  const scoreFields = [['momentum','Momentum'],['valuation','Valuation'],['analystSentiment','Analyst Sentiment']];
+  const news = cd.news||[];
+  document.getElementById('modalRoot').innerHTML = `
+    <div class="modal-bg" onclick="if(event.target===this)closeModal()">
+      <div class="modal">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <h3>${ticker} — ${escapeHtml(w.name)}</h3>
+        <div class="sub">${escapeHtml(w.sector||'')} · ${w.type==='private'?'Private company':statusDot(cd.status)} ${cd.asOf?(' · '+new Date(cd.asOf).toLocaleString()):''}</div>
+        <div class="row" style="margin-bottom:14px;">
+          <div class="card" style="flex:1;"><div class="k">Price</div><div class="v">${w.type!=='public'?'PRIVATE':(typeof cd.price==='number'?'$'+cd.price.toFixed(2):'NO DATA')}</div></div>
+          <div class="card" style="flex:1;"><div class="k">10X Score</div><div class="v">${typeof cd.score==='number'?cd.score+'/100':'—'}</div></div>
+          <div class="card" style="flex:1;"><div class="k">Recommendation</div><div class="v">${badgeFor(cd.recommendation, w.type==='private'?'PRIVATE':cd.status)}</div></div>
+          <div class="card" style="flex:1;"><div class="k">Suggested $</div><div class="v">${cd.suggestedAmount?fmt$(cd.suggestedAmount):'$0'}</div></div>
+        </div>
+        <div class="panel" style="margin-bottom:14px;"><label>Why this recommendation</label><p style="margin:0;font-size:13px;color:var(--ink-dim);">${escapeHtml(cd.reason||'Run Today to generate a live explanation.')}</p></div>
+        <h4 style="font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--ink-faint);margin:0 0 8px;">Score Factors (0–100, only what's actually available)</h4>
+        <div class="thesis-grid">${scoreFields.map(([k,l])=>`<div class="tscore"><div class="n">${typeof sb[k]==='number'? Math.round(sb[k]) : '—'}</div><div class="l">${l}</div></div>`).join('')}</div>
+        <div class="bullbear">
+          <div class="bull-box"><h5>Bull Case (your notes)</h5><textarea onchange="updateCompanyField('${ticker}','bull', this.value)">${escapeHtml(cd.bull||'')}</textarea></div>
+          <div class="bear-box"><h5>Bear Case (your notes)</h5><textarea onchange="updateCompanyField('${ticker}','bear', this.value)">${escapeHtml(cd.bear||'')}</textarea></div>
+        </div>
+        <h4 style="font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--ink-faint);margin:16px 0 8px;">Recent News</h4>
+        ${news.length? news.map(n=>`<div class="newsitem"><div class="h">${escapeHtml(n.headline)}</div><div class="meta">${escapeHtml(n.source||'')} · ${escapeHtml(n.date||'')}</div><div class="s">${escapeHtml(n.summary||'')} ${n.link?`— <a href="${n.link}" target="_blank" rel="noopener">source</a>`:''}</div></div>`).join('') : '<div class="info">No news on file — run today to fetch it.</div>'}
+        <div class="row" style="margin-top:16px;justify-content:flex-end;">
+          <button class="btn primary" onclick="closeModal();openTradeForm('${ticker}')">Record Trade for ${ticker}</button>
+        </div>
       </div>
-
-    `;
-
+    </div>`;
 }
+function updateCompanyField(ticker, field, value){ if(!state.companyData[ticker]) state.companyData[ticker]={}; state.companyData[ticker][field]=value; saveState(); }
 
-
-function showThesis(){
-
-  document.getElementById("todayCard")
-    .innerHTML=`
-
-      <h2>🔎 THESIS CHECK</h2>
-
-      <div class="notice">
-
-        Every 10X candidate must pass these tests:
-
-        <br><br>
-
-        <b>1. Market size</b>
-        <br>
-        Can the company become enormous?
-
-        <br><br>
-
-        <b>2. Growth</b>
-        <br>
-        Is revenue/backlog accelerating?
-
-        <br><br>
-
-        <b>3. Competitive advantage</b>
-        <br>
-        Can competitors easily copy it?
-
-        <br><br>
-
-        <b>4. Capital</b>
-        <br>
-        Does it have enough cash to execute?
-
-        <br><br>
-
-        <b>5. Execution</b>
-        <br>
-        Is management delivering?
-
-        <br><br>
-
-        <b>6. Valuation</b>
-        <br>
-        Is the potential already priced into the stock?
-
-      </div>
-
-    `;
-
+function openAddCompany(){
+  document.getElementById('modalRoot').innerHTML = `<div class="modal-bg" onclick="if(event.target===this)closeModal()"><div class="modal" style="max-width:460px;">
+    <button class="modal-close" onclick="closeModal()">&times;</button><h3>Add Company</h3>
+    <div class="field"><label>Ticker</label><input id="acTicker" placeholder="e.g. NVDA"></div>
+    <div class="field"><label>Name</label><input id="acName" placeholder="Company name"></div>
+    <div class="field"><label>Sector</label><input id="acSector" placeholder="e.g. Semiconductors"></div>
+    <div class="field"><label>Type</label><select id="acType"><option value="public">Public</option><option value="private">Private</option></select></div>
+    <button class="btn primary" onclick="addCompany()" style="width:100%;">Add to Watchlist</button></div></div>`;
 }
+function addCompany(){
+  const ticker = document.getElementById('acTicker').value.trim().toUpperCase(); if(!ticker) return;
+  if(state.watchlist.some(w=>w.ticker===ticker)){ alert('Already on watchlist.'); return; }
+  state.watchlist.push({ticker, name: document.getElementById('acName').value.trim()||ticker, sector: document.getElementById('acSector').value.trim(), type: document.getElementById('acType').value});
+  saveState(); closeModal(); renderAll();
+}
+function removeCompany(ticker){ if(!confirm('Remove '+ticker+' from the watchlist?')) return; state.watchlist = state.watchlist.filter(w=>w.ticker!==ticker); saveState(); renderAll(); }
 
+function openTradeForm(presetTicker){
+  const opts = state.watchlist.filter(w=>w.type==='public').map(w=>`<option value="${w.ticker}" ${presetTicker===w.ticker?'selected':''}>${w.ticker} — ${escapeHtml(w.name)}</option>`).join('');
+  document.getElementById('modalRoot').innerHTML = `<div class="modal-bg" onclick="if(event.target===this)closeModal()"><div class="modal" style="max-width:480px;">
+    <button class="modal-close" onclick="closeModal()">&times;</button><h3>Record a Trade</h3>
+    <div class="sub">This only updates your tracked portfolio. Execute the actual trade at Fidelity first.</div>
+    <div class="grid2"><div class="field"><label>Date</label><input id="trDate" type="date" value="${new Date().toISOString().slice(0,10)}"></div>
+    <div class="field"><label>Ticker</label><select id="trTicker">${opts}</select></div></div>
+    <div class="grid2"><div class="field"><label>Action</label><select id="trAction"><option>BUY</option><option>SELL</option></select></div>
+    <div class="field"><label>Round</label><select id="trRound">${Object.entries(state.rounds).map(([k,r])=>`<option value="${k}">${escapeHtml(r.label)}</option>`).join('')}</select></div></div>
+    <div class="grid2"><div class="field"><label>Dollar Amount</label><input id="trAmount" type="number" step="0.01" oninput="syncTradeShares('amount')"></div>
+    <div class="field"><label>Price per Share</label><input id="trPrice" type="number" step="0.0001" oninput="syncTradeShares('price')"></div></div>
+    <div class="field"><label>Shares (auto, editable)</label><input id="trShares" type="number" step="0.0001" oninput="syncTradeShares('shares')"></div>
+    <button class="btn primary" onclick="submitTrade()" style="width:100%;">Save Trade</button></div></div>`;
+}
+function syncTradeShares(changed){
+  const amt = parseFloat(document.getElementById('trAmount').value); const price = parseFloat(document.getElementById('trPrice').value); const sharesEl = document.getElementById('trShares');
+  if(changed!=='shares' && amt>0 && price>0) sharesEl.value = (amt/price).toFixed(4);
+  if(changed==='shares'){ const shares = parseFloat(sharesEl.value); if(shares>0 && price>0) document.getElementById('trAmount').value = (shares*price).toFixed(2); }
+}
+function submitTrade(){
+  const date = document.getElementById('trDate').value, ticker = document.getElementById('trTicker').value, action = document.getElementById('trAction').value, round = document.getElementById('trRound').value;
+  const amount = parseFloat(document.getElementById('trAmount').value), price = parseFloat(document.getElementById('trPrice').value);
+  let shares = parseFloat(document.getElementById('trShares').value);
+  if(!date || !ticker || !amount || !price){ alert('Fill in date, amount and price.'); return; }
+  if(!shares) shares = amount/price;
+  if(action==='BUY' && amount > state.cash){ if(!confirm(`This exceeds available cash (${fmt$(state.cash)}). Record anyway?`)) return; }
+  if(action==='SELL'){ const held = (positions()[ticker]||{shares:0}).shares; if(shares > held+0.0001){ if(!confirm(`Selling more (${shares}) than held (${held.toFixed(4)}). Record anyway?`)) return; } }
+  let realizedGL = 0;
+  if(action==='SELL'){ const p = positions()[ticker]; const avgCost = p && p.shares>0 ? p.costBasis/p.shares : 0; realizedGL = amount - (avgCost*shares); }
+  state.trades.push({id:'t'+Date.now()+Math.random().toString(36).slice(2,7), date, ticker, action, amount, price, shares, realizedGL, round});
+  state.cash += action==='BUY' ? -amount : amount;
+  saveState(); closeModal(); renderAll();
+}
 
 function openSettings(){
-
-  document.getElementById("settingsCard")
-    .style.display="block";
-
-  document.getElementById("capitalInput")
-    .value=data.capital;
-
-  document.getElementById("r1Input")
-    .value=data.rounds.r1;
-
-  document.getElementById("r2Input")
-    .value=data.rounds.r2;
-
-  document.getElementById("r3Input")
-    .value=data.rounds.r3;
-
+  document.getElementById('modalRoot').innerHTML = `<div class="modal-bg" onclick="if(event.target===this)closeModal()"><div class="modal" style="max-width:480px;">
+    <button class="modal-close" onclick="closeModal()">&times;</button><h3>Settings</h3>
+    <div class="field"><label>Total Capital</label><input id="stCapital" type="number" value="${state.totalCapital}"></div>
+    <div class="info">Changing this adjusts cash/reserve by the delta. Positions and history are untouched.</div>
+    <button class="btn primary" onclick="saveCapital()" style="width:100%;margin-bottom:20px;">Save Capital</button>
+    <div class="field"><label>Backup</label><button class="btn" style="width:100%;" onclick="exportData()">Copy JSON to clipboard</button></div>
+    <div class="field"><label>Danger zone</label><button class="btn danger" style="width:100%;" onclick="resetAll()">Reset all data</button></div>
+    </div></div>`;
 }
+function saveCapital(){ const newCap = parseFloat(document.getElementById('stCapital').value)||0; const delta = newCap - state.totalCapital; state.totalCapital = newCap; state.cash += delta; saveState(); closeModal(); renderAll(); }
+function exportData(){ navigator.clipboard.writeText(JSON.stringify(state,null,2)).then(()=>alert('Copied.')); }
+function resetAll(){ if(!confirm('Wipe all data?')) return; state = DEFAULT_STATE(); saveState(); closeModal(); renderAll(); }
 
+function renderAll(){ renderTop(); renderSummary(); renderRounds(); renderWatchlist(); renderPositions(); renderHistory(); }
 
-function closeSettings(){
+loadState(); renderAll();
 
-  document.getElementById("settingsCard")
-    .style.display="none";
-
+if('serviceWorker' in navigator){
+  window.addEventListener('load', ()=>{ navigator.serviceWorker.register('/sw.js').catch(()=>{}); });
 }
-
-
-function saveSettings(){
-
-  let capital =
-    Number(
-      document.getElementById("capitalInput")
-        .value
-    );
-
-  let r1 =
-    Number(
-      document.getElementById("r1Input")
-        .value
-    );
-
-  let r2 =
-    Number(
-      document.getElementById("r2Input")
-        .value
-    );
-
-  let r3 =
-    Number(
-      document.getElementById("r3Input")
-        .value
-    );
-
-
-  if(
-    capital<0 ||
-    r1<0 ||
-    r2<0 ||
-    r3<0
-  ){
-
-    alert("Values cannot be negative.");
-
-    return;
-
-  }
-
-
-  data.capital=capital;
-
-  data.rounds={
-    r1,
-    r2,
-    r3
-  };
-
-
-  save();
-
-  updateDashboard();
-
-  closeSettings();
-
-}
-
-
-function editRounds(){
-
-  openSettings();
-
-}
-
-
-updateDashboard();
-
-renderWatchlist();
-
-renderPositions();
-
-renderHistory();
-
 </script>
-
 </body>
 </html>

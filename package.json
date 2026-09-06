@@ -1,0 +1,8 @@
+{
+  "name": "10x-investment-command-center",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  }
+}
