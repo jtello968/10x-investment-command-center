@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-09-21T13:26:42.560909+00:00",
+  "generatedAt": "2026-09-22T13:28:09.993659+00:00",
   "quotes": {
     "RKLB": {
-      "current": 64.57,
-      "changePct": -4.7921,
-      "change": -3.25,
-      "previousClose": 67.82
+      "current": 69.89,
+      "changePct": 8.2391,
+      "change": 5.32,
+      "previousClose": 64.57
     },
     "ASTS": {
-      "current": 58.52,
-      "changePct": -6.6815,
-      "change": -4.19,
-      "previousClose": 62.71
+      "current": 61.89,
+      "changePct": 5.7587,
+      "change": 3.37,
+      "previousClose": 58.52
     },
     "IREN": {
-      "current": 46.68,
-      "changePct": 7.3597,
-      "change": 3.2,
-      "previousClose": 43.48
+      "current": 47.23,
+      "changePct": 1.1782,
+      "change": 0.55,
+      "previousClose": 46.68
     },
     "CRSP": {
-      "current": 56.56,
-      "changePct": -1.3345,
-      "change": -0.765,
-      "previousClose": 57.325
+      "current": 58.33,
+      "changePct": 3.1294,
+      "change": 1.77,
+      "previousClose": 56.56
     },
     "CAVA": {
-      "current": 51.64,
-      "changePct": 0.8397,
-      "change": 0.43,
-      "previousClose": 51.21
+      "current": 52,
+      "changePct": 0.6971,
+      "change": 0.36,
+      "previousClose": 51.64
     },
     "MELI": {
-      "current": 1787.39,
-      "changePct": -2.0721,
-      "change": -37.82,
-      "previousClose": 1825.21
+      "current": 1820.47,
+      "changePct": 1.8507,
+      "change": 33.08,
+      "previousClose": 1787.39
     },
     "OKLO": {
-      "current": 38,
-      "changePct": -4.1614,
-      "change": -1.65,
-      "previousClose": 39.65
+      "current": 40.18,
+      "changePct": 5.7368,
+      "change": 2.18,
+      "previousClose": 38
     }
   },
   "news": {
     "RKLB": [
       {
-        "headline": "Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride",
+        "headline": "Rocket Lab Sold $1.9 Billion of New Stock to Pay for Iridium. Here's the Dilution Math.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f042c16cd8391dd9b71222296019135752c8292f1a9fa8833775496f817ee2d5",
-        "datetime": 1789991477,
-        "summary": "Rocket Lab Corporation (NASDAQ:RKLB) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company\u2019s own rockets. Raymond James launched coverage of RKLB on September 11 with an Outperform rating and a $80 price target, implying a roughly 29% increase from current levels, and pointed out [\u2026]"
+        "url": "https://finnhub.io/api/news?id=79b31008476e529a527fee4a068b68bef860ccbee97a6aac67b0034bf58b50dd",
+        "datetime": 1790062441,
+        "summary": "The space company sold about 5% of itself so it wouldn't have to borrow $3.6 billion. And the share count still isn't done growing."
       },
       {
-        "headline": "Rocket Lab (RKLB) Dropped, So What Is Behind Its Latest Move?",
+        "headline": "RKLB Stock Extends Rally Overnight: CEO Says Iridium Deal Will Forge A Self-Launching \u2018Tier-1 Space Power\u2019",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=48543bbecac2da344e2d7b2ac36bd6df3e5961db9aeb1c897a6ec9973edf57e9",
-        "datetime": 1789985461,
-        "summary": "Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030, and continued to advance work on its Neutron rocket and IMM Apex solar technology. For context, Rocket Lab\u2019s recent run of launches and the IMM Apex announcement comes after a choppy stretch in the market, with the share price down 11.02% over 30 days and 32.12% over 90 days, yet supported by a 1-year total shareholder return of..."
+        "url": "https://finnhub.io/api/news?id=edaa9e8019256e906b925e62ce9ccb9058fa65fe67cacec902a53231731c507e",
+        "datetime": 1790049490,
+        "summary": "Iridium shareholders will vote on the $8.1 billion enterprise-value deal on Sept.24, with closing targeted for mid-2027."
       },
       {
-        "headline": "Nasdaq, S&P 500, Dow Futures Rise Ahead Of Trump-Xi Summit This Week: NVDA, META, CRML, GLND, SPCX, RKLB, BE Stocks In Focus",
+        "headline": "Why Are Rocket Lab (RKLB) Shares Soaring Today",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9bce2170c50609aa141158fa7494c9db6dc6a7ed2dab1506b9b890ad6c50a2bb",
-        "datetime": 1789979848,
-        "summary": "Retail sentiment on SPY remained \u2018bearish\u2019, and moderated to \u2018neutral\u2019 on QQQ."
+        "url": "https://finnhub.io/api/news?id=da8cc42077bb94afdcaff8a296e18d348333484fbfeb49807340f59572038ecc",
+        "datetime": 1790039425,
+        "summary": "Shares of aerospace and defense company Rocket Lab (NASDAQ:RKLB) jumped 8.2% in the afternoon session after Cantor Fitzgerald reiterated an Overweight rating and a $122 price target on the stock, citing upcoming catalysts and strong launch execution."
       },
       {
-        "headline": "Triple Witching Whipsaws Wall Street While Crypto Stocks Steal the Show",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=bdd0fdc8cb4409413c6cfaa6ee75461cddd8d2c460f32ee491ee6a0e6b45f5eb",
-        "datetime": 1789977882,
-        "summary": "Friday's quarterly options expiry turned Wall Street into a roller coaster, with the ten-year yield back at 5% and crypto stocks surging as bitcoin reclaimed $80,000. Netflix drew a rare sell rating, two steelmakers stumbled, and the White House announced an \"AI Force\" over the weekend."
+        "headline": "Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a3ac47c786631d8d04c7286a13e99dd61cb0acf35f6739b92e910b78c0eade42",
+        "datetime": 1790022960,
+        "summary": "The space business is roaring, and it isn\u2019t just  SpaceX  getting all the applause.  Rocket Lab stock jumped Monday after Cantor Fitzgerald analyst Andres Sheppard issued a bullish note on the company.  Sheppard reiterated his Outperform rating with a $122 price target."
       },
       {
-        "headline": "RKLB Stock Gains Overnight: Rocket Lab\u2019s 97th Electron Is Already On The Pad After Another Mission Success",
+        "headline": "Archer Aviation vs. Rocket Lab: Which Aerospace Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=afe514d17f62eb1ab3409220fcc0c4cbadd3200ec5877cce46572ee0892d40bb",
-        "datetime": 1789953204,
-        "summary": "The flight would be Rocket Lab\u2019s fourth in 25 days and its 18th launch of 2026."
+        "url": "https://finnhub.io/api/news?id=866fe1916bf2316c72e249ed15dce5949d7a0fead2f744394c38adf1e1aa84e3",
+        "datetime": 1790018603,
+        "summary": "Archer is racing toward FAA certification with Boeing backing, while Rocket Lab is already generating revenue but faces integration risks."
       }
     ],
     "ASTS": [
       {
-        "headline": "US Stock Market Today: S&P 500 Futures Edge Up As Rising Yields Test Growth",
+        "headline": "Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=36a374b6ddbe765f9ab2b29e368471685d9f77fe27db24ccc12687c25908f830",
-        "datetime": 1789978374,
-        "summary": "The Morning Bull - US Market Morning Update Monday, Sep, 21 2026 US market futures are pointing slightly higher, with E-mini S&P 500 contracts up about 0.1% and Nasdaq-100 futures gaining around 0.6%. The backdrop is messy. Global bond yields are climbing, with the US 10 year moving about 6.8 basis points, which keeps borrowing costs for households and companies under pressure. At the same time, US manufacturing output slipped 0.3% in August and industrial production stalled. This is a sign..."
+        "url": "https://finnhub.io/api/news?id=a3ac47c786631d8d04c7286a13e99dd61cb0acf35f6739b92e910b78c0eade42",
+        "datetime": 1790022960,
+        "summary": "The space business is roaring, and it isn\u2019t just  SpaceX  getting all the applause.  Rocket Lab stock jumped Monday after Cantor Fitzgerald analyst Andres Sheppard issued a bullish note on the company.  Sheppard reiterated his Outperform rating with a $122 price target."
       },
       {
-        "headline": "Triple Witching Whipsaws Wall Street While Crypto Stocks Steal the Show",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=bdd0fdc8cb4409413c6cfaa6ee75461cddd8d2c460f32ee491ee6a0e6b45f5eb",
-        "datetime": 1789977882,
-        "summary": "Friday's quarterly options expiry turned Wall Street into a roller coaster, with the ten-year yield back at 5% and crypto stocks surging as bitcoin reclaimed $80,000. Netflix drew a rare sell rating, two steelmakers stumbled, and the White House announced an \"AI Force\" over the weekend."
-      },
-      {
-        "headline": "Rocket Lab Slides 5% as Space Names Give Back Gains; AST SpaceMobile Drops 6%, Planet Labs Sinks 4%",
+        "headline": "AST SpaceMobile Is Building Something the World Has Never Had. Here\u2019s My Price Prediction",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0c45d088761ab0848220fb252016f45f423344201de2604d8a4e238b79aa2287",
-        "datetime": 1789742721,
-        "summary": "Space stocks are tumbling together on Friday, and the name with no connection to Rocket Lab's pending Iridium deal is somehow leading the group lower, which raises a bigger question about what is actually driving the selloff."
+        "url": "https://finnhub.io/api/news?id=7623ba36129231004c8647289287e6e29a5d0fd74f16d9cfb488a536205a6ff6",
+        "datetime": 1790010016,
+        "summary": "No company has ever built a cellular broadband network in space capable of connecting directly to ordinary smartphones, yet AST SpaceMobile is sprinting toward that finish line with 13 satellites already in orbit and a launch window closing fast."
       },
       {
-        "headline": "Bitcoin Tops $80,000, S&P 500 Slips as Yields Reclaim 5%: Stock Market Today",
+        "headline": "Rocket Lab Climbs 7% as Cantor Reiterates $122 Target on Launch Record; Intuitive Machines Jumps 10%, AST SpaceMobile Rises 6%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9e68d3b39a4d666c6366d61455837bfa37ac4e181ccefecd949ee9414864e794",
+        "datetime": 1790005202,
+        "summary": "Cantor Fitzgerald just restated its bull case for Rocket Lab with a $122 target, yet the stock is trailing a space peer that received no catalyst at all, and that disconnect tells you something important about what is actually driving Monday's rally."
+      },
+      {
+        "headline": "Should You Bet on IDCC After Dividend Hike Amid Macro Uncertainty?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f8d7731977ccd006429048777edaed71932f57daf07d761faaa0e5d4ef51d18d",
+        "datetime": 1790004000,
+        "summary": "InterDigital's 7.1% dividend hike, record recurring revenues and higher 2026 guidance bolster its investment case despite volatility concerns."
+      },
+      {
+        "headline": "What's Going On with AST SpaceMobile Stock Monday?",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e855758714d176eb98515430aaeb8f671bdde6b16ce150a2074eb171fca5a2e1",
-        "datetime": 1789736121,
-        "summary": "Crypto-linked equities ripped higher as Bitcoin cleared $80,000, but the S&amp;P 500 slipped with the 10-year Treasury yield back above 5%."
-      },
-      {
-        "headline": "BUZZ Investing: Rising Oil Prices And Treasury Yields Pressure Equities",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c3ca3dc5987e7d6a378a62ad938c2434609b2581ee87556d3ed701fd6e7043a7",
-        "datetime": 1789730100,
-        "summary": "The S&P 500 declined 2.5% and Nasdaq Composite 2.6% between selection dates (August 13 \u00e2\u0080\u0093 September 10, 2026), while the BUZZ Index held up better with a 0.8% decline. Read more here."
+        "url": "https://finnhub.io/api/news?id=19d7c2b03fab8909d641462cac80da6fdd150eb73dc40b926388d8a98bdfd5fe",
+        "datetime": 1789986443,
+        "summary": "AST SpaceMobile is trading higher Monday after FCC Chair Brendan Carr said future spectrum auctions could generate more than $100 billion."
       }
     ],
     "IREN": [
       {
-        "headline": "Neocloud Boom: Comparing Nebius, CoreWeave, & IREN",
+        "headline": "Iris Energy Is Sitting on $7.6 Billion in Cash and Building One of the Largest AI Data Centers in the World. Is IREN Stock a Buy?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c8a64cf78447f54f77d93473dd3ba81422a54e2970cb107a4a8c68279e2d7399",
-        "datetime": 1789956180,
-        "summary": "Neocloud providers offer compelling \"picks and shovels\" investments, but not all are created equal."
+        "url": "https://finnhub.io/api/news?id=907c6a4684d6289956f9e3cf24cb32a1f53867e09690fab6fe9666e0def9374e",
+        "datetime": 1790009028,
+        "summary": "Key Stats for IREN Limited 52-Week Range: $28. 93 to $76."
       },
       {
-        "headline": "The Unexpected Rival Threatening to Shake Up CoreWeave's Market",
+        "headline": "Nebius, CoreWeave Get Sell Calls as Credit Flashes Warning",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8ce7ad7f92362626804d7cfd9346154469c9470f9c0bf8c901c3213700379fc5",
-        "datetime": 1789840020,
-        "summary": "The timing is right for this Bitcoin miner turned AI cloud provider."
+        "url": "https://finnhub.io/api/news?id=e66e02f8eaf7e37996b5795efcc9c1477d6c071f266b976dce0699cb7adeac2e",
+        "datetime": 1790005087,
+        "summary": "Nebius gets an $84 target, CoreWeave $54"
       },
       {
-        "headline": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
+        "headline": "CRWV vs. IREN: Which Neocloud Stock Offers the Stronger Upside Case?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c1baba00348242f866a38d57a26c206a6041303f1db6836a8f8523e7295e0ab2",
-        "datetime": 1789828054,
-        "summary": "One year on from the $9.7 billion Microsoft deal, the company is finally delivering."
+        "url": "https://finnhub.io/api/news?id=b9838490bab50e2a3ac1ab1a38c0d3c2e57a34e96f95335f6be5245c7d1e0911",
+        "datetime": 1790001120,
+        "summary": "CoreWeave and IREN are scaling AI infrastructure, but capital needs, customer concentration and execution risks shape their outlook."
       },
       {
-        "headline": "JPMorgan, Goldman Sachs issue bullish stock price targets for IREN, Cipher Digital",
+        "headline": "IREN Expands Its 5GW+ Pipeline: Can Execution Match Ambition?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3804243029cd1609cc8d31021cff032ff9e644128447d273480877033fa204c6",
-        "datetime": 1789774189,
-        "summary": "Wall Street analysts are turning more bullish on AI infrastructure names after the summer selloff, with IREN and Cipher Digital receiving higher price targets tied to contract growth, power availability\u2026"
+        "url": "https://finnhub.io/api/news?id=00cba5ef23f016bc99aa772f4ea4cb1bb26b61de6087bef7f0fee950eb9b6667",
+        "datetime": 1789997340,
+        "summary": "IREN rapidly pivots to AI infrastructure, with 5GW+ of power secured and billions in contracted ARR fueling its expansion."
       },
       {
-        "headline": "IREN (IREN) Stock Fair Value Edges Lower As AI Cloud Wins Meet Build Out Risks",
+        "headline": "CRWV, NBIS Stocks Get \u2018Sell\u2019 Ratings, AI-Pivoting Bitcoin Miners Get \u2018Neutral\u2019 Calls: Rothschild Says Credit Market Is \u2018Sending The More Important Signal\u2019",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d43d18302ae4df46efeb3af588f427c96e887edfe2812150144ffffc5e3ad26a",
-        "datetime": 1789766042,
-        "summary": "The latest update on IREN trims the Fair Value estimate from US$80.93 to US$79.03, a relatively modest adjustment given the size of its AI ambitions. Analysts link this move to a mix of growing AI cloud contracts and ongoing questions around execution and supply build out through 2027, which both influence how comfortable they are with the stock\u2019s valuation. As you read on, you will see how these shifting assumptions and fresh research calls are shaping the evolving IREN story and what it..."
+        "url": "https://finnhub.io/api/news?id=a6412534f5073b07feb4d5777839f57c9eae6bf872a6b52f897b956873e5125e",
+        "datetime": 1789992413,
+        "summary": "Rothschild called Neocloud earnings and valuations \"cyclically inflated\" but remains \u2018Neutral\u2019 on AI infrastructure overall."
       }
     ],
     "CRSP": [
@@ -195,6 +195,13 @@
     ],
     "CAVA": [
       {
+        "headline": "Can CAVA's Free Cash Flow Hold Up Amid Additional CapEx?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f3e1c014de9b2374d24d880fea731d714681f4a0a5374418dfcbb4e7801bfbda",
+        "datetime": 1790001120,
+        "summary": "CAVA's strong first-half free cash flow supports growth investments, but added CapEx and weaker second-half seasonality could moderate cash generation."
+      },
+      {
         "headline": "Do You Want Gains With That?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3bf42d5247a28a5787fabcd7a8b439ba41c591d99eabfcb7f892f33541a83084",
@@ -221,16 +228,23 @@
         "url": "https://finnhub.io/api/news?id=9ef5ca3a27001a1784deae76964408def68fd2c593bda00fe47af8e8072e09ac",
         "datetime": 1789736779,
         "summary": "CAVA Group, Inc. (NYSE:CAVA) stock rose in Friday premarket trading after the fast-casual restaurant chain approved a $100 million share repurchase program.CAVA Authorizes $100 Million BuybackCAVA Group\u2019s board authorized a share repurchase program of up to $100 million, running through Sept. 17, 2027.The company may buy shares through open-market transactions, privately negotiated deals, or Rule 10b5-1 plans, depending on market conditions.It will fund repurchases with existing liquidity and op"
-      },
-      {
-        "headline": "Cava Looks Appetizing Even If The Valuation Is High",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=37f86e9b704dcb36afe29acaf13578ed6e71ba698d838ceb4028d6be42a847ec",
-        "datetime": 1789731393,
-        "summary": "Cava (CAVA) buy rating: strong revenue/EBITDA growth, rising same-store sales, and clean balance sheet amid high valuation and expansion risks\u00e2\u0080\u0094read now."
       }
     ],
     "MELI": [
+      {
+        "headline": "Alibaba vs. MercadoLibre: Which Consumer Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e05cb90f72b6a4c4f15cdde6ff2421656df6dee1eab10ff235a1449f8bf0aa53",
+        "datetime": 1790036376,
+        "summary": "Alibaba trades at a steep valuation discount while MercadoLibre sustains 39% revenue growth, a classic value-versus-growth showdown with starkly different risk profiles."
+      },
+      {
+        "headline": "Is MercadoLibre Stock As Cheap As Its Cash Says?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fe9d2737f36451f1997023dd8a75789f632be69267cf7b4bce5aeaed3bbeadc0",
+        "datetime": 1790018421,
+        "summary": "MercadoLibre (MELI) produced free cash flow worth 13.7% of its market value over the past twelve months, about three times the 4.5% yield of the median S&P 500 company. A yield that high usually marks either a bargain or a business the market expects to shrink. MercadoLibre fits neither neatly. Its revenue grew 46% over the same twelve months, and management is holding profit down on purpose to keep it growing."
+      },
       {
         "headline": "Why Is MercadoLibre (MELI) Raising $1 Billion In 2036 Notes?",
         "source": "Yahoo",
@@ -251,57 +265,43 @@
         "url": "https://finnhub.io/api/news?id=053da4452cc1e6f496d635d0e0374e69dc1b8d724b324aee1f0d4f377f2e1d29",
         "datetime": 1789763161,
         "summary": "eBay (EBAY) stock trades at about $113. It has returned 28.7% over the past year and sits about 5% below its 52-week high. The options market is pricing substantial movement ahead, with implied volatility pointing to a wide one-standard-deviation range between $79.44 and $160.45 over the next twelve months."
-      },
-      {
-        "headline": "MercadoLibre Trading at 35.63X P/E: Should You Exit MELI Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=37b0c3c1c763dca12759b2aa58bc56c08be71c4c07858af6fef376b5c30f88dc",
-        "datetime": 1789741440,
-        "summary": "MercadoLibre's premium valuation faces pressure as margins weaken and earnings estimates fall, despite strong momentum across commerce and fintech."
-      },
-      {
-        "headline": "1 of Wall Street\u2019s Favorite Stocks with Exciting Potential and 2 Facing Headwinds",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5cc03bb78cec0f444e5f5d380ef5d51ea5a45f7bdc74add4666561e96951169b",
-        "datetime": 1789649417,
-        "summary": "Wall Street is overwhelmingly bullish on the stocks in this article, with price targets suggesting significant upside potential. However, it\u2019s worth remembering that analysts rarely issue sell ratings, partly because their firms often seek other business from the same companies they cover."
       }
     ],
     "OKLO": [
       {
-        "headline": "Oklo (OKLO) Stock Sees Fair Value Cut As Analysts Weigh Growth Against Execution Risk",
+        "headline": "Should You Forget Nvidia and Buy These 3 Millionaire-Maker AI Infrastructure Stocks Instead?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=280c7e3d9221ed9ccca50be27cb1f81083ca79d50efb1f60eda4609e232a9e1a",
-        "datetime": 1789841308,
-        "summary": "Oklo\u2019s updated fair value estimate has shifted to US$78.69 from US$88.63, which puts a fresh spotlight on how analysts are framing the stock today. The change comes alongside research that highlights long term growth potential but also focuses on execution risk, capital intensity, and a wide spread in price targets as first of a kind projects move forward. As you read on, you will see how these moving parts shape the evolving Oklo story and what to watch next in the analyst narrative. Stay..."
+        "url": "https://finnhub.io/api/news?id=908c26e1c27ebaff207c2b8ffd54dd49e00662a665e92c19b5f7862f9dfcd80e",
+        "datetime": 1790025900,
+        "summary": "Nvidia gets the AI spotlight, but three power infrastructure stocks may be quietly building the bigger long-term opportunity."
       },
       {
-        "headline": "Got $1,000? 2 No-Brainer Nuclear Stocks to Buy Right Now.",
+        "headline": "This Energy Stock Has 130% Upside Potential",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=596e795656ecc32a2d18b84651424c99ffdb3c5a7e0bf3f6cd22d2c39a7491ec",
-        "datetime": 1789797000,
-        "summary": "Nuclear demand is rising fast, and two very different stocks offer two very different ways for investors to cash in."
+        "url": "https://finnhub.io/api/news?id=ca37a7b6f97281dc059b4bcfce6f59b4ea216b6c0e16e03b985cbf345645952d",
+        "datetime": 1790013654,
+        "summary": "Oklo shares have been crushed over the past year, yet the company just pulled off something no other advanced nuclear startup has done at full scale. Whether that milestone is already priced in or barely noticed depends on which numbers you trust."
       },
       {
-        "headline": "Everything You Need to Know About Oklo's Strategy",
+        "headline": "Uranium Stocks Are Rallying. Why NXE Got Initiated At Overweight.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=69ea223c1109cd317cb5fd3e7a6c82b63eb32e3717f59dd9ec8c7f9e2f8ac62b",
-        "datetime": 1789753200,
-        "summary": "The microreactor maker has a promising future, but it's also richly valued."
+        "url": "https://finnhub.io/api/news?id=1973db9a64921fe4e08b5341c2627852ea8d95148cd4ca1c055f458e2cde9336",
+        "datetime": 1790012651,
+        "summary": "In a boost for struggling sector, JPMorgan highlighted long-term, structural supply deficits for uranium."
       },
       {
-        "headline": "NuScale Power Drops 7% as Nuclear Stocks Hand Back the Vote Rally; Oklo Falls 5%, Centrus Energy Slides 3%",
+        "headline": "GE Vernova vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=06979412e4d7e8fa9e0738ca5510c5e125f2a884451065b0614337b823162163",
-        "datetime": 1789746587,
-        "summary": "A single House vote sent nuclear stocks surging Thursday, but Friday's trading tells a very different story about how durable that enthusiasm really was."
+        "url": "https://finnhub.io/api/news?id=63eab58d15ae540c83d74ed8109e60dc31650a103da4d97396c724991d569dc2",
+        "datetime": 1790008328,
+        "summary": "One generates a quarter of global electricity and carries zero debt. The other is pre-revenue but backed by Meta and Switch."
       },
       {
-        "headline": "End of an Era: The Oracle of Omaha Steps Down",
+        "headline": "Oklo Climbs 5% as Nuclear Names Bounce Back From Last Week\u2019s Selloff; NuScale Power Gains 4%, Uranium Energy Rises 3%",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2c0bf275ae378bdc6ed5a426dd5207674949642356c232cf56012b821595fec2",
-        "datetime": 1789741980,
-        "summary": "Warren Buffett first bought into Berkshire Hathaway 64 years ago and took control of the company in 1965."
+        "url": "https://finnhub.io/api/news?id=c4e50c2ab45fb8d3bbd9d9866ebd8fe856e64736f306590e8892808efb477177",
+        "datetime": 1790000058,
+        "summary": "Nuclear reactor developers are bouncing back Monday after last week's brutal selloff, but the bid is landing in a very specific corner of the sector, and the reason why reveals exactly how this trade is being played."
       }
     ]
   }
