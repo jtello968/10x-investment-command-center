@@ -1,88 +1,109 @@
 {
-  "generatedAt": "2026-09-28T13:30:10.724852+00:00",
+  "generatedAt": "2026-09-29T13:32:24.126238+00:00",
   "quotes": {
     "RKLB": {
-      "current": 73.2,
-      "changePct": -1.0142,
-      "change": -0.75,
-      "previousClose": 73.95
+      "current": 73.37,
+      "changePct": 1.6346,
+      "change": 1.18,
+      "previousClose": 72.19
     },
     "ASTS": {
-      "current": 61.11,
-      "changePct": -1.1325,
-      "change": -0.7,
-      "previousClose": 61.81
+      "current": 64.18,
+      "changePct": 5.2131,
+      "change": 3.18,
+      "previousClose": 61
     },
     "IREN": {
-      "current": 43.4,
-      "changePct": -1.6431,
-      "change": -0.725,
-      "previousClose": 44.125
+      "current": 42.12,
+      "changePct": 0.9588,
+      "change": 0.4,
+      "previousClose": 41.72
     },
     "CRSP": {
-      "current": 53.46,
-      "changePct": -1.4199,
-      "change": -0.77,
-      "previousClose": 54.23
+      "current": 54.54,
+      "changePct": 0.8319,
+      "change": 0.45,
+      "previousClose": 54.09
     },
     "CAVA": {
-      "current": 51.6,
-      "changePct": -3.5694,
-      "change": -1.91,
-      "previousClose": 53.51
+      "current": 51.88,
+      "changePct": 0.5816,
+      "change": 0.3,
+      "previousClose": 51.58
     },
     "MELI": {
-      "current": 1726.275,
-      "changePct": -1.5026,
-      "change": -26.335,
-      "previousClose": 1752.61
+      "current": 1709.46,
+      "changePct": -0.1723,
+      "change": -2.95,
+      "previousClose": 1712.41
     },
     "OKLO": {
-      "current": 37.24,
-      "changePct": -2.103,
-      "change": -0.8,
-      "previousClose": 38.04
+      "current": 37.76,
+      "changePct": 1.7515,
+      "change": 0.65,
+      "previousClose": 37.11
     }
   },
   "news": {
     "RKLB": [
       {
-        "headline": "Stocktwits M&A Watch: PSKY, WBD, BP, DVN, RKLB, IRDM Stocks In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=595233b6b1d4ea5f18168aa751e33fec4a5aab976b1dd86dca78fd35ef0e3775",
-        "datetime": 1790577639,
-        "summary": "Paramount Skydance\u2019s acquisition of Warner Bros. Discovery, BP's reported interest in Devon Energy\u2019s South Texas operations, and a shareholder approval of Iridium Communications\u2019 acquisition by Rocket Lab are among the major deals in focus this week."
+        "headline": "Rocket Lab: Iridium Financing Solved, Neutron Next",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c47711418e5448d8a088e359a5a385390d07db9224aa403f610e01e771336b41",
+        "datetime": 1790665904,
+        "summary": "Rocket Lab is positioned to become an end-to-end space company following the Iridium acquisition, unlocking new growth and market opportunities. Learn more about RKLB stock here."
       },
       {
-        "headline": "Prediction: This Space Stock Will Outperform SpaceX Over the Next 10 Years",
+        "headline": "Prediction: Rocket Lab Stock Trades Above $100 Again Before 2029",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bc6a35bc6ad6a60db7ab1aa187ef2b5a6e038bb739999b210bee65a1c6f56998",
-        "datetime": 1790486400,
-        "summary": "Smaller is mightier when looking for long-term winners."
+        "url": "https://finnhub.io/api/news?id=b2ca33a9b50024c078e6f76fcf217fa91569edb760d93140ba52c8f3a304754e",
+        "datetime": 1790642761,
+        "summary": "The needed gain is roughly 14% a year -- and most of it rests on a rocket that hasn't flown yet."
       },
       {
-        "headline": "The Opportunity Behind AST SpaceMobile Stock Is Hard to Ignore",
+        "headline": "Rocket Lab (RKLB) Nails Back To Back September Launches With 100% Mission Record",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d239d593e370b1e3239eec93d98f68646f933d17ee45be23c22aa1055e8deabc",
-        "datetime": 1790434813,
-        "summary": "AST SpaceMobile is burning through capital at a staggering pace while racing to blanket the globe with satellites, and whether that gamble pays off depends on a narrow window of execution that could either vindicate the bulls or punish patient investors."
+        "url": "https://finnhub.io/api/news?id=6dd23e392c193558f514d8329db8cfa7391909789c4174087beb9bef70e8e3b5",
+        "datetime": 1790640539,
+        "summary": "Rocket Lab (NasdaqGS:RKLB) completed two back to back Electron launches for Synspective in September 2026 as part of its SAR constellation build out. The missions extended Synspective's synthetic aperture radar network, adding further satellites to its commercial Earth observation fleet on Electron. Rocket Lab maintained a high launch cadence for Synspective, underscoring its role as a dedicated small launch provider for constellation customers. The successful back to back Synspective..."
       },
       {
-        "headline": "Prediction: The Next Chapter of the Space Race Could Be Very Good for Rocket Lab",
+        "headline": "Rocket Lab Corporation (RKLB) Declines More Than Market: Some Information for Investors",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fc6e1f83c2cb88386b0964ef5ff315ef5932548e33067b0ecc5d9f6cb923fdff",
-        "datetime": 1790429402,
-        "summary": "Rocket Lab enters 2026 with a record backlog, a transformative acquisition pending, and a brand-new rocket on the launchpad, but whether those pieces come together determines if the stock doubles or stalls out entirely."
+        "url": "https://finnhub.io/api/news?id=5d13718bb14b32e8e6709643763b10211ee7bb590633eb99e11fad4ae76e8468",
+        "datetime": 1790630105,
+        "summary": "Rocket Lab Corporation (RKLB) reached $72.19 at the closing of the latest trading day, reflecting a -2.38% change compared to its last close."
       },
       {
-        "headline": "Major Milestone Passed In Iridium/Rocket Lab Tie Up",
+        "headline": "Cathie Wood Makes $64 Million Bet on Two Stocks",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f258e5673d78c41f0734302d86ac36d58b24b663005a390868966f48c1960e32",
-        "datetime": 1790425201,
-        "summary": "A critical shareholder vote took place on Thursday."
+        "url": "https://finnhub.io/api/news?id=81df007d834d08341a17610937953398b20543ac36f35f8b1d1980634f25ed67",
+        "datetime": 1790622702,
+        "summary": "The latest trades reveal where Wood sees opportunity"
       }
     ],
     "ASTS": [
+      {
+        "headline": "Nasdaq Futures Tread Water After Monday Rout: MU, NVTS, NVO, KOD, SMMT, ASTS Stocks In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3fb77e4d547670f6b571016b191d39b52d945a2d8a497bb86bb5b78594e6701a",
+        "datetime": 1790670696,
+        "summary": "On Stocktwits, retail sentiment toward SPY and QQQ stayed \u2018bullish.\u2019"
+      },
+      {
+        "headline": "Is AST SpaceMobile (ASTS) Above Fair Value As Launch Nears?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4a992caafb287aa3c0b3967db35eb4968881e8a920a2370127b8c2b4908cb726",
+        "datetime": 1790662182,
+        "summary": "AST SpaceMobile has been on a dramatic ride over the past few years, and the latest share price leaves an obvious question for you as an investor. With such a sharp move already in the rear-view mirror, is the current valuation still grounded in the company\u2019s book value, or has the market story pulled away from the balance sheet? Over the past 3 years, AST SpaceMobile has delivered a very large share price gain, which puts serious pressure on the question of how much its net assets can..."
+      },
+      {
+        "headline": "ASTS Stock Rises Overnight: Change-Of-Control Payout Plan For CEO, Senior Execs Fuels Buyout Buzz",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2fef66ddecc93424f5297003596215bb578b0528c9a285adac3b0e5fc9973da",
+        "datetime": 1790644304,
+        "summary": "The CEO could receive twice the sum of annual salary and target bonus, while other covered executives could receive 1.5 times the sum, plus other benefits."
+      },
       {
         "headline": "ASTS Stock Eyes Best Month Since May: New German Filing Puts 344-Satellite BlueBird Plan In Focus",
         "source": "Yahoo",
@@ -96,67 +117,53 @@
         "url": "https://finnhub.io/api/news?id=d0fa2cb973e4f0b331cf38fa1e8580854aaf31e4199978abea973d6eb9af8324",
         "datetime": 1790463046,
         "summary": "The insider maintains 462,980 shares worth $29 million after the sale, executed at prices just below market close during a period of strong stock performance."
-      },
-      {
-        "headline": "The Opportunity Behind AST SpaceMobile Stock Is Hard to Ignore",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d239d593e370b1e3239eec93d98f68646f933d17ee45be23c22aa1055e8deabc",
-        "datetime": 1790434813,
-        "summary": "AST SpaceMobile is burning through capital at a staggering pace while racing to blanket the globe with satellites, and whether that gamble pays off depends on a narrow window of execution that could either vindicate the bulls or punish patient investors."
-      },
-      {
-        "headline": "Prediction: The Next Chapter of the Space Race Could Be Very Good for Rocket Lab",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fc6e1f83c2cb88386b0964ef5ff315ef5932548e33067b0ecc5d9f6cb923fdff",
-        "datetime": 1790429402,
-        "summary": "Rocket Lab enters 2026 with a record backlog, a transformative acquisition pending, and a brand-new rocket on the launchpad, but whether those pieces come together determines if the stock doubles or stalls out entirely."
-      },
-      {
-        "headline": "AST SpaceMobile Promised $150 Million. Here\u2019s What Has to Happen Next",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=23cff51fff2b497803ab5c064ed2755f7d2bc0e53bd327565cab98fdcf7cf07b",
-        "datetime": 1790423427,
-        "summary": "Key TakeawaysAST SpaceMobile generated $46. 26 million in revenue in the first half of 2026, leaving $103."
       }
     ],
     "IREN": [
+      {
+        "headline": "Goldman Sachs Flags SpaceX Stock in Unusual Growth Screen",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bdc16368f15bb4602d6f741fab2dbaf3e2e770ac1248f4ba95b8333244731bb6",
+        "datetime": 1790615859,
+        "summary": "Revenue uncertainty may be where differentiated returns emerge"
+      },
+      {
+        "headline": "IREN Stock Is Up 17% in 2026. Here\u2019s Where the Stock Could Go",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2d80acfe01f51be2715113abe8786457dad51ad946a66fbb354537a66da10462",
+        "datetime": 1790607263,
+        "summary": "Key Stats for IREN StockCurrent Price: $44. 13Target Price (Mid): ~$90Street Target: ~$78 (12-month mean)Potential Total Return: ~105%Annualized IRR: ~16% / yearWhat Happened?Rothschild & Co Redburn analyst Alexander Haissl started coverage of IREN Limited (IREN) at Neutral with a $40 target on September 21, 2026."
+      },
+      {
+        "headline": "IREN Just Got a Reality Check From Wall Street",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6aff98084a2a58b15e17b063df8f02c25e283d371dbe1b6d14a73e37e8afda41",
+        "datetime": 1790607166,
+        "summary": "Analyst Kevin Dede highlighted IREN's ability to deliver computing capacity but raised concerns about customer quality and executive compensation."
+      },
+      {
+        "headline": "IREN vs. Riot Platforms: Which Bitcoin-to-AI Stock Looks Stronger Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4cbf36b51c280655aead5db009acd4f09700738e70df8e8b70bce2bcff8a23f6",
+        "datetime": 1790605680,
+        "summary": "IREN and Riot take different paths from Bitcoin mining into AI, with cloud services, leases, power capacity and timing shaping their strategies."
+      },
       {
         "headline": "IREN\u2019s Yearlong Downward Trend Continues: A Prominent Wall Street Firm Says It Will Double and Then Some",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=790ae10a47c5069405b6ff375c0997daefabfc41ab8a1ec4b6447ed5cd257970",
         "datetime": 1790593772,
         "summary": "IREN has shed 42% from its peak while rivals like TeraWulf and Cipher Mining kept their yearly gains, yet a prominent Wall Street analyst just slapped a $100 price target on the stock. Whether that gap signals a rare opportunity or a trap depends entirely on one make-or-break quarter."
-      },
-      {
-        "headline": "JPMorgan Predicts IREN Will Generate $24 Billion in Annual Revenue by 2030",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0043abad6fbea128d5e47f87a507ebf2f921ed445b80c7c5aeb54857087e9de4",
-        "datetime": 1790438384,
-        "summary": "JPMorgan just flipped its IREN rating from Underweight to Overweight and attached a price target that implies the company barely exists yet relative to what it could become, and the math behind that call raises a question every investor in AI infrastructure needs to answer."
-      },
-      {
-        "headline": "2 Data Center Stocks That Could Help Make You a Fortune",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9dabbc03a124e4d742c40a53dff9d44ac7ebd5b9c0f6807e1501a5a939fe8d46",
-        "datetime": 1790418900,
-        "summary": "These stocks are poised for growth as hyperscaler capital spending grows into the trillions."
-      },
-      {
-        "headline": "Is It Too Late to Buy IREN Stock After Its Monster Run?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3d2407f8aac56919bdb9ab30945832aca501b766fa9aae59b1ed71d3865bbdb1",
-        "datetime": 1790375100,
-        "summary": "IREN stock has surged in recent years as the company pivots to AI cloud services."
-      },
-      {
-        "headline": "Is IREN (IREN) Cheap As Sector Selling And Mixed Views Test Its AI Buildout?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=31b1171f71a21a7d753530e7d1ad3b5f2bc741400079b2f9c0603c1143a1c416",
-        "datetime": 1790367122,
-        "summary": "IREN (NasdaqGS:IREN) is back in focus after a sector wide selloff hit neocloud peers, with selling pressure layered on top of mixed research views and recent technical underperformance against CoreWeave and Nebius. At a share price of $46.15, IREN has seen selling pressure in the last week but still clocks a 16.60% 1 month share price return and an 8.08% year to date share price gain, set against a very large 3 year total shareholder return that reflects how sharply sentiment has swung on..."
       }
     ],
     "CRSP": [
+      {
+        "headline": "Beam Therapeutics: Ignore The Anthropic Noise And Focus On Clinical Progress",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0b2f7f810f70395a2cacb2e0d08118903ac1ac743984c1905bf6998b3ab15787",
+        "datetime": 1790667020,
+        "summary": "Beam Therapeutics (BEAM) stock analysis: BEAM-302 gene-editing upside for 2028\u00e2\u0080\u00932029, cash runway/dilution risks, valuation vs peers\u00e2\u0080\u0094read now."
+      },
       {
         "headline": "CRISPR Therapeutics AG (CRSP) Stock Sinks As Market Gains: Here's Why",
         "source": "Yahoo",
@@ -184,16 +191,30 @@
         "url": "https://finnhub.io/api/news?id=e5b28f04036f73c4e5e5d62cd7d6c652d57fb578b4b8687edc670e0b567a5243",
         "datetime": 1790261960,
         "summary": ""
-      },
-      {
-        "headline": "CRISPR Therapeutics vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=70110d439ad83f24d62dfd2ad5cf69b1c86d31c717ad7445a12711ae749cd7af",
-        "datetime": 1790254957,
-        "summary": "One is burning cash while chasing gene-editing breakthroughs. The other generates billions from a single therapy. Their divergent paths reveal starkly different risk-reward profiles."
       }
     ],
     "CAVA": [
+      {
+        "headline": "Chipotle vs. CAVA: Which Fast-Casual Stock Is the Better Buy Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ec37abc6693d3853a77fe30131dd45412d24a691691b8e9b2b13359683c417af",
+        "datetime": 1790607000,
+        "summary": "CMG and CAVA offer distinct growth paths, but differences in scale, valuation and margins shape their investment cases."
+      },
+      {
+        "headline": "Why 3 Struggling Stocks Are Suddenly Spending Big on Buybacks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=591f88aebbf5bbc417a977a6ca4a1589db64c2cd2d11322561fffb949d7d9035",
+        "datetime": 1790596800,
+        "summary": "D.R. Horton, CAVA, and FTAI Aviation announced major buyback programs after share price declines, with D.R. Horton raising 2026 repurchase guidance 30% amid housing headwinds."
+      },
+      {
+        "headline": "CAVA Stock Slips: Sector Fear or Valuation Reality?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=45b8462a9bfb5c2f1a85c885ee43e90cec2ae0ecd8654328e6d42e9684d11f31",
+        "datetime": 1790516700,
+        "summary": "CAVA stock fell alongside restaurant peers after weak August traffic data, but Q2 results showed strong sales and unit growth despite slipping margins and a still-rich valuation."
+      },
       {
         "headline": "CAVA (CAVA) Stock Still Looks Above Fair Value Despite Buyback News",
         "source": "Yahoo",
@@ -207,30 +228,23 @@
         "url": "https://finnhub.io/api/news?id=b905ae45f0ec13608eb437fb135171d966652d8bc4616b1649cea35810c25da5",
         "datetime": 1790350320,
         "summary": "the question isn\u2019t who will pick up the slack if and when the AI heavyweights slow down\u2014it\u2019s whose lunch the tech will eat next."
-      },
-      {
-        "headline": "Why Is Cava Spending $100 Million to Buy Back Its Own Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8c7141a5da3ded4c141e18cdb7c738331d904ba8d18d72339546c88c3eddf636",
-        "datetime": 1790320723,
-        "summary": "Key TakeawaysCava authorized its first share buyback ever on September 18, up to $100 million, arriving after the stock round-tripped from an April high near $95 down to roughly $52 even though second-quarter revenue grew 31. 3% and same-restaurant sales rose 9%."
-      },
-      {
-        "headline": "Cava Stock Is Too Tasty to Pass Up",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d7fb92d4370a66433657640e22f84b94916aecdb933c866370d30c5bed64340d",
-        "datetime": 1790316000,
-        "summary": "Cava is already the largest Mediterranean food chain in America, and is often entering markets where there is little competition."
-      },
-      {
-        "headline": "CAVA Stock Has Lost Nearly Half Its Value in 2026. Is the Mediterranean Chipotle Finally Cheap Enough to Buy?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1d54081e56fad62f0299a5fb61fac70fcdbd9352bd66375af792b85499e06459",
-        "datetime": 1790217814,
-        "summary": "Key Stats for CAVA Group, Inc. 52-Week Range: $43."
       }
     ],
     "MELI": [
+      {
+        "headline": "3 Profitable Stocks Worth Investigating",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=812b070bc996a044a2f39b488ac01de2b5e65620d86b3ecff306e6d217fcaf7f",
+        "datetime": 1790676962,
+        "summary": "Profitability is a key measure of business strength. Companies with high margins have proven they can generate consistent earnings while maintaining financial discipline."
+      },
+      {
+        "headline": "Is eBay Stock Priced Right Against Its Peers?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=33ced5d32076a9e5957507cdaa5e91947671b1311533bf0865dbecb9c380f526",
+        "datetime": 1790623276,
+        "summary": "eBay (EBAY) turns more of its sales into operating profit than Amazon, Walmart, MercadoLibre, Etsy or Target. Yet you pay less for each dollar of eBay's profit than for Walmart's or MercadoLibre's. Is eBay stock discounted against those two for a real worry, or simply priced below what it delivers."
+      },
       {
         "headline": "MercadoLibre vs. Shopify: Which Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
@@ -251,23 +265,16 @@
         "url": "https://finnhub.io/api/news?id=83894e15b285e80e41be6eea758fc5b5c47778f761a901fd0b56c64713b65d6d",
         "datetime": 1790339520,
         "summary": "MercadoLibre expands its commerce and fintech ecosystem, while Target strengthens merchandising and fulfillment, highlighting key developments shaping both companies' growth strategies."
-      },
-      {
-        "headline": "MercadoLibre (MELI) Stock Looks Rich Relative To Its Earnings",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1186c33f35887ab38716af146ec2933e269440209b037866d1ae692c82ddcf52",
-        "datetime": 1790298841,
-        "summary": "MercadoLibre has seen a sharp shift in sentiment over the past year, yet the longer term record still shows a solid gain. That gap between recent share price moves and the earnings power of the business raises a clear question about what investors are really paying for today. The stock has risen 37.7% over the past 3 years, which puts a lot of weight on whether its profit engine can justify that kind of long haul return. The company\u2019s model, which blends e-commerce with payments and credit..."
-      },
-      {
-        "headline": "MercadoLibre (MELI) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db775fe0dddcebe5ac5bc0b22025ac2ac88248547377b4430b25d1eb6073a476",
-        "datetime": 1790283004,
-        "summary": "The latest trading day saw MercadoLibre (MELI) settling at $1, representing a -2.51% change from its previous close."
       }
     ],
     "OKLO": [
+      {
+        "headline": "3 Great Nuclear Stocks To Own In September 2026",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d246e57a01f0c377503f418a284cdc08bef496a98d9a7ae8080c3f1011ce0c25",
+        "datetime": 1790590173,
+        "summary": "Oil at more than $108 a barrel and fragile trade routes have put reliable electricity supply back in the spotlight. Investors looking beyond short term swings are paying closer attention to companies that help keep the lights on with low carbon power. This article breaks down three nuclear focused stocks from the US market, explaining how each fits into that story and where the key risks sit. The three nuclear focused stocks below are just a starting sample, as the full screen surfaced 34..."
+      },
       {
         "headline": "2 Nuclear Stocks Crashed by About 50% in 2026. Here's the 1 Thing That Would Bring Them Back.",
         "source": "Yahoo",
@@ -295,13 +302,6 @@
         "url": "https://finnhub.io/api/news?id=8a1b42c7434a9472825d3a31e4d935326aba8b1d6c3689700710713baee33628",
         "datetime": 1790342798,
         "summary": "I'm bullish on nuclear overall, but still rate Oklo (OKLO) stock as a 'sell'. Read how I'm using put options to play the thesis here."
-      },
-      {
-        "headline": "Oklo Stock Trades Flat as UBS Cuts Price Target to $41",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f24157749f178b5d9e4b8f59eae8015338cac3e8b4c0fdf5c4a877884a86d2e0",
-        "datetime": 1790339570,
-        "summary": "Oklo Inc. (NYSE: OKLO) shares are trading flat Friday afternoon as investors digest a price target reduction from Wall Street."
       }
     ]
   }
