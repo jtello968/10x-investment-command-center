@@ -1,162 +1,169 @@
 {
-  "generatedAt": "2026-10-15T17:46:17.294184+00:00",
+  "generatedAt": "2026-10-16T17:24:01.583835+00:00",
   "quotes": {
     "RKLB": {
-      "current": 53.39,
-      "changePct": -9.7837,
-      "change": -5.79,
-      "previousClose": 59.18
+      "current": 51.42,
+      "changePct": -6.9321,
+      "change": -3.83,
+      "previousClose": 55.25
     },
     "ASTS": {
-      "current": 43.55,
-      "changePct": 3.346,
-      "change": 1.41,
-      "previousClose": 42.14
+      "current": 41.27,
+      "changePct": -7.175,
+      "change": -3.19,
+      "previousClose": 44.46
     },
     "IREN": {
-      "current": 29.44,
-      "changePct": -3.6649,
-      "change": -1.12,
-      "previousClose": 30.56
+      "current": 27.31,
+      "changePct": -10.1349,
+      "change": -3.08,
+      "previousClose": 30.39
     },
     "CRSP": {
-      "current": 51.69,
-      "changePct": 2.9271,
-      "change": 1.47,
-      "previousClose": 50.22
+      "current": 49.76,
+      "changePct": -3.4161,
+      "change": -1.76,
+      "previousClose": 51.52
     },
     "CAVA": {
-      "current": 54.84,
-      "changePct": 6.2997,
-      "change": 3.25,
-      "previousClose": 51.59
+      "current": 57.01,
+      "changePct": 2.9061,
+      "change": 1.61,
+      "previousClose": 55.4
     },
     "MELI": {
-      "current": 1855.2,
-      "changePct": 0.8749,
-      "change": 16.09,
-      "previousClose": 1839.11
+      "current": 1818.26,
+      "changePct": -2.0851,
+      "change": -38.72,
+      "previousClose": 1856.98
     },
     "OKLO": {
-      "current": 29.46,
-      "changePct": 1.4463,
-      "change": 0.42,
-      "previousClose": 29.04
+      "current": 28.05,
+      "changePct": -6.5312,
+      "change": -1.96,
+      "previousClose": 30.01
     }
   },
   "news": {
     "RKLB": [
+      {
+        "headline": "Rocket Lab Has Imploded For 3 Months: 145% Gains Are Coming According to This Pro Analyst",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d0ce9f2a0a6cfe2d046300b0464ba79814230d075179f8d743e09f7696439f7d",
+        "datetime": 1792161915,
+        "summary": "Rocket Lab has shed nearly a fifth of its value in one week while sitting on a record backlog and a wall of analyst buy ratings. Something in that contradiction deserves a closer look."
+      },
+      {
+        "headline": "Stock Market Today: Wall Street Swaps Chips for Old Reliables as Producer Prices Spike",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=ee8449899659de30d7c02cc76597c0fe59b287c7864490302adecf3c9fbd624a",
+        "datetime": 1792155246,
+        "summary": "The Dow rose 1.2% as money moved from chips into old-economy names. Producer prices posted their biggest jump since 2022, and Jensen Huang came to CoreWeave's defense."
+      },
+      {
+        "headline": "RKLB Stock: Citizens Cuts Target To $90, Says Neutron Delay\u2019s \u2018Most Significant Impact\u2019 Is On FY27, FY28 Launch Monetization",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=99127e178221a30dbfb1886cf2beba867828fb77114e4dd8900efaa6e36f5a14",
+        "datetime": 1792153491,
+        "summary": "According to the Fly, Citizens said Neutron\u2019s launch delay followed air pockets in its carbon-composite forward dome that failed to meet safety margins, prompting a manufacturing fix and a rebuild."
+      },
+      {
+        "headline": "Company News for Oct 16, 2026",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4c072416f97ea99a694c9e212dc85a2d1a399cee0ee4e7aa38786b905f943cc7",
+        "datetime": 1792152000,
+        "summary": "Companies in The News Are: ERIC, MRSH, RKLB, BNY"
+      },
+      {
+        "headline": "The Zacks Analyst Blog Highlights NASA, SpaceX, Rocket Lab, ARKX, UFO and MARS",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4a2dd33a4415c0b795a6805565967c9de476c7b30afecc9c20ab180e8f05d410",
+        "datetime": 1792150680,
+        "summary": "Space ETFs may offer an attractive entry point after recent selloffs, with a $686 billion global space economy and diversified exposure to long-term growth opportunities."
+      }
+    ],
+    "ASTS": [
+      {
+        "headline": "Why Is AST SpaceMobile Stock Falling Friday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=87e5bc27d57c9312a617dd57cb1344127d701537e6018041e1f9f220cf24b7be",
+        "datetime": 1792143770,
+        "summary": "ASTS stock hits technical lows following a analyst downgrade from Piper Sandler, driven by satellite launch delays and SpaceX competition."
+      },
+      {
+        "headline": "Space Stock Watch: SpaceX Spectrum Deal, Rocket Lab Delays, Tesla Merger Chatter",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b7486b264721380a1d9d6f11e6d5826acf7cab5628cc25d210df3d65f9a5ba44",
+        "datetime": 1792143719,
+        "summary": "Space stocks fall as SpaceX pursued an $8B wireless push, Rocket Lab delays Neutron to 2027, and Tesla\u2019s Roadster revives merger speculation."
+      },
+      {
+        "headline": "Stocktwits Space Race Weekly: SPCX Weathers Selloff Better Than ASTS, RKLB And FLY \u2014 RDW Fares Best",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d76b4140c9d7bd4cd55377c14e82fa19c0677a421c3fa9d8d372222eef6e5c8",
+        "datetime": 1792131790,
+        "summary": "SpaceX faced Ukraine-related satellite-service scrutiny as Barclays\u2019 merger speculation and the flying Roadster revealed renewed attention on its Tesla ties."
+      },
+      {
+        "headline": "Did ASTS Miss Its Rocket Lab Moment? Analyst Warns Deal Window May Be Closing, Floats Firefly As A Target",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bdb5e882f1c89c514d8e6de4d740db4cc525417b9a7b9f558452a7759965f8e4",
+        "datetime": 1792124696,
+        "summary": "Analyst Tim Farrar also questioned AST\u2019s launch capacity for a midband constellation."
+      },
       {
         "headline": "5 Growth Stocks With Home Run Potential",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fa7b30f21fc963252d5369c738f69fe8d823bea1e9c9496c0dc29b89f6d5f547",
         "datetime": 1792077900,
         "summary": "Each of these aspiring players has big potential in a massive market, but each has some clear weak spots, too."
-      },
-      {
-        "headline": "CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3a13e282701a3569f5ee501f717b2526d6994f3753bdbec83cc35e823e96b8da",
-        "datetime": 1792076764,
-        "summary": "On this episode of Stock Movers: - CoreWeave (CRWV) shares are continuing their slide amid a major issue with their debt. CoreWeave's debt has weakened in recent months, with credit-default swaps pricing in a more than 50% chance of default within the next five years, and the company's bonds now yield 15%   a level that is practically unheard of in the primary market for new debt. - Taiwan Semiconductor Manufacturing (TSMC) shares are moving after it delivered a better-than-expected revenue outlook, projecting sales of as much as $54.3 billion in the December quarter. Still, the company's upbeat projection failed to stem a global tech stock rout. - RocketLab (RKLB) is falling as it delayed the debut of its Neutron rocket, pushing the vehicle's first flight to 2027. CEO Peter Beck said the company won't rush to the pad with unnecessary risk, and that development programs like Neutron have their challenges."
-      },
-      {
-        "headline": "Tech slumps as AI financing worries grow, investors flock to bonds: AlphaCheck",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a6c2ffe5059f41542439888a4dee74f8419186b6c493846ca585151a5c516cc6",
-        "datetime": 1792072968,
-        "summary": "Stocks were mixed on Thursday as chip names sold off."
-      },
-      {
-        "headline": "CoreWeave, TSMC, FMC, Rocket Lab, Schwab, and More Stocks That Explain Today\u2019s Market",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=769e52d4408cc6b96549f5b78c400db895ad911a2dc3324c4a3507cf0d7a72f3",
-        "datetime": 1792072920,
-        "summary": "CoreWeave shares fall as concerns mounted about the company\u2019s debt."
-      },
-      {
-        "headline": "Rocket Lab Stock Nosedives. Why Its Neutron Launch Is Such a Big Deal.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ec327cde75713f5679dd99a8616420f475a41c6eb07de3d21af7a5907f52e180",
-        "datetime": 1792072620,
-        "summary": "The company pushed backed the launch window for its larger rocket."
-      }
-    ],
-    "ASTS": [
-      {
-        "headline": "Rocket Lab Tumbles 11% as Neutron\u2019s First Flight Moves to 2027; SpaceX and AST SpaceMobile Pull Back",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ee84e0248d633f1a68ea1da2dacc8ec245a170a1818c992459c233476748c086",
-        "datetime": 1792069585,
-        "summary": "A manufacturing flaw found during production has forced Rocket Lab to push its most ambitious rocket program past a deadline investors were counting on, and now the question is how much longer the cash burn can stretch before something has to give."
-      },
-      {
-        "headline": "ASTS Stock Heads For Worst Year Since Listing \u2014 Analyst Says 60-Satellite Milestone Could Slip To 2028",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=175bd9d1e04b8f7498388eb672a5de05a94d032ec03c90ebdf5f583c6df9fc81",
-        "datetime": 1792045055,
-        "summary": "Tim Farrar said reaching 60 satellites could take until 2028, based on an assumed eight remaining New Glenn launches and two Falcon 9 missions."
-      },
-      {
-        "headline": "Peter Schiff Warns Trump\u2019s \u2018Booming\u2019 Stock Market Boast Is a Mirage: 479 Stocks Hit 52-Week Lows on Wednesday, While Only 60 Set Highs",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ac37bb01dbb5658e534eb3da82467918d00121e28c95b1ea2039e81f2062837f",
-        "datetime": 1792043578,
-        "summary": "Investor Peter Schiff challenged Trump\u2019s booming stock market claim, pointing to a wave of stocks hitting 52-week lows Wednesday."
-      },
-      {
-        "headline": "Why Did SOFI, PLUG, ASTS Stocks Plunge To 52-Week Lows?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8c5608454eddda123062f43902a23d4967da8dbdf1ba3b46bff78b627d81b9b5",
-        "datetime": 1792038368,
-        "summary": "SoFi Technologies, Plug Power and AST SpaceMobile declined to annual lows on Wednesday amid growing Wall Street worries about the companies."
-      },
-      {
-        "headline": "How Low Can AST SpaceMobile Stock Go?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=83b851c71787cca9c386dfca6806cc3c2e99fd55763f43b58a5faa9ad7cd8214",
-        "datetime": 1792025739,
-        "summary": "Shares of AST SpaceMobile (ASTS) fell 25% in the week to October 13. At the time, Market Watch reported that the stock was feeling the heat from SpaceX's wireless plans. Shareholders who stay are betting that AST's BlueBird satellites will reach orbit on schedule and deliver management's revenue plan. That bet extends into 2027. So how far did AST SpaceMobile fall when markets turned before, and how long did it take to come back."
       }
     ],
     "IREN": [
       {
-        "headline": "Treasury Yields Dive For Wrong Reason As Neocloud Bonds Blow Up",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2ca411aaae3cfb3cbd946191e3472b0dc0aeca388301318b5b7f989431e42209",
-        "datetime": 1792068160,
-        "summary": "A blow-out in bond yields for neocloud companies could eventually slow the AI buildout."
+        "headline": "It's All About Interest Rates",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7cbbdda2668a72e3341de4ba6f7dab3c0da73b31f8719d004f1e635d4cdb57cb",
+        "datetime": 1792150200,
+        "summary": "Inflation concerns, elevated oil prices and uncertainty over the Iran conflict are driving interest rates higher. Higher rates raise the bar for investing in broad data center expansion."
       },
       {
-        "headline": "CoreWeave Borrowing Costs, Gartner Outlook Rattles AI Stocks",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=506572873b9dacea3f541586e4623d80baf33150b86a7edf7e7908fe20472a67",
-        "datetime": 1792063660,
-        "summary": "CoreWeave stock continued falling amid a spike in borrowing costs, bad inflation data and Gartner report predicting a \"neocloud\" shakeout."
-      },
-      {
-        "headline": "CoreWeave Stock Sinks Again as AI Debt Panic Spreads. Will Nvidia Come to the Rescue?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b6a438e24410f0ac9db8eb62136a9ecb508e562510a4d4cbb465c2611902a946",
-        "datetime": 1792058640,
-        "summary": "CoreWeave stock was dropping again Thursday. It might need backer Nvidia to stem the bleeding."
-      },
-      {
-        "headline": "CRWV, NBIS, IREN in Focus: Gartner Warns 80% of Neoclouds Will 'Cease Independent Operations' by 2030",
+        "headline": "Why Is Nebius Group Stock Falling Friday?",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f3e3919335155d3dc2c4daa8e5ca404341c0d17d8aabfc4764414d01e33084b8",
-        "datetime": 1792056452,
-        "summary": "Gartner warns 80% of neocloud stocks (CRWV, NBIS, IREN) will cease independent operations by 2030 amid a $3.5T AI infrastructure revenue gap."
+        "url": "https://finnhub.io/api/news?id=e0e29ccf453b39f579929e8b408266505c86d31a975e68e27d279d411802d2da",
+        "datetime": 1792146643,
+        "summary": "Nebius Group (NBIS) drops 6% following Gartner\u2019s AI cloud warning. Key tech analysis, moving averages, and analyst ratings inside."
       },
       {
-        "headline": "IREN Shares Are Falling Thursday: What's Going On?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f1418e51607b63d04326899ebee9f4b39a43523bdb35fc9eb18ca0a246355945",
-        "datetime": 1792055015,
-        "summary": "IREN shares are under pressure Thursday after sliding Wednesday on neocloud concerns, rising CoreWeave bond yields and Fed rate hike fears."
+        "headline": "Nvidia: Jensen Can't Spend His Way Out Of This One",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=81e929aab30faae972416ea164cc0066ca65de4b6c25a80c3e467825e0cf1254",
+        "datetime": 1792140554,
+        "summary": "Nvidia stock faces rising AI chip competition as Microsoft Maia 300 and Huawei gain share; Gartner warns neocloud risks. Click for this NVDA update."
+      },
+      {
+        "headline": "Stock Market Today, Oct. 15: Iren Stock Recovers, but Still Slides on Concerns Over Neocloud Provider Viability",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=00a3299fda1181cb404543e8fb5af02ea2acdee0a013d12797d7d7e9ee27b8af",
+        "datetime": 1792099416,
+        "summary": "Today, Oct. 15, 2026, Gartner's forecast that 80% of neocloud operators could lose independence by 2030 rattled AI infrastructure investors."
+      },
+      {
+        "headline": "CoreWeave Reverses Up As Wall Street Analysts Rush To Defend AI Stock.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a1276453aa163bea50ad36d09f25f6e47330ec6ea2dc4ded5ea9c999332c1499",
+        "datetime": 1792086112,
+        "summary": "CoreWeave stock reversed up as Wall Street analysts defended the company's strategy amid a spike in borrowing costs and bad inflation data."
       }
     ],
     "CRSP": [
+      {
+        "headline": "UBS Initiates Coverage On CRISPR Therapeutics with Neutral Rating, Announces Price Target of $52",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9d327dce1d6fb8d944ac8c46b2ecfd634204050b739384ed1f362c6f181a1c38",
+        "datetime": 1792086433,
+        "summary": "UBS  analyst Joon Lee   initiates coverage on CRISPR Therapeutics (NASDAQ:CRSP) with a Neutral rating and announces Price Target of $52."
+      },
       {
         "headline": "Is CRISPR Therapeutics (CRSP) Undervalued As CASGEVY Hopes Face Market Doubts?",
         "source": "Yahoo",
@@ -184,16 +191,30 @@
         "url": "https://finnhub.io/api/news?id=ee7b5f099596b656e31397851346399d9cb824c74d5ca16fd07977b986efcb89",
         "datetime": 1791838805,
         "summary": "CRISPR Therapeutics AG (CRSP) closed at $51.55 in the latest trading session, marking a -3.45% move from the prior day."
-      },
-      {
-        "headline": "TEVA Gets FDA Nod for Weltruza as Once-Monthly LAI in Schizophrenia",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6453b40ee6ac1f907480f867e65f08a7882c75430308a57660d64eeb34423d4c",
-        "datetime": 1791817620,
-        "summary": "Teva wins FDA approval for Weltruza, the first once-monthly subcutaneous olanzapine injection for adults with schizophrenia, with a U.S. launch expected soon."
       }
     ],
     "CAVA": [
+      {
+        "headline": "Ladder Capital Posts Upbeat Q3 Earnings, Joins Alcoa, Hyster-Yale And Other Big Stocks Moving Higher On Friday",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=4794b51045ea4c7d922bf2312cd58f69b23e6296eba1aebd30c33ae10329d974",
+        "datetime": 1792145343,
+        "summary": "U.S. stocks were mixed; Ladder Capital surged after beating Q3 estimates. Alcoa and other stocks also gained, led by Strata Critical Medical\u2019s 7.5% rise."
+      },
+      {
+        "headline": "Dutch Bros Stock Slides 36% YTD: Should Investors Buy, Sell or Hold?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f0ccf8d0c993cb1ccb76dd38e008537f5493b929cfc9ae6564b567812c742db0",
+        "datetime": 1792078260,
+        "summary": "Can BROS turn strong customer demand into lasting growth? Menu innovation, digital engagement and aggressive expansion offer opportunities despite rising operating costs."
+      },
+      {
+        "headline": "Shares of coffee-related companies are trading higher after Treasury Secretary Bessent said that there will be announcements regarding tariff relief on imported everyday consumer items that include coffee and bananas.",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=23bd34138cd3e287f5f7c3b76a2ce8f265f2456b139d026e0bd7e86a52e77f6f",
+        "datetime": 1792076083,
+        "summary": ""
+      },
       {
         "headline": "BLMN vs. CAVA: Which Stock Is the Better Value Option?",
         "source": "Yahoo",
@@ -207,67 +228,53 @@
         "url": "https://finnhub.io/api/news?id=db704e3d7768ebfdc8e8a511b57ca0dba535a0cd368efd534c2a911fafc602fa",
         "datetime": 1792059867,
         "summary": "Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and staying power of their larger competitors."
-      },
-      {
-        "headline": "Should CAVA\u2019s 500th Store Milestone and 1,000-Location Goal Reshape CAVA Group\u2019s (CAVA) Expansion Narrative?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=69c7191ddadeb8f7e14a87ad9847353cb8904ab7921cef76624c34188a15499c",
-        "datetime": 1792058961,
-        "summary": "CAVA Group recently marked the opening of its 500th restaurant and outlined plans to grow to 1,000 locations by 2032, with a continued push into emerging Midwestern markets and a 75 to 77 store opening pace targeted for 2026. Alongside this expansion, CAVA is introducing its Greek Goddess menu nationwide and preparing to discuss third quarter 2026 results, giving investors more detail on how new units and menu innovation are shaping the business. Next, we\u2019ll examine how CAVA\u2019s 500th-location..."
-      },
-      {
-        "headline": "CAVA (CAVA) Stock Looks Pricey Against Its Current Earnings",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e205ba7f0e13050d6cdcda0f76fa7deaaf987d952fae97626cdda89ff19baefa",
-        "datetime": 1792045211,
-        "summary": "CAVA Group has delivered a 52.7% gain over the past three years, even as the share price has recently eased back. With the business now in a different phase of its growth story, the key question is whether that valuation still makes sense when set against its earnings power. A 52.7% return over three years puts real weight on the market\u2019s view of CAVA Group\u2019s earnings potential and how durable that profile might be. The push to 500 locations and a goal of 1,000 stores by 2032 may support..."
-      },
-      {
-        "headline": "CAVA Group (CAVA) Targets 1,000 Locations By 2032",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3baad9cb2cdef88203887a457c104b6b3785aca919a54daa824c68488320c21a",
-        "datetime": 1792041361,
-        "summary": "CAVA Group (NYSE:CAVA) reports it has reached 500 restaurant locations across the United States. The fast casual chain outlines a plan to expand its footprint to 1,000 sites by 2032. Management highlights the Midwest as a key region for new openings within the next phase of growth. CAVA reaching 500 locations and targeting 1,000 by 2032 is important, but investors should weigh several other factors too. Our analysis turns up 1 warning sign for CAVA Group as well. Plenty of other restaurant..."
       }
     ],
     "MELI": [
+      {
+        "headline": "Should You Buy, Sell or Hold MELI Stock at a P/S Valuation of 1.83X?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f88dce39709209b3d1cbbf0cc59c52a306bbc5f54659e8ed7261449694dcf650",
+        "datetime": 1792151220,
+        "summary": "MercadoLibre trades at a 1.83 P/S multiple, below its historical median, as strong e-commerce and fintech growth faces margin pressures and credit risks."
+      },
+      {
+        "headline": "What Changed In eBay's Story?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5e02a069dcd2f702eb8b64b54a9f0fb855b4d5cd1bae221b430d595d2a8d7907",
+        "datetime": 1792092273,
+        "summary": "Investors are paying a premium for eBay (EBAY). The stock currently trades at 4.3 times its sales over the past twelve months, compared to 3.1 for the S&P 500. Justifying that valuation requires tracking a recent shift in corporate messaging. Back in April 2025, during the fiscal Q1 2025 call, management emphasized the uncertainty that tariffs and trade policy changes created for eBay's sellers and buyers. That rhetoric has faded. So what has management been talking up instead."
+      },
+      {
+        "headline": "Chewy vs. MercadoLibre: Which E-Commerce Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b67565f762b060ccf661a1fd081bfb890ba0d2cf5dc7a8248efb1aae9ebcfd9b",
+        "datetime": 1792081201,
+        "summary": "MercadoLibre's revenue grew 39.1% in 2025 as its operating margin narrowed, well ahead of Chewy's 6.2% growth in fiscal 2025."
+      },
+      {
+        "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=4391af50d98d1d6d1475341fc09c8c9d7c6029d2b4142b211633e2faff31e83d",
+        "datetime": 1792071310,
+        "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often"
+      },
       {
         "headline": "E-Commerce Update - Arrvel Expands Portfolio with E-Commerce Thermal Printers",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=63fd5264a5b860fa3bfe99e5d4fecfdf8535f733d1267c9a93ad3fe008c1b041",
         "datetime": 1792067845,
         "summary": "Arrvel has announced the expansion of its label printing portfolio with a new line of thermal printers tailored for e-commerce sellers and small businesses. This range includes the A42BT, a Bluetooth-enabled 4\u00d76 thermal shipping label printer compatible with major e-commerce platforms, providing a streamlined solution for printing shipping labels and other business-related labels. The use of direct thermal technology eliminates the need for conventional ink, making maintenance easier and more..."
-      },
-      {
-        "headline": "Alibaba vs. MercadoLibre: Which Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ada218444dd698c9ad6f0ebd5607930d9fbfb091af3357e8b4e099e0d8fb1c97",
-        "datetime": 1791977583,
-        "summary": "Alibaba trades at a fraction of MercadoLibre's valuation, but the Latin American growth story carries very different risk and reward dynamics."
-      },
-      {
-        "headline": "MercadoLibre vs. Shopify: Which Consumer Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d3d9ec61a3706139930739732cbc380d79aac051d24d4ff4d9ee0bdef720813a",
-        "datetime": 1791912902,
-        "summary": "MercadoLibre trades at a fraction of Shopify's valuation despite comparable growth, but regional exposure and fintech leverage create vastly different risk profiles."
-      },
-      {
-        "headline": "Reflecting On Online Marketplace Stocks\u2019 Q2 Earnings: MercadoLibre (NASDAQ:MELI)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f7a1405c62ed601404063a26fbc754a13e2cd6658736b20f301ea8ad4c708f20",
-        "datetime": 1791912664,
-        "summary": "As the Q2 earnings season comes to a close, it\u2019s time to take stock of this quarter\u2019s best and worst performers in the online marketplace industry, including MercadoLibre (NASDAQ:MELI) and its peers."
-      },
-      {
-        "headline": "MercadoLibre Stock Rose 9% in October on Brazil\u2019s Election. Time to Sell or Load Up?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4120d3220feb028afde6afefdc86928518b9ba9ee1f27f757db843d8656cb266",
-        "datetime": 1791911957,
-        "summary": "Key Stats for MercadoLibre StockCurrent Price: $1,892. 44Target Price (Mid): ~$6,290Street Target: ~$2,270Potential Total Return: ~232%Annualized IRR: ~33% / yearWhat Happened?MercadoLibre (MELI:NASDAQ) closed at $1,892."
       }
     ],
     "OKLO": [
+      {
+        "headline": "5 Growth Stocks With Home Run Potential",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fa7b30f21fc963252d5369c738f69fe8d823bea1e9c9496c0dc29b89f6d5f547",
+        "datetime": 1792077900,
+        "summary": "Each of these aspiring players has big potential in a massive market, but each has some clear weak spots, too."
+      },
       {
         "headline": "Talen Energy shares are trading lower after Barclays lowered its price target on the stock from $425 to $408.",
         "source": "Benzinga",
@@ -295,13 +302,6 @@
         "url": "https://finnhub.io/api/news?id=d80c428cea6e17c5361aa1200d860c38df4f46934e5e4b2c449f85eb697bcbdd",
         "datetime": 1791975960,
         "summary": "Micron Technology benefits from surging AI-driven memory demand, tight DRAM supply and soaring margins, while Krispy Kreme faces mounting pressure from GLP-1 adoption and rising debt."
-      },
-      {
-        "headline": "Google Signed a Deal for Existing Reactors. So Why Did Oklo and NuScale Jump on the Constellation Energy News? The Read-Through Investors Are Missing.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7a118eaff971fca81634c2b06dbb4c14f3fe0ea1c742f8c2976b45ec78a2bec4",
-        "datetime": 1791972540,
-        "summary": "It's another upvote for an energy source that just a few years ago seemed to be moving toward obsolescence."
       }
     ]
   }
