@@ -1,199 +1,206 @@
 {
-  "generatedAt": "2026-10-30T18:37:23.293850+00:00",
+  "generatedAt": "2026-11-02T22:19:13.025602+00:00",
   "quotes": {
     "RKLB": {
-      "current": 53.3,
-      "changePct": -9.8139,
-      "change": -5.8,
-      "previousClose": 59.1
+      "current": 52.07,
+      "changePct": -4.8602,
+      "change": -2.66,
+      "previousClose": 54.73
     },
     "ASTS": {
-      "current": 39.33,
-      "changePct": -8.6835,
-      "change": -3.74,
-      "previousClose": 43.07
+      "current": 36.33,
+      "changePct": -11.3254,
+      "change": -4.64,
+      "previousClose": 40.97
     },
     "IREN": {
-      "current": 23.12,
-      "changePct": -11.9238,
-      "change": -3.13,
-      "previousClose": 26.25
+      "current": 22.02,
+      "changePct": -8.0585,
+      "change": -1.93,
+      "previousClose": 23.95
     },
     "CRSP": {
-      "current": 50.77,
-      "changePct": -6.432,
-      "change": -3.49,
-      "previousClose": 54.26
+      "current": 49.99,
+      "changePct": -2.781,
+      "change": -1.43,
+      "previousClose": 51.42
     },
     "CAVA": {
-      "current": 58.56,
-      "changePct": -1.0978,
-      "change": -0.65,
-      "previousClose": 59.21
+      "current": 62.05,
+      "changePct": 5.635,
+      "change": 3.31,
+      "previousClose": 58.74
     },
     "MELI": {
-      "current": 1617.75,
-      "changePct": -2.5528,
-      "change": -42.38,
-      "previousClose": 1660.13
+      "current": 1676.79,
+      "changePct": 3.2169,
+      "change": 52.26,
+      "previousClose": 1624.53
     },
     "OKLO": {
-      "current": 24.6,
-      "changePct": -8.2432,
-      "change": -2.21,
-      "previousClose": 26.81
+      "current": 23.52,
+      "changePct": -6.8515,
+      "change": -1.73,
+      "previousClose": 25.25
     }
   },
   "news": {
     "RKLB": [
       {
-        "headline": "1 high-flying stock for long-term investors and 2 we turn down",
+        "headline": "MISSION SUCCESS: Rocket Lab Launches 99th Electron Mission",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bd86b8a645d32b12703808b881b412817af2ae1c5ee69f4e443de923c3a4cce9",
-        "datetime": 1793381009,
-        "summary": "\u201cYou get what you pay for\u201d often applies to expensive stocks with best-in-class business models and execution. While their quality can sometimes justify the premium, they typically experience elevated volatility during market downturns when expectations change."
+        "url": "https://finnhub.io/api/news?id=6aa7cb03c372d7d010e93e3dc78b70325b83c34c001f8ad49f0fd88e4c2075c9",
+        "datetime": 1793643720,
+        "summary": "MAHIA, New Zealand, Nov. 02, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB), a global leader in launch services and space systems, today successfully launched its Electron rocket to deploy the next QPS-SAR Earth-imaging satellite to space for the Institute for Q-shu Pioneers of Space, Inc. (iQPS). \u2018The Sea God Surveys\u2019 mission launched from Rocket Lab Launch Complex 1 in New Zealand at 5:41 a.m. NZDT on November 3, 2026, to deploy the \u2018WADATSUMI-II\u2019 synthetic aperture radar (SAR)"
       },
       {
-        "headline": "SPCX Launches Satellite for Ukraine's Communications: Can It Deliver?",
+        "headline": "Rocket Lab (RKLB) Is Emerging As A Key Launch Option For Commercial Stations",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ae48e9d269c69b890413ecb4c9d4251f720bdc5dd5d7a41e5a771cadf6e285a6",
-        "datetime": 1793362680,
-        "summary": "SpaceX launches Ukraine's first OBRIA test satellite, highlighting Falcon 9's launch capabilities and role in building an independent communications network."
+        "url": "https://finnhub.io/api/news?id=3942ac3bb012b399cbea5ef8ae05a8bbad595087de885b0c663e4c3a53089f3d",
+        "datetime": 1793639486,
+        "summary": "Rocket Lab (NasdaqGS:RKLB) is being cited by NASA as a launch option for future commercial space station missions as the ISS approaches retirement. NASA is shifting to a new acquisition model that funds privately owned space stations to succeed the ISS over the coming decade. Rocket Lab's planned Neutron rocket, targeted for a 2027 debut, is positioned to address launch capacity constraints for small and medium satellites in this new ecosystem. NASA's move toward commercial space stations..."
       },
       {
-        "headline": "Rocket Lab: Is It Finally Time to Buy Below $60?",
+        "headline": "SpaceX Climbs 4% on Reported Boost Mobile Talks; AST SpaceMobile Falls 4%, Rocket Lab Dips",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d03c916e82f7021589387f5ec6fe43c7d97ddcf9b85eb77accb7e93532dc6ff3",
-        "datetime": 1793356980,
-        "summary": "The stock has been on an extended slide, and a recent setback further fueled the selling."
+        "url": "https://finnhub.io/api/news?id=7a10598f1fa3372f5d2e776c214cef59e4d04ece6918acb3afb2d57642570803",
+        "datetime": 1793634969,
+        "summary": "The race to put a satellite company inside Americans\u2019 phone plans picked up speed. SpaceX (NASDAQ:SPCX) stock trades at $140.02, up 4% in early action. The gain follows reports that SpaceX is in talks to buy Boost Mobile from EchoStar (NASDAQ:ECHO) or gain access to its wireless network as part of its push to build [\u2026]"
       },
       {
-        "headline": "Rocket Lab: The Neutron Delay Changes The Timeline, Not The Thesis",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b9f95cd8ed32396fe922d4f581a6942a9aa18ab6c37eb5bf4a5ee01aa64ca62a",
-        "datetime": 1793352074,
-        "summary": "Rocket Lab is still a buy despite Neutron delays. See updated fair value, reduced dilution risk, and how Iridium financing supports long-term growth."
+        "headline": "Do Democrats Help Or Hurt SpaceX Stock At $135?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d5db15abada2ded212549822abfc0453ab4a0bf664dd5aef632cea9b7d744d3e",
+        "datetime": 1793625484,
+        "summary": "For questions about this article or underlying research, email help@trefis.com."
       },
       {
-        "headline": "NASA: A Primer On This Actively Managed Portfolio Of Stocks From The Space Economy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b5068163d939fe021012930f04856bc58145044d9aa683e90bf2f77d0a31cb7e",
-        "datetime": 1793349243,
-        "summary": "Choose Tema Space Innovators ETF for active exposure to the space economy. See more on NASA ETF's risks, valuations, and alternatives like MARS and WARP."
+        "headline": "The Space Stock With a Much Bigger Opportunity Than Launches",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9255d55ae19c1f13a8766c840a3c667e01ee0bac01d5173b27df2aaed2b5c29e",
+        "datetime": 1793623628,
+        "summary": "Rocket Lab's rockets grab the headlines, but a quieter division is already generating four times the revenue of launches and positioning the company for a deal that could reshape the entire space economy."
       }
     ],
     "ASTS": [
       {
-        "headline": "NASA: A Primer On This Actively Managed Portfolio Of Stocks From The Space Economy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b5068163d939fe021012930f04856bc58145044d9aa683e90bf2f77d0a31cb7e",
-        "datetime": 1793349243,
-        "summary": "Choose Tema Space Innovators ETF for active exposure to the space economy. See more on NASA ETF's risks, valuations, and alternatives like MARS and WARP."
-      },
-      {
-        "headline": "Netflix 'Can't Lift,' Jim Cramer Says: It Lost Its Biggest Selling Point",
+        "headline": "'SpaceX is in talks to buy Boost Mobile or use its network, giving Musk a potential backdoor into the $235 billion cellphone market' - Washington Post Exclusive",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=79efeea94b3c0972b40629676e1e67b7a5ba819f5f3a1fdd7e9600e8ab8cc4d3",
-        "datetime": 1793346364,
-        "summary": "Jim Cramer advised selling AMC, rejected ASTS and IREN, and criticized Netflix\u2019s streaming discoverability problem."
+        "url": "https://finnhub.io/api/news?id=551bb5cfdb5447b9db9f1efa70ba9ff15eb0e4362e14a9dd3743c8bf1e781e42",
+        "datetime": 1793602690,
+        "summary": "https://www.washingtonpost.com/technology/2026/11/02/inside-elon-musks-plan-upend-wireless-phone-industry/"
       },
       {
-        "headline": "Brunswick Q3 Earnings Call Highlights",
+        "headline": "ASTS Stock Jumps Overnight: Vanguard, Rakuten Unit Boost Holdings \u2014 Why Are Retail Traders Still Bearish?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=98fa752f2db68d7034a8a5e8dbdf1767c79d44fc3801c6af01dd425927f1b45b",
-        "datetime": 1793344450,
-        "summary": "Brunswick (NYSE:BC) reported third-quarter 2026 results that exceeded its expectations, with sales rising across all reporting segments for a fifth consecutive quarter and adjusted earnings per share increasing 63% from a year earlier. Net sales increased 7% to $1.5 billion, while adjusted operatin"
+        "url": "https://finnhub.io/api/news?id=b0981b8c97da8efb96797f7e2bd7bafa27fe233b610f18a4e581446609bf0f03",
+        "datetime": 1793595431,
+        "summary": "Vanguard Capital Management\u2019s reported holding rose 22.5% from June to 15.3 million shares, representing a 5.11% stake."
       },
       {
-        "headline": "Stocktwits Space Race Monthly: SPCX Holds Up Better Than ASTS, RKLB And PL In October \u2014 But VSAT Takes The Crown",
+        "headline": "2 Space Stocks Down More Than 50% That Could Be the Best Buys of Q4",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4709028e3a24dba3a38e8902f3326b8c6e3dfa0ee5776023d357dae444af0426",
-        "datetime": 1793338793,
-        "summary": "Viasat drew Amazon takeover speculation, while advancing NASA work and satellite-connectivity partnerships."
+        "url": "https://finnhub.io/api/news?id=9db9cae643180fa25a20cdc87ff598c48153cf4730222bc21cea79a929b6aa27",
+        "datetime": 1793545500,
+        "summary": "AST SpaceMobile and Rocket Lab have each lost over 60% from their peaks. Here's how their growth plans, risks, and valuations compare."
       },
       {
-        "headline": "ASTS Stock Eyes Best Week In Nearly 3 Months \u2014 Fresh Filing Reveals 'Imminent' Philippines Satellite-To-Phone Ops",
+        "headline": "Will Satellite Spectrum Bid Change Vodafone's (LSE:VOD) Narrative",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=853aaf6b2cf7a09d01bdb3ec35ccbdc29c83f41adf0eddda68d0f92fb15bef25",
-        "datetime": 1793338497,
-        "summary": "AST plans to begin satellite-to-phone operations in the Philippines \u201cimminently\u201d with Smart Communications."
+        "url": "https://finnhub.io/api/news?id=fba011690e7c5872ed10b1232c10cd7beaa04399f16ff8fa24a97c7eefb27a2b",
+        "datetime": 1793459625,
+        "summary": "AST SpaceMobile announced that Deutsche Telekom, Orange, Telef\u00f3nica and Vodafone signed a Letter of Intent in October 2026 to explore a joint bid for Mobile Satellite Services spectrum in Europe. The initiative would use BlueBird satellites and dedicated European ground infrastructure to extend mobile coverage, including in remote areas. For Vodafone Group, participation in a coordinated Mobile Satellite Services spectrum effort highlights management focus on network reach, service..."
+      },
+      {
+        "headline": "Intuitive Machines Is Down 27% in October: Stay the Course, or Just Stay Away?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fa82d90c8c5ecae4992f54c07e318572dcaabbeb19fc72935dfbfb3e81b33e54",
+        "datetime": 1793386647,
+        "summary": "LUNR stock has shed more than a quarter of its value this month alone, and the bears and bulls each have a compelling case. Before the next earnings report forces the question, here is what each side needs to prove."
       }
     ],
     "IREN": [
       {
-        "headline": "Reported Earlier, Twenty One Completes Business Combination With Cantor Equity Partners And Lists On NYSE Under \"XXI\" With Over 43,500 Bitcoin",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ee5b6dedb2c30a15e78bc2f876dfff46d591e1851ff5a4d5fa036e3698960524",
-        "datetime": 1793357663,
-        "summary": ""
-      },
-      {
-        "headline": "B. Riley Securities Maintains Buy on IREN, Lowers Price Target to $64",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a28fe03b399fc7650dd4f56a187ccf52b92f35238db30132f32797519727c3ee",
-        "datetime": 1793351872,
-        "summary": "B. Riley Securities  analyst Lucas Pipes   maintains IREN (NASDAQ:IREN) with a Buy and lowers the price target from $91 to $64."
-      },
-      {
-        "headline": "Netflix 'Can't Lift,' Jim Cramer Says: It Lost Its Biggest Selling Point",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=79efeea94b3c0972b40629676e1e67b7a5ba819f5f3a1fdd7e9600e8ab8cc4d3",
-        "datetime": 1793346364,
-        "summary": "Jim Cramer advised selling AMC, rejected ASTS and IREN, and criticized Netflix\u2019s streaming discoverability problem."
-      },
-      {
-        "headline": "IREN Limited: A Strong Buy As AI Capacity Builds Toward Higher Future Earnings",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3dcb0c252afbb065021a90d754c082ed9cda2419a578943d87c4f1d3e6ddcde7",
-        "datetime": 1793331820,
-        "summary": "IREN Ltd. is building capacity that could change its earnings potential extremely over the next 2-4 years. Read why IREN stock is a strong buy."
-      },
-      {
-        "headline": "3 AI Stocks to Buy and Hold Through 2030",
+        "headline": "Nvidia, Costco and 10 More Issuers Opt Out of ICE and OKX\u2019s Tokenized Stock Venue",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b16893298e443ccd952a370e2f5d811a14d9e46cd8596768f3f9424f93cc208c",
-        "datetime": 1793292600,
-        "summary": "Morgan Stanley expects data center investment to stretch into the trillions in the next few years -- and these three stocks stand to benefit."
+        "url": "https://finnhub.io/api/news?id=d2b86b2bee10efb041a762b0f9b1ec90fbf3f152b3813bb7fc086d05003144ca",
+        "datetime": 1793611805,
+        "summary": "The venue\u2019s Oct. 30 notice lists 50 objecting companies, up from 38 two days earlier, and still gives no date for trading to start."
+      },
+      {
+        "headline": "Why Did RDDT, IREN, MBLY Stocks Tumble To 52-Week Lows Last Week?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1af53597b4e267120ab896c0c2f7bf166346f2ddc70c517dd74384fd9292d83f",
+        "datetime": 1793592030,
+        "summary": "Investors were worried about growth in social media, data centers and self-driving technology."
+      },
+      {
+        "headline": "Elon Musk\u2019s Net Worth Takes a Hit as SpaceX Stock Dips on AI Bubble Jitters",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=fb10279cf0540e676e2157ea502c0e322ede26dd0e9c13765c81735f0bede544",
+        "datetime": 1793548762,
+        "summary": "Elon Musk&#39;s net worth has taken a hit, falling to $865 billion, driven by the ongoing AI buble fears that have affected SpaceX stock"
+      },
+      {
+        "headline": "IREN And IRE: Demand Is Exploding, Yet Questions Remain",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a6d1db05de35affb92cae40078da013c2fd48c1bf49296a99a9884acaa69a872",
+        "datetime": 1793520000,
+        "summary": "Strong compute demand and Microsoft partnership support IREN's long-term prospects. Check out IREN stock's near-term risks and why it is rated a Hold."
+      },
+      {
+        "headline": "B. Riley\u2019s $64 Target Says IREN\u2019s Selloff Went Too Far",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=df0d2d9963143be3e44be61a0d0f60eaacfaf5f19494304c709e8702ffe5a036",
+        "datetime": 1793392706,
+        "summary": "Key TakeawaysB. Riley cut its IREN price target to $64 from $91 on Oct."
       }
     ],
     "CRSP": [
+      {
+        "headline": "CRISPR Therapeutics Announces the Appointment of Siva Sakhamuri, Ph.D., as Chief Technical Officer",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5e61ebdaa4918221e83735c0d6de559cf226f35b2f6b65628d2f59e6b48e54e3",
+        "datetime": 1793624400,
+        "summary": "ZUG, Switzerland and BOSTON, Nov. 02, 2026 (GLOBE NEWSWIRE) -- CRISPR Therapeutics (Nasdaq: CRSP), today announced the appointment of Sivakesava (Siva) Sakhamuri, Ph.D., as Chief Technical Officer, effective immediately. Dr. Sakhamuri brings about 30 years of technical operations and manufacturing leadership experience across biologics, vaccines, oligonucleotides, RNA therapeutics and lipid nanoparticle (LNP) delivery. \u201cSiva has tremendous experience advancing novel therapies across various moda"
+      },
+      {
+        "headline": "Here's Why CRISPR Therapeutics AG (CRSP) Fell More Than Broader Market",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=36447f286eb303b8c7e48335af92059f1e81a4fb4fa46f62b291c99e119c1dd0",
+        "datetime": 1793393401,
+        "summary": "CRISPR Therapeutics AG (CRSP) closed the most recent trading day at $51.36, moving 5.34% from the previous trading session."
+      },
+      {
+        "headline": "Fidelity\u2019s Health Care ETF Holds the Biotechs XLV Skips. Retirees Should Know the Difference",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc62193d7d9230c635c94bf20de2a11abae9a6e96af55672712df534cf65ae68",
+        "datetime": 1793375243,
+        "summary": "Two health care ETFs track the same sector but own very different slices of it, and for retirees building a portfolio, that gap in biotech exposure and concentration could matter more than the nearly identical returns suggest."
+      },
+      {
+        "headline": "3 Promising Genomics Stocks to Add to Your Portfolio Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7e0d77d9077fa198312dfe252edf6712b2cd4948b461404eeb5ef2ceaa596263",
+        "datetime": 1793365740,
+        "summary": "Genomics and synthetic biology are transforming healthcare through precision medicine and gene editing, putting ILMN, QURE and TXG in focus as the markets expand."
+      },
       {
         "headline": "Vertex Gears Up to Report Q3 Earnings: Is a Beat in the Cards?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=70e62b90da2305d915aaeaffadc77c94587c3ff55459331078ba1baa93e20e3a",
         "datetime": 1793110500,
         "summary": "VRTX is poised for a Q3 earnings beat as strong demand for Trikafta, Alyftrek's growth and rising Casgevy and Journavx sales drive expectations."
-      },
-      {
-        "headline": "Learn Why The Bull Case For CRISPR Therapeutics Stock Could Change Following CFO Change",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d6e6e6a638f01c8b441f8303bcd5c5fb7a13e50b4f36c0e1733c40bfe2b21b0",
-        "datetime": 1792919439,
-        "summary": "CRISPR Therapeutics appointed Andrew J. Silver as Chief Financial Officer and principal financial officer on October 19, 2026, following his tenure as Senior Vice President of Finance and a prior decade in assurance services at Ernst & Young. The shift from Raju Prasad to an internally developed finance leader comes as CRISPR Therapeutics faces changing earnings projections and ongoing investment in its gene based medicine pipeline. The focus now turns to how this CFO transition reshapes..."
-      },
-      {
-        "headline": "CRISPR Therapeutics (CRSP) Promotes Andrew Silver To CFO As Raju Prasad Resigns",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=97cd9135b95b04506f1f74474d26dd76f7fdd298691619d7a3d18f6436f40742",
-        "datetime": 1792915928,
-        "summary": "CRISPR Therapeutics (NasdaqGM:CRSP) has promoted Andrew J. Silver to Chief Financial Officer, effective October 19, 2026. Outgoing CFO Raju Prasad, Ph.D., has resigned from his role, also effective October 19, 2026. Silver steps into the finance chief role after serving within CRISPR Therapeutics, bringing internal experience to the transition. The CFO handover from Raju Prasad to Andrew J. Silver is only one piece of CRISPR Therapeutics' broader story today. Check out 2 other big wins that..."
-      },
-      {
-        "headline": "Forget Casgevy: CRISPR Therapeutics' Heart-Disease Data Could Matter More",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4eaf0acb3316447083c94261a89a31b2ccf18e13aba019c2cc4b936fea495114",
-        "datetime": 1792880400,
-        "summary": "The company's gene-editing-focused platform looks promising."
-      },
-      {
-        "headline": "Investors Heavily Search CRISPR Therapeutics AG (CRSP): Here is What You Need to Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=322e4d16bd390cdaec638a3d4e7bcdb926a315c00feafeecbaec885517d1c103",
-        "datetime": 1792756802,
-        "summary": "Recently, Zacks.com users have been paying close attention to CRISPR Therapeutics (CRSP). This makes it worthwhile to examine what the stock has in store."
       }
     ],
     "CAVA": [
+      {
+        "headline": "Cava and e.l.f. Beauty: Two Consumer Stocks, One Better Buy",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=04d57d20a8333eebee162b3d8b9a1b1b62dcd5b44730aadbd5749da22dd4ce24",
+        "datetime": 1793532002,
+        "summary": "Both are growth stocks, but one stands out more as the better long-term opportunity."
+      },
       {
         "headline": "Ahead of Cava (CAVA) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
         "source": "Yahoo",
@@ -221,87 +228,80 @@
         "url": "https://finnhub.io/api/news?id=137e1066a88092102e24224894ca1c390208f5b6e635a0f163c41f3ab002a4bc",
         "datetime": 1793287338,
         "summary": "Key TakeawaysChipotle jumped about 8% after a third straight quarter of transaction growth, despite an earnings miss. Lower-income diners led the gain, which matters more than the miss."
-      },
-      {
-        "headline": "Jersey Mike's Subs Shares Open For Trade At $21 Per Share",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2ba734184d782541d1c86d0505e30b153806557b163e34e0b4edb7cfde3c1de0",
-        "datetime": 1793279235,
-        "summary": ""
       }
     ],
     "MELI": [
       {
-        "headline": "Nu Holdings Slides After Brazil's Election: Is the Sell-Off Overdone?",
+        "headline": "Can MELI's Cross-Platform Users Unlock Outsized Profit Growth?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=45a5cf04281e46b3bceba1f83a187579cb7425ecae61606ad7327043929bf58b",
-        "datetime": 1793374800,
-        "summary": "Nu Holdings shares plunge 20.5% following Brazil's election despite strong revenue growth. Can its operating momentum offset credit and currency risks?"
+        "url": "https://finnhub.io/api/news?id=aff0f2e68d0b170d5c170d682bfdcb7fe7087d2ef77efd76b3663135835902e9",
+        "datetime": 1793634720,
+        "summary": "MercadoLibre's cross-platform users drive higher engagement and profit potential, but can its integrated commerce-fintech ecosystem overcome margin pressures?"
       },
       {
-        "headline": "Burry Says This \u201cMall Dinosaur\u201d Has \u201cA Physical Moat\u201d That Is \u201cHard For Wall Street To Understand\u201d",
+        "headline": "3 Stocks That Will Move the Market This Week",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3ded821ef790931add69b7b7b0d65f04705cbde126eec68cc82491b90b77af18",
-        "datetime": 1793370272,
-        "summary": "Michael Burry just took a 6% position in a heavily shorted mall retailer that Wall Street has written off as a relic, and his argument for why the bears are completely wrong centers on a competitive advantage most analysts cannot even see."
+        "url": "https://finnhub.io/api/news?id=e309723bf1d57f73cfe63bc7f03c0086539a1a78ceecb59c0fe87b353bf08f06",
+        "datetime": 1793618820,
+        "summary": "Three critical earnings reports will dictate the market's direction in the first week of November."
       },
       {
-        "headline": "Stocktwits Wall Street Wrap \u2014 Tesla, Broadcom, MercadoLibre Get Bullish Calls As Alphabet, Enphase Face Downgrades",
+        "headline": "Stocktwits Retail Therapy: Defensive Bets Extend Streak As Crocs, Wingstop, Carvana Lead Weekly Consumer Gains",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d",
-        "datetime": 1793350846,
-        "summary": "This week's analyst moves highlighted select technology and e-commerce companies gaining confidence while solar, search advertising and appliance businesses faced growing investor concerns."
+        "url": "https://finnhub.io/api/news?id=cc9e5547fd941735c59050239e9c937e9b6aa3c8fffb358de82339594d9c796a",
+        "datetime": 1793607880,
+        "summary": "Consumer staples and discretionary ETFs posted weekly gains despite broader market weakness, boosted by earnings and raised outlooks."
       },
       {
-        "headline": "Michael Burry Portfolio: Top 5 Stock Picks",
+        "headline": "MercadoLibre Fintech Chief Is \u201cNot Seeing Any Deceleration or Deterioration\u201d in Brazil Credit. November 4 Will Tell",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8d50f4458c1f6f4192950894467a587f71159bbceb6c9a887201b3a1ed017c66",
-        "datetime": 1793299421,
-        "summary": "Michael Burry always gets attention with his stock picks and market calls. He became famous for betting against subprime mortgages before the 2008 crisis, and his fund Scion Capital reportedly returned over 480% from November 2000 to June 2008. Burry closed his later fund, Scion Asset Management, in November 2025. He now shares his trades [\u2026]"
+        "url": "https://finnhub.io/api/news?id=c659af58214ce749ffdfe49c4843799aa7105257639757c246af4bfca4459943",
+        "datetime": 1793575601,
+        "summary": "Key TakeawaysMercadoLibre fell 14% over three months to $1,625, with the steepest drop coming after Lula\u2019s surprise runoff win sent Brazilian assets lower on October 26. Brazil supplied 52."
       },
       {
-        "headline": "MercadoLibre, Inc. to Report Third Quarter 2026 Financial Results",
+        "headline": "MercadoLibre and Dutch Bros Have Fallen More Than 30% From Their Record Highs. Here's Why Both Are Worth Buying Now.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=07420e737b6383f91a8a507a16beed4d9ec28368c4db73bd5c7b01bb8d259cba",
-        "datetime": 1793283960,
-        "summary": "MONTEVIDEO, Uruguay, October 29, 2026--MercadoLibre, Inc. (Nasdaq: MELI) (http://www.mercadolibre.com) announces that it intends to release financial results for its third fiscal quarter ending September 30, 2026, on November 4, 2026."
+        "url": "https://finnhub.io/api/news?id=f355da3dd38a443fa7477d2156107ed2a09230869a66b1c0ebe2dac809f7080b",
+        "datetime": 1793530200,
+        "summary": "These top stocks have near-term pressure but long-term opportunity."
       }
     ],
     "OKLO": [
       {
-        "headline": "NuScale Power Rises 7% on Doosan Manufacturing Deal; Oklo and BWX Technologies Trail",
+        "headline": "NuScale Just Dropped 39% in a Month, Oklo 33%. Is It Time to Sell, or Load Up?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f8821b323d6a9cb08d2c83879711a163ef163a4b2945dc75fba1453595fb4011",
-        "datetime": 1793293894,
-        "summary": "NuScale just signed a South Korean manufacturing deal that moves its reactor from blueprint to physical hardware, but the company still has no paying customer for a single module. Here is what that tension means for investors watching the small modular reactor race."
+        "url": "https://finnhub.io/api/news?id=433f625fa981d387ebe316dc17b7af3cb74affa74d1fb44e8cac74ee21668577",
+        "datetime": 1793561419,
+        "summary": "Key TakeawaysNuScale Power (SMR) fell 39% in the month through October 22, closing at $5. 38, while Oklo (OKLO) declined 33% and the Nasdaq 100 lost 6%."
       },
       {
-        "headline": "NuScale Jumps 7% on Doosan Contract \u201cConverting Our Approved Design Into Deliverable Modules\u201d",
+        "headline": "NextEra Energy Heads These 3 Nuclear Stocks To Watch",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=238cbb3466f8840a0d3fca33b673a55144360f9545bcacbe3a82fdabcd030b56",
-        "datetime": 1793290463,
-        "summary": "Key TakeawaysNuScale Power stock rose 7% today after it hired Doosan Enerbility to build the first upper reactor coolant system for its power module, outpacing Oklo and BWX Technologies. The contract starts turning NuScale\u2019s NRC-approved design into hardware."
+        "url": "https://finnhub.io/api/news?id=3b99d146a00f089651a2e7b367b1d961b39361abb860d1e90afd35c1c5ae7e4b",
+        "datetime": 1793535111,
+        "summary": "South Korea\u2019s exports nearly doubled in October, with semiconductor shipments playing a big role. That surge highlights how hungry the world is for reliable electricity to feed energy intensive computing, data centers, and AI. Nuclear power sits right in that conversation as a steady, low carbon source of baseload power. In this article you will see three nuclear focused stocks from our screener that help target that theme. The three stocks highlighted here offer a compelling starting point..."
       },
       {
-        "headline": "Nuclear Power Is Back, But Only a Few Stocks Have Customers Signed",
+        "headline": "Nuclear Stocks Have Crashed 35% to 88% From Their Highs. Here's What $1,000 in Each of These 5 Could Be Worth by 2030.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f28a1555764c80961c3c484bbaba68869c791bdecc50c4d11af62bdfd0f60998",
-        "datetime": 1793254800,
-        "summary": "Eight nuclear stocks are in the spotlight, but contracts, licenses, and valuations separate established suppliers from early-stage developers."
+        "url": "https://finnhub.io/api/news?id=df2733b85996473e4277c5417adc06eacdd7aa921fbd37e5ebcca6f4f014142e",
+        "datetime": 1793531100,
+        "summary": "Building industrial power for artificial intelligence is going to require nuclear energy, and these stocks may be able to deliver it."
       },
       {
-        "headline": "OKLO Vs SMR: How Two Battered Nuclear Stocks Stack Up Before Q3 Earnings",
+        "headline": "Oklo Is 86% Below Its All-Time High. Should You Buy at $27 or Wait?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db2250e5acf8e9eeea8a529204875910005473207cc5c8ec3a614c18a0213b13",
-        "datetime": 1793247823,
-        "summary": "NuScale Power stock is up more than 5% this week, overtaking Oklo stock\u2019s gains of about 3%."
+        "url": "https://finnhub.io/api/news?id=ccc5bf12437f46660e14febf551e01144bcde95222d3217e25dd3ad3ba411b10",
+        "datetime": 1793457960,
+        "summary": "Oklo has fallen hard from its all-time high of $194. Could today's price of $27 imply immense upside?"
       },
       {
-        "headline": "NextEra Energy And 2 Other Nuclear Power Stocks To Watch",
+        "headline": "Not Oklo. Not NuScale. The Army Picked This Nuclear Stock to Power Fort Campbell.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7bbd6f4fda6e258763165d40ebaa035d4b30e31667fd4973b1a765925edd9bde",
-        "datetime": 1793239928,
-        "summary": "Oil refineries have become direct targets in current conflicts, and that puts long term pressure on fuel supplies and energy security. When liquid fuels look fragile, steady nuclear power starts to feel much more valuable. That shift in perception is where opportunity often appears first. This article walks through three nuclear energy stocks from our US-focused screener that could deserve a closer look. The three stocks highlighted here offer a compelling starting point if you want exposure..."
+        "url": "https://finnhub.io/api/news?id=5277bfa9203be35f05be83ab3188d4aa8de780ba381a254f71fd77287ea17fb8",
+        "datetime": 1793391900,
+        "summary": "BWXT brings an established nuclear business to the Army's microreactor program."
       }
     ]
   }
