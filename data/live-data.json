@@ -1,162 +1,183 @@
 {
-  "generatedAt": "2026-11-10T20:27:52.836584+00:00",
+  "generatedAt": "2026-11-11T20:11:53.165192+00:00",
   "quotes": {
     "RKLB": {
-      "current": 60.84,
-      "changePct": 3.3639,
-      "change": 1.98,
-      "previousClose": 58.86
+      "current": 65.84,
+      "changePct": 4.9912,
+      "change": 3.13,
+      "previousClose": 62.71
     },
     "ASTS": {
-      "current": 33.53,
-      "changePct": -9.1082,
-      "change": -3.36,
-      "previousClose": 36.89
+      "current": 35.84,
+      "changePct": 6.3817,
+      "change": 2.15,
+      "previousClose": 33.69
     },
     "IREN": {
-      "current": 19.59,
-      "changePct": -8.5007,
-      "change": -1.82,
-      "previousClose": 21.41
+      "current": 20.96,
+      "changePct": 6.2342,
+      "change": 1.23,
+      "previousClose": 19.73
     },
     "CRSP": {
-      "current": 45.26,
-      "changePct": -9.5524,
-      "change": -4.78,
-      "previousClose": 50.04
+      "current": 45.34,
+      "changePct": 0.4208,
+      "change": 0.19,
+      "previousClose": 45.15
     },
     "CAVA": {
-      "current": 60.5,
-      "changePct": -2.9671,
-      "change": -1.85,
-      "previousClose": 62.35
+      "current": 60.09,
+      "changePct": -0.4968,
+      "change": -0.3,
+      "previousClose": 60.39
     },
     "MELI": {
-      "current": 1485.17,
-      "changePct": -3.0998,
-      "change": -47.51,
-      "previousClose": 1532.68
+      "current": 1505.91,
+      "changePct": 1.0515,
+      "change": 15.67,
+      "previousClose": 1490.24
     },
     "OKLO": {
-      "current": 25.16,
-      "changePct": -6.2593,
-      "change": -1.68,
-      "previousClose": 26.84
+      "current": 25.91,
+      "changePct": 3.2682,
+      "change": 0.82,
+      "previousClose": 25.09
     }
   },
   "news": {
     "RKLB": [
       {
-        "headline": "Space stocks Rocket Lab, AST SpaceMobile on the move following earnings, operational updates",
+        "headline": "Rocket Lab Long-Term Trajectory Intact Amid Higher Neutron Pricing, Backlog Expansion, Morgan Stanley Says",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8902779d5098de4c579140a79232d6164914abfdfb6d77598d2eb6a24631983b",
-        "datetime": 1794333204,
-        "summary": "Space sector stocks Rocket Lab and AST SpaceMobile are on the move, with earnings and big operational news the drivers."
+        "url": "https://finnhub.io/api/news?id=5ce3a7200167e0ffdd46f34a4d2d85a73239c007a7945821ed64079cc623bd09",
+        "datetime": 1794418302,
+        "summary": "Rocket Lab's (RKLB) long-term growth prospects are supported by increased launch pricing for its Neu"
       },
       {
-        "headline": "Stock Market Midday, Nov. 10: Stocks Slide on Hot Inflation Data",
+        "headline": "RKLB Q3 Earnings Call Highlights Neutron Demand and Launch Delays",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1597d240a349a64fcfcc0b4cd8162d918dfc350ebefc66c13dba1cda1aa58748",
-        "datetime": 1794332420,
-        "summary": "Growth and tech shares are leading the intraday slide as traders weigh a hotter-than-expected inflation report today, Nov. 10, 2026."
+        "url": "https://finnhub.io/api/news?id=aa1d6dc868e8d26da2511e75495d6a9ee396fff5b3aac6104c4b0c19d681c749",
+        "datetime": 1794413280,
+        "summary": "Rocket Lab's Q3 revenues surged 73% and beat estimates, but a wider-than-expected loss and Neutron's delayed launch spotlight execution challenges."
       },
       {
-        "headline": "Rocket Lab earnings: what to look for from RKLB",
+        "headline": "Rocket Lab's Neutron Commercialization Path Outweighs Q3 Margin Noise, Morgan Stanley Says",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7fae8ecf7e0005bec2cdd09bc7e12d51f239115d488dcb58daf1d0571771d0c4",
-        "datetime": 1794330576,
-        "summary": "Aerospace and defense company Rocket Lab (NASDAQ:RKLB) will be announcing earnings results this Monday afternoon. Here\u2019s what to look for."
+        "url": "https://finnhub.io/api/news?id=6fa7b1e41fd1b470729e16c57daa9e12cc3367d374ca090c2257ffc41ed51c50",
+        "datetime": 1794411842,
+        "summary": "Rocket Lab's (RKLB) long-term drivers, including the clearer path to the commercialization of its Ne"
       },
       {
-        "headline": "Rocket Lab (RKLB) Q3 2026 Earnings Call Transcript",
+        "headline": "Rocket Lab CEO Peter Beck Says 'Critical Minerals' Remain 'a Challenge for a Number of Industries' While Trump Pushes Greenland Exploration",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=baea65304c3844978e8f8b7283c31d28a2e279ca472cf2cba750e0aa4ea1ebd4",
-        "datetime": 1794326381,
-        "summary": "Neutron pricing rises as the Iridium deal moves forward."
+        "url": "https://finnhub.io/api/news?id=65192b061d476260ee552541e7480f442284817777dd21b71c7a9f0fad423e64",
+        "datetime": 1794411008,
+        "summary": "Rocket Lab USA Inc. controls much of its supply chain, but CEO Peter Beck said that critical minerals remain a challenge for many industries, as President Donald Trump pushes mineral exploration in Greenland. Raw Materials, Not Parts, Are the Concern..."
       },
       {
-        "headline": "AST SpaceMobile Sinks 8% on Q3 Miss as BofA Slashes Target to $45 Over Rocket Risk",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8a6538867bdf846145157ddb23a42aa8b796f9de8cb75f57ee832b1551bda403",
-        "datetime": 1794325995,
-        "summary": "Key TakeawaysAST SpaceMobile fell 8% today on a third-quarter miss and BofA\u2019s price target cut to $45 from $80. Revenue nearly tripled to $42."
+        "headline": "Rocket Lab: Liftoff Before The Launch",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=9764305407e639d110b731d03ca235aa0448ceae1b885ff15e306f6e3870075c",
+        "datetime": 1794401268,
+        "summary": "Rocket Lab Corporation is a Strong Buy, despite Neutron's launch delay to 2027 and recent share price volatility. Discover more about RKLB in this update."
       }
     ],
     "ASTS": [
       {
-        "headline": "IonQ Shares Fall With Space Stocks: What's Going On?",
+        "headline": "Firefly Aerospace CEO Says Rocket Demand Is Outstripping Supply: 'More Customers Than We Have Rockets'",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=334168125c0330d0d0904346a0700618c8db4b3fe7788a3a08db1e0c26e04b45",
-        "datetime": 1794306814,
-        "summary": "IonQ is trading lower Tuesday along with space stocks, including Rocket Lab and AST SpaceMobile, which fell after reporting Q3 results."
+        "url": "https://finnhub.io/api/news?id=58f21cf78bd189174a843a924ce76e4bd0952cf13f09f444883cbdd86c49105d",
+        "datetime": 1794381614,
+        "summary": "Firefly Aerospace stock rose premarket after Q3 revenue surged 259% to $110.7M, beating estimates and lifting its 2026 sales forecast."
       },
       {
-        "headline": "Rocket Lab: The Market Is Wrong",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=886093c17eb1a71bad69cd9d90e45c17aecdc31b68e62bb6f557b3af1979223e",
-        "datetime": 1794303103,
-        "summary": "Rocket Lab delivered strong Q3 revenue growth and backlog expansion, but shares fell due to Neutron launch uncertainty and a sector-wide tech selloff. Learn more about RKLB stock here."
-      },
-      {
-        "headline": "What's Going On With AST SpaceMobile Shares Tuesday?",
+        "headline": "SpaceX Scores Key FCC Breakthrough in $8 Billion Spectrum Deal: Starlink Moves Closer to Nationwide 5G Push",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2d3097c00fe9d5978bf6dad5df328e768d251be0db9c7a5e9ef16ccc1571b105",
-        "datetime": 1794302859,
-        "summary": "AST SpaceMobile Inc. (NASDAQ: ASTS) shares are trading lower Tuesday after the company reported worse-than-expected Q3 results late Monday."
+        "url": "https://finnhub.io/api/news?id=2b81effaccbd7dac182cfc9158fd1d1ac2e627e18e72e58334e2dcc045d61170",
+        "datetime": 1794379836,
+        "summary": "FCC accepts SpaceX\u2019s application to acquire 546 Grain Management 800 MHz licenses covering nearly all U.S. residents."
       },
       {
-        "headline": "AST SpaceMobile (ASTS) Secures Up To $1 Billion For Japan Satellite Venture",
+        "headline": "ASTS Stock Jumps Overnight: Analyst Estimates $50M Each For 3 Early BlueBirds \u2014 Retail Bulls Defend Spending",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c8593ec39e86e19d3728bc8c5952bf8d1b2329ce6a652a2e763f79b78106a133",
-        "datetime": 1794301793,
-        "summary": "AST SpaceMobile (NasdaqGS:ASTS) and Rakuten agreed to form a joint venture to build a direct to device satellite network in Japan. The venture plans a dedicated mid band satellite constellation aimed at serving commercial smartphones and emergency connectivity nationwide. The project is supported by up to $1b in funding from the Japanese government, according to the announcement. This Japan sovereign direct to device venture with Rakuten sits alongside wider themes that recent research on..."
+        "url": "https://finnhub.io/api/news?id=81bcead1cd437c62cbbd68fdd76af1ad232a5bca6ec6ded988886254271f254b",
+        "datetime": 1794374048,
+        "summary": "AST expects materials and launch costs to average $21 million to $23 million per satellite across more than 90 Block 2 BlueBirds."
       },
       {
-        "headline": "AST SpaceMobile Q3: Too Many Execution Risks",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=43d951b6f07f21c5d59633a771100b0326bd27a7ce8553426dcd3b08bcb763fc",
-        "datetime": 1794301725,
-        "summary": "AST SpaceMobile is a Hold as $4.1B in net long-term debt and capex heighten execution risks; FY26 revenue guidance is $150M-$200M. Click for this ASTS update."
+        "headline": "AST SpaceMobile: 3 Key Takeaways for Long-Term Investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2663f13281cc3e51392c4988a8a156359722ac50713296e9f84322cf02cbe3fb",
+        "datetime": 1794372247,
+        "summary": "Its custom ASIC chip pulls a tenfold capacity gain forward to satellite 34, a shift that matters more to long-term holders than the launch timeline alone."
+      },
+      {
+        "headline": "What Firefly Aerospace (FLY) Said on Its Q3 Earnings Call",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cbad7390ac49d2057b45dc0de9844faa00b523237cc62d72fb7043d5e6a8008c",
+        "datetime": 1794363281,
+        "summary": "Firefly Aerospace (NASDAQ:FLY) raised the low end of its 2026 revenue forecast after reporting a third-quarter revenue increase of 259%, while outlining a more than $1.3 billion engine technology agreement with AST SpaceMobile and pushing its next Alpha rocket launch into early 2027. The space and"
       }
     ],
     "IREN": [
       {
-        "headline": "IREN Limited: A Long AI Winter Is Coming (Rating Downgrade)",
+        "headline": "Wall Street Lunch: Cancer Could Become History Thanks To AI, Says Anthropic CEO",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3aad5c00c90a648cdea170e863a65b266f1db1cd4e58d24f5aabb518855ec54f",
-        "datetime": 1794295800,
-        "summary": "IREN Limited's AI cloud backlog and revenue growth are overshadowed by negative free cash flow. Check out why IREN stock is downgraded to a hold."
+        "url": "https://finnhub.io/api/news?id=7ce38b72d746884b4d2c28f1c8bea8dc952b56612e98949b60a38f2414f53a80",
+        "datetime": 1794400020,
+        "summary": "Anthropic (ANT) CEO Dario Amodei says widespread health issues such as cancer will vanish within a decade due to the wonders of artificial intelligence."
       },
       {
-        "headline": "CRWV Rallies Ahead Of Quarterly Report: Wells Fargo Calls CoreWeave \u2018Highest Quality\u2019 Firm Among Neocloud Peers, Sees Upside",
+        "headline": "CoreWeave: The Debt Question Finally Got An Answer",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a793329bf09b2014f5993caf2dc6bab93d83810a0c17f1e568d4a046dc2d1fb9",
+        "datetime": 1794393930,
+        "summary": "CoreWeave, Inc. delivered a strong Q3 '26, exceeding revenue and profitability guidance while addressing key financing concerns. Learn more about CRWV stock here."
+      },
+      {
+        "headline": "\u201cThat Stops When I\u2019m Governor\u201d: Cipher Digital and CleanSpark Sink Nearly 20% in a Week",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=27f9b966027aecf1d9158503adfb0b036cb8f95e4043c1d5c80d170af9f39aec",
-        "datetime": 1794290307,
-        "summary": "CoreWeave\u2019s report, followed by Nebius\u2019s, will give investors a clearer view of the neocloud sector amid a difficult stretch."
+        "url": "https://finnhub.io/api/news?id=475a2c35b322ec3a40b490e2f749c9f2b152bb5f6bbeaf553f6d44b4efbdc9ae",
+        "datetime": 1794365940,
+        "summary": "Key TakeawaysCipher Digital fell 20% in the week to Nov. 10, alongside CleanSpark and IREN, after Texas elected a governor who wants to pause new data centers."
       },
       {
-        "headline": "Jensen Huang Affair Could Have a Bigger Impact on America's AI Race Than Nvidia, Says Gene Munster: 'Both Democrats and Republicans Will Need to...'",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=c0b63f7703930936c84ba7b3ecdc67babe92cd1dd0f596e96ca7a12018ed9247",
-        "datetime": 1794271506,
-        "summary": "Munster said the Huang controversy highlights the need for the U.S. to accelerate AI data center construction."
-      },
-      {
-        "headline": "Could IREN Actually Climb 117%? Or Is Cantor Fitzgerald Totally Wrong?",
+        "headline": "CoreWeave Says Demand Is Outstripping Capacity \u2013 CFO Defends AI Expansion: \u2018Today\u2019s Environment Very Profitable\u2019 For Differentiated Technology",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d6e7d92ab893206e27f1a8e8456607a9fdb6b8ccd8edac7d455352317094b74",
-        "datetime": 1794258368,
-        "summary": "Key TakeawaysIREN stock is down 72% from its peak a year ago, and Cantor Fitzgerald cut its price target to $47 from $99 on Nov. 6 while keeping an Overweight rating."
+        "url": "https://finnhub.io/api/news?id=e92b3e59754aa36ed61fb3a230ea15eec4c49ed62a89c1806f6ef9e802720255",
+        "datetime": 1794364060,
+        "summary": "The neocloud operator reported a beat-and-raise quarter."
       },
       {
-        "headline": "Most Active Stocks: November 9, 2026 Session",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=ee8f852128226ea4eaefbca69ba4a11e2253a3e56631f7389ffb6d0f3d9e4e37",
-        "datetime": 1794250836,
-        "summary": "NVIDIA, Sable Offshore, Jiade and other US-listed names led most-active trading on November 9, 2026, with volume and price moves detailed."
+        "headline": "IREN Stock Falls Even as JPMorgan Goes Bullish",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70229c94320dfab579f3e78d2fd27770036829e988989668126da117d125fbd3",
+        "datetime": 1794350697,
+        "summary": "Shares in AI data center operator IREN Limited (IREN) fell about 4% to around $21 on Tuesday morning. This came even after four-star JPMorgan analyst Richard Choe assigned the stock a Buy rating. Choe is bullish on IREN\u2019s fiscal Q1 2027 earnings, which showed AI cloud revenue surged 182% quarter-over-quarter to $200 million. JPMorgan Backs IREN AI Cloud Growth, Strong Pricing According to Choe, IREN\u2019s delivery of the first phase of its four-part data center project with Microsoft (MSFT) helped t"
       }
     ],
     "CRSP": [
+      {
+        "headline": "Crispr Therapeutics: The Recent 40% Drop In Short Interest Indicates Deteriorating Bearish Sentiment",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=cb287d20f8f070ada369b4e144c3cc65ff4bbf004963f510213098a510ba3ad5",
+        "datetime": 1794322490,
+        "summary": "Crispr Therapeutics is rated a Buy, citing a strong balance sheet, derisked pipeline, and favorable risk/reward ratio. Discover more on CRSP in this article."
+      },
+      {
+        "headline": "CRISPR Therapeutics Highlights Substantial Lipid Reductions with Investigational Gene Editing Therapy",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=285ced66f54c9b3a35108b3fe749fb68fd543dfa517a00425529c5d974e24892",
+        "datetime": 1794322131,
+        "summary": "CRISPR Therapeutics reported Phase 1b data for CTX310, showing a 63% triglyceride drop and solid safety in severe hypertriglyceridemia."
+      },
+      {
+        "headline": "CRISPR Therapeutics to Present at the 2026 Jefferies Global Healthcare Conference",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f08d5d23af83272b5d36f740648b29569fb99b6b2d8c7e187d049ef6ce5b1406",
+        "datetime": 1794317400,
+        "summary": "ZUG, Switzerland and BOSTON, Nov. 10, 2026 (GLOBE NEWSWIRE) -- CRISPR Therapeutics (Nasdaq: CRSP) today announced that members of its senior management team will participate in a fireside chat at the 2026 Jefferies Global Healthcare Conference on Tuesday, November 17, 2026 at 10:00 a.m. GMT. A live webcast of the fireside chat will be available on the \u201cEvents & Presentations\u201d page in the Investors section of the Company\u2019s website at https://crisprtx.gcs-web.com/events. A replay of the webcast wi"
+      },
       {
         "headline": "3 Gene Editing Stocks Retail Investors Are Watching After BioAdvance",
         "source": "Yahoo",
@@ -170,30 +191,23 @@
         "url": "https://finnhub.io/api/news?id=0e3561af24adcd585cddd1e8c5efc128841ab6362eaa4a2f52ff9f910e667afe",
         "datetime": 1794258372,
         "summary": "Investing.com -- Five US-listed biotechs in the roughly $3.7B\u2013$7.7B market-cap range came out of the screen. Only two have a hard date in the sources found. The other three have news-driven or undated catalysts. Prices are as of Nov 9, 2026, 3:04 PM EST. Market caps come from screener snapshots and may lag live prices."
-      },
-      {
-        "headline": "CRISPR Therapeutics: I Love The Medical Breakthroughs, I Don't Love The Stock - Strong Sell",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=94eb4acc885a3ff343128d0d07f6c6a603ceeb929b866a52b2cbec52f4e8a4b2",
-        "datetime": 1794242876,
-        "summary": "CRISPR Therapeutics looks overvalued despite Casgevy sales growth."
-      },
-      {
-        "headline": "CRISPR Therapeutics Presents Phase 1b Data for CTX310\u00ae Demonstrating Reductions in ANGPTL3 and Triglycerides in Patients with Severe Hypertriglyceridemia at the American Heart Association (AHA) Scientific Sessions 2026",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2d3235d8545b0837b05c6de6d28dec426cd544d13abf6a6a407c7035099ade1c",
-        "datetime": 1794233760,
-        "summary": "-Data presented in a late-breaking oral presentation at AHA- -A single-course treatment with CTX310 produced a mean reduction from baseline of 65% in circulating ANGPTL3 and 63% in triglycerides (TG) at Day 30 in patients with severe hypertriglyceridemia (sHTG), who had a median baseline TG level above 1,000 mg/dL- -CTX310 was well tolerated, with no treatment-related serious adverse events and no clinically relevant elevations in liver transaminases- ZUG, Switzerland and BOSTON, Nov. 09, 2026 ("
-      },
-      {
-        "headline": "CRISPR Therapeutics Reports 65% ANGPTL3 And 63% Triglyceride Reductions With CTX310 In Phase 1b Trial For Severe Hypertriglyceridemia; Well Tolerated, With No Treatment-Related Serious Adverse Events And No Clinically Relevant Elevations In Liver Transaminases",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=1ba19fd2570707501612c51fca598c2a25a29913abf1d5fdbd905eb2010404c2",
-        "datetime": 1794219471,
-        "summary": "-Data presented in a late-breaking oral presentation at AHA--A single-course treatment with CTX310 produced a mean reduction from baseline of 65% in circulating ANGPTL3 and 63% in triglycerides (TG) at Day 30 in"
       }
     ],
     "CAVA": [
+      {
+        "headline": "Should You Approach Dutch Bros Stock With Caution After Q3 Results?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6e4332144c2cb88793096015a7b05b43442949a1123854c7c2766fdf1f393acb",
+        "datetime": 1794413520,
+        "summary": "Should BROS' strong Q3 beat be overshadowed by slowing customer traffic, rising operating costs, aggressive expansion and a premium valuation?"
+      },
+      {
+        "headline": "CAVA Group: High Valuation And Underwhelming Earnings Force A Downgrade",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c7cc1adce2a4479d15689648cf03304977d4c45e1fe588e85166d8b8e8919511",
+        "datetime": 1794374329,
+        "summary": "CAVA Group is downgraded from Buy to Hold due to valuation and recent earnings concerns. Read more on CAVA stock here."
+      },
       {
         "headline": "Cava vs. Chipotle Mexican Grill: Which Stock Is a Better Buy?",
         "source": "Yahoo",
@@ -214,94 +228,80 @@
         "url": "https://finnhub.io/api/news?id=c939e5b364d03c7dbc4ee7e6aff85f707302d3c033cd64d0e90b99e2b8fcedd3",
         "datetime": 1794233450,
         "summary": "CAVA Group has delivered a powerful share price run over the past few years, yet recent earnings headlines and a pullback in the stock have put the focus squarely on what investors are paying for its profits today. With enthusiasm around expansion set against operational bumps, the open question is whether the current market value lines up with the business\u2019s earnings power. Over the past 3 years the share price has gained 88.6%, which puts a lot of weight on the idea that CAVA Group\u2019s..."
-      },
-      {
-        "headline": "Mizuho Maintains Neutral on Cava Group, Lowers Price Target to $54",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=30451af2538cdd202ca4c887154fd4d11bc31fe177fb5aa3d6270d6a85f43ff8",
-        "datetime": 1794233079,
-        "summary": "Mizuho  analyst Nick Setyan   maintains Cava Group (NYSE:CAVA) with a Neutral and lowers the price target from $56 to $54."
-      },
-      {
-        "headline": "Is 500th Restaurant Opening Altering The Investment Case For CAVA (CAVA)?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=acc1f174fd5f21ec3b0e701b53e36de5298852ea7737021e95fd931948ba79c4",
-        "datetime": 1794229899,
-        "summary": "CAVA Group reported third quarter 2026 sales of US$356.44 million with net income of US$13.2 million, while total CAVA restaurants reached 500 after 24 net new openings in the period. The chain updated its 2026 guidance for 76 to 78 net new restaurant openings, reinforcing how rapid unit growth is driving CAVA\u2019s sales mix alongside modest same restaurant sales gains. We will look at how CAVA Group\u2019s expanding 500 restaurant footprint reshapes the investment narrative that was framed before..."
       }
     ],
     "MELI": [
       {
-        "headline": "MercadoLibre Declines 11.9% Since Q3 Earnings: How to Play MELI Stock",
+        "headline": "Michael Burry Has a Urgent Message for Nvidia Stock Investors",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4643486201083d37c624218b0835fecce1d170c4e8bffa5293e289e78689c2a8",
-        "datetime": 1794315240,
-        "summary": "MELI shares fall 11.9% since Q3 earnings as margin pressures overshadow robust commerce and fintech growth, while premium valuation warrants caution."
+        "url": "https://finnhub.io/api/news?id=e06258c0455f1616b3b28bc674dc4759c933f2db733a37a85e6640ef74670fc1",
+        "datetime": 1794417038,
+        "summary": "Michael Burry Sees a Short-Term Opportunity in Nvidia but Questions Its Future"
       },
       {
-        "headline": "Down 24% This Year, Is MercadoLibre (MELI) an Obvious Growth Stock to Buy in November?",
+        "headline": "MercadoLibre Keeps Sliding: Why Goldman Sachs Still Sees 41% Upside",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9991211ea5f04374c3561830d4ba40c65a74aa36db622f4846961078685a55a8",
-        "datetime": 1794314160,
-        "summary": "MercadoLibre has been a highly volatile stock, but it has significant growth potential."
+        "url": "https://finnhub.io/api/news?id=80131f8f3eee4da81f916a915ae44c342ad3e5270c400098e7b28a7d9d074e61",
+        "datetime": 1794416928,
+        "summary": "Key TakeawaysMercadoLibre stock has fallen 29% in a year, and Goldman Sachs cut its price target to $2,100 from $2,230 on Nov. 11 while keeping its Buy rating."
       },
       {
-        "headline": "Why MercadoLibre (MELI) Is Back In The Spotlight",
+        "headline": "Michael Burry Makes Surprising Call on Nvidia Stock",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7cf969948bcf9398848633709f3a42ae9ba7c0d499d8c78e07395b2ae3717801",
-        "datetime": 1794266308,
-        "summary": "Q3 results put MercadoLibre\u2019s earnings mix in focus MercadoLibre (MELI) just posted fresh third quarter numbers that give you plenty to chew on. Revenue for the period reached US$10.75b, while net income came in at US$448m. Across the first nine months of 2026, the business reported US$29.76b in sales and US$1.33b in profit. Earnings per share for the quarter were US$8.83 on both a basic and diluted basis. MercadoLibre\u2019s share price has fallen 21% over the past three months and is down 22.34%..."
+        "url": "https://finnhub.io/api/news?id=d1f96ffb67739b7e112c88238b3d170decd9c3760640648bb691dda9c5ab198b",
+        "datetime": 1794413173,
+        "summary": "A famous market bear sees opportunity beyond Wall Street's favorite trade."
       },
       {
-        "headline": "Tracking Baillie Gifford's 13F Portfolio - Q3 2026 Update",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=2fbdbfd0d19b4c1d915f31e77b02ab245f9002e2663568d6f2ee00b7802fddfa",
-        "datetime": 1794256765,
-        "summary": "Baillie Gifford's Q3 2026 13F portfolio decreased to ~$106B, with NVIDIA, Amazon, and SpaceX comprising ~21% of assets. Read more on the portfolio here."
+        "headline": "MercadoLibre Stock Fell 20% in a Month After Hitting a New 52-Week Low. Is the Selling Overdone?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=56749120db4e30458b73acb8058e310436791b7271a9f72511c968458ffa8dc4",
+        "datetime": 1794408483,
+        "summary": "Key TakeawaysMercadoLibre (MELI) stock fell approximately 20% from October 5 to November 10, closing at $1,490. 24 after reaching a new 52-week low on November 5."
       },
       {
-        "headline": "MercadoLibre Stock (MELI) Looks Attractive Even as Brazil Fears Mount",
+        "headline": "MercadoLibre Sinks 10% in a Week on a Profit Miss: \u201cWe Have Accepted a Lower Margin\u201d",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6350bccccded43dc7f2bba93d742f6bdfaf62b429fcb9cadb47e9d04ee191564",
-        "datetime": 1794254495,
-        "summary": "MercadoLibre (MELI) stock looks increasingly attractive to me as political tension in Brazil weighs on sentiment. The e-commerce and fintech giant has seen its shares get beaten down lately. Brazil\u2019s post-election jitters compounded the pressure from the broader growth-stock sell-off. Yet CFO Mart\u00edn de los Santos reminded us of the company\u2019s strength. He said, \u201cUsers are buying more often and entrusting more of their money to Mercado Pago.\u201d Indeed, revenue grew 45%, despite disappointing earning"
+        "url": "https://finnhub.io/api/news?id=deb780cc4cfface5ad76618c7117608cc50948da5a29a6c5ca3f7f073eab848f",
+        "datetime": 1794371794,
+        "summary": "Key TakeawaysMercadoLibre stock fell 10% in the week to Nov. 10 after third-quarter EPS came in at $8."
       }
     ],
     "OKLO": [
       {
-        "headline": "Oklo Average Price Target Decreased by 11.98% to $61.10",
-        "source": "Fintel",
-        "url": "https://finnhub.io/api/news?id=3cf5f7e328497ebb222ef4be3ab564325d4a72f30333f2aac71555efb03c22ba",
-        "datetime": 1794278012,
-        "summary": ""
+        "headline": "Oklo Receives U.S. Department Of Energy For Final Operations Hold Point At Its Groves Isotope Test Reactor, Allowing Move Into Research, Testing, And Training Phase",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=78a211834c15beb840b7bfe113cd25e933dda4c5c48644a3b58e1c2cb2ba0c0d",
+        "datetime": 1794386018,
+        "summary": "With the facility cleared for unrestricted operations, Oklo will test its capabilities relevant to future isotope reactors and Oklo\u2019s fast fission reactors, the Aurora powerhouse.Groves-1, under DOE authorization"
       },
       {
-        "headline": "OKLO Stock Is On Track To Reverse 6 Weeks Of Losses, But This Analyst Warns Nuclear Euphoria Is Fading",
+        "headline": "GE Vernova Falls 4% as SoftBank\u2019s Ohio Data Center Undergoes \u201cA Thorough Reassessment\u201d",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e55946f2f706c4b29dbc4cd7d032470a4a6486b47ae5174df8c05543dcb6558c",
-        "datetime": 1794273607,
-        "summary": "OKLO stock is headed higher on strong third-quarter earnings and a manufacturing agreement with U.S. Forged Rings to support the long-term deployment of its Aurora powerhouses."
+        "url": "https://finnhub.io/api/news?id=935af7772999bfda72f511a6c4fae4bf6dbdf2623a86a033858d57accbd434b3",
+        "datetime": 1794345450,
+        "summary": "Key TakeawaysGE Vernova fell 4% today after SoftBank booked a $3. 7 billion charge on power equipment for its US data center sites."
       },
       {
-        "headline": "Should You Buy Oklo Stock While It's Under $30?",
+        "headline": "These Nuclear Energy Stocks Are Top Of The Class For November 2026",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2720e2a63115c5b0c893e3e39e2064a0c6dbbc2bdc790fd23fc698497e6e00c8",
-        "datetime": 1794260042,
-        "summary": "The energy stock has been in free fall this year."
+        "url": "https://finnhub.io/api/news?id=a20ec829abbd494bbc1db1823b65adfc2b4117544bcbd5206a6af7a6000d89dd",
+        "datetime": 1794331001,
+        "summary": "China plans to spend about US$940b on low carbon power and grid upgrades in 2026, and nuclear energy sits right in that conversation about reliable electricity. Capital is chasing energy security plus lower emissions, which puts nuclear focused companies on many watchlists. This article walks through three stocks from a specialist nuclear power screener and shows how they could fit into a diversified portfolio theme around long term electricity demand. The three stocks highlighted here offer..."
       },
       {
-        "headline": "NuScale Is Still Down 61% in 2026: Did Today Mark the Bottom for SMR Stock?",
+        "headline": "Oklo Soars 14% in a Week on a Narrower Loss and a Deal for 27 Reactors\u2019 Worth of Forgings",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b6eba15b3eec185f562452539022ddbc4c78c634b66bdbe9a928bcbe44b35d4",
-        "datetime": 1794254546,
-        "summary": "NuScale holds the only NRC-certified small modular reactor design, yet its quarterly revenue just cratered and its share count keeps swelling. One unsigned deal with the Tennessee Valley Authority may decide which story wins."
+        "url": "https://finnhub.io/api/news?id=ee4daba3cd711da95f5e01162196019bfb9f35e226a38d515ab0682c69625a29",
+        "datetime": 1794317368,
+        "summary": "Key TakeawaysOklo stock rose 14% in the week to Nov. 9 on a narrower third-quarter loss and a forging deal for 27 reactors."
       },
       {
-        "headline": "Oklo Is Down 86% From Its High. Will Shares Soar When Meta's Reactor Comes Online?",
+        "headline": "Oklo Stock and Its Manufacturing Deal Have The Bull Case Changed?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b835181a780b4a47a8aca9e1b4e08700a15533f8291a548570808d26ebee3b02",
-        "datetime": 1794249780,
-        "summary": "SMR stocks are getting hammered alongside AI stocks."
+        "url": "https://finnhub.io/api/news?id=aeec4d52ae8d646465be8e4b01d3ab41683552ee224682dcd119787cecdd26fc",
+        "datetime": 1794312715,
+        "summary": "Oklo reported third quarter 2026 sales of US$1.86 million and a net loss of US$41.75 million, while also signing a long term manufacturing agreement with U.S. Forged Rings to secure domestic production capacity for large Aurora reactor components from 2030 through 2035. The manufacturing deal aims to lock in complex reactor vessel and structural component output at a single integrated North Carolina campus. This structure could reduce logistical friction and supply chain risk for Oklo as it..."
       }
     ]
   }
