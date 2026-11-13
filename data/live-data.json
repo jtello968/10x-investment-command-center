@@ -1,57 +1,115 @@
 {
-  "generatedAt": "2026-11-12T20:48:50.992458+00:00",
+  "generatedAt": "2026-11-13T20:29:16.506992+00:00",
   "quotes": {
     "RKLB": {
-      "current": 64.23,
-      "changePct": -2.9025,
-      "change": -1.92,
-      "previousClose": 66.15
+      "current": 61.62,
+      "changePct": -3.8239,
+      "change": -2.45,
+      "previousClose": 64.07
     },
     "ASTS": {
-      "current": 35.02,
-      "changePct": -4.3692,
-      "change": -1.6,
-      "previousClose": 36.62
+      "current": 32.54,
+      "changePct": -5.6812,
+      "change": -1.96,
+      "previousClose": 34.5
     },
     "IREN": {
-      "current": 19.15,
-      "changePct": -8.1094,
-      "change": -1.69,
-      "previousClose": 20.84
+      "current": 17.95,
+      "changePct": -7.8542,
+      "change": -1.53,
+      "previousClose": 19.48
     },
     "CRSP": {
-      "current": 42.65,
-      "changePct": -6.776,
-      "change": -3.1,
-      "previousClose": 45.75
+      "current": 42.46,
+      "changePct": -0.3754,
+      "change": -0.16,
+      "previousClose": 42.62
     },
     "CAVA": {
-      "current": 57.18,
-      "changePct": -4.3813,
-      "change": -2.62,
-      "previousClose": 59.8
+      "current": 58.01,
+      "changePct": 1.1508,
+      "change": 0.66,
+      "previousClose": 57.35
     },
     "MELI": {
-      "current": 1475.09,
-      "changePct": -2.4424,
-      "change": -36.93,
-      "previousClose": 1512.02
+      "current": 1489.89,
+      "changePct": 1.0033,
+      "change": 14.8,
+      "previousClose": 1475.09
     },
     "OKLO": {
-      "current": 24.71,
-      "changePct": -4.447,
-      "change": -1.15,
-      "previousClose": 25.86
+      "current": 23.73,
+      "changePct": -2.9448,
+      "change": -0.72,
+      "previousClose": 24.45
     }
   },
   "news": {
     "RKLB": [
       {
-        "headline": "Should I Buy Rocket Lab Stock Now?",
+        "headline": "AST SpaceMobile Sinks 6%, Rocket Lab Down 5% as Space Stocks Give Back a Stellar Week",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bb4d517e4a710a33e2e5b1453857124c24c3586e3f21cb8cbc4829661bbb525d",
-        "datetime": 1794498868,
-        "summary": "For questions about this article or underlying research, email help@trefis.com."
+        "url": "https://finnhub.io/api/news?id=a5a547d2ef97514cb655c193907126596b43342e7b1666e3684458ec4910c2ba",
+        "datetime": 1794591053,
+        "summary": "Key TakeawaysAST SpaceMobile fell 6% today with no company news, as Rocket Lab, Intuitive Machines and Firefly Aerospace slid on hot inflation data. Intuitive Machines fell almost as hard a day after a record quarter, so this looks like a sector pullback more than a verdict on AST."
+      },
+      {
+        "headline": "Intuitive Machines Falls 7% Despite Record Quarter as Space Stocks Slide; AST SpaceMobile Sinks 9%, Rocket Lab Drops 5%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=676a0f745ac8aa67a0791a795912a4e87d89c53ac9ac4497fa13735f9ba89a6c",
+        "datetime": 1794586047,
+        "summary": "Intuitive Machines just posted a record backlog and soaring revenue, yet its shares are sliding with the rest of the space sector. Behind the headline numbers sit one-time gains, a shrinking cash pile, and a lunar mission clock that investors are watching closely."
+      },
+      {
+        "headline": "SpaceX Drops More Than 13% Over 30 Days: This Wall Street Pro Projects 260% Gains Within 12 Months",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=de8957de366a619a530dfa95bcce818096e1374ab53c7abbbd3ccdb1968e4106",
+        "datetime": 1794584743,
+        "summary": "Washington politics and a chip selloff dragged SpaceX far below its peak while rival space stocks barely flinched. One bank still sees a Street-high target built on compute that does not exist yet. Is the fear justified or overdone?"
+      },
+      {
+        "headline": "Space Stocks Are Complex. York Sinks, AST and AT&T Make Historic Satellite Call.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7cf39b3b157f25d8f6b59f1b7d878616fc3d71475534c557d35f75e47140dfa5",
+        "datetime": 1794582000,
+        "summary": "York Space Systems stock sank after weaker-than-expected earnings."
+      },
+      {
+        "headline": "SpaceX's Starship Flight 15, Rocket Lab's Electron Ready For Milestone Missions",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=759d99e712d7b8a6a8bf92cd60250cde3a80222bf89bdfcb9f314d6b928d5fa6",
+        "datetime": 1794581948,
+        "summary": "SpaceX is hours away from its Starship Flight 15 launch, planning a double-catch for the Starship and booster. Rocket Lab preps for 100th Electron mission."
+      }
+    ],
+    "ASTS": [
+      {
+        "headline": "The Honeymoon Is Over Between Rocket Lab and Its Investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=34840ae46644d5388d8c7c10f2067332b383e70faf96715a319f1ffec51520d6",
+        "datetime": 1794522094,
+        "summary": "Rocket Lab (RKLB) may be losing some of its honeymoon appeal with investors, but I remain bullish on the company because of its strong management and expanding business. The rocket launch and space services provider saw its shares fall around 4% initially after reporting Q3 results, despite beating revenue estimates by $10.62 million. Sales reached $267.83 million, but higher-than-expected GAAP losses appear to have disappointed investors. That reaction points to a shift in expectations. Investo"
+      },
+      {
+        "headline": "3 Intriguing Stocks to Buy After Q3 Earnings Beats: FOSL, FLY, NYAX",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=380fddd7c37decc8b42a9fb1c165eed10db84f484648f91cd94321c5e73634d6",
+        "datetime": 1794516360,
+        "summary": "Fossil Group, Firefly Aerospace, and Nayax Limited crushed Q3 earnings expectations and provided upbeat revenue guidance, making them three intriguing stocks to consider."
+      },
+      {
+        "headline": "AST SpaceMobile Plans Its Own Rocket to Speed Satellite Launches and Cut Costs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=231433e868688ae4f9e84adf4c4c565a450790ff4a3e077540b8d08b03aeb281",
+        "datetime": 1794510892,
+        "summary": "AST SpaceMobile (NASDAQ:ASTS) plans to develop its own rocket to launch its BlueBird satellites, saying greater control over access to orbit will help it expand its space-based mobile broadband network more quickly. The launch vehicle, called Blacklift, is planned for late 2028 and is designed to c"
+      },
+      {
+        "headline": "Direct-to-Device (D2D) Market Size, Share and Trend Analysis - Global Forecast to 2036 | Revenue to Reach USD 14.95 Billion at 30.1% CAGR as LEO, Direct-to-Cell, and IoT Adoption Surges",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=27e8bc0f77c8cfba0946edafef3ecb4e71eb5cd0e7f6ecda9ca73bc3afa028ac",
+        "datetime": 1794497820,
+        "summary": "LEO and direct-to-cell lead D2D adoption, while IoT asset tracking, remote monitoring and 3GPP NTN integration unlock key opportunitiesDublin, Nov. 12, 2026 (GLOBE NEWSWIRE) -- \"Direct-to-Device (D2D) Market Size, Share, and Trend Analysis - Global Forecast to 2036\" has been added to ResearchAndMarkets.com's offering. The global direct-to-device (D2D) market is projected to grow from USD 1.08 billion in 2026 to USD 14.95 billion by 2036, registering a CAGR of 30.1% during the forecast period (20"
       },
       {
         "headline": "Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%",
@@ -59,101 +117,43 @@
         "url": "https://finnhub.io/api/news?id=4c28c7ca8c195ef512f8c11639e570913bef69c99789c3e3eb323d3bd141aa82",
         "datetime": 1794495106,
         "summary": "While its space peers sink with the rest of the growth trade, one lunar contractor posts a record quarter that bulls and skeptics read in opposite ways. What hides beneath the headline numbers, and what test comes next?"
-      },
-      {
-        "headline": "Intuitive Machines Stock Heads Back to the Moon as Revenues Rise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fdb56bab22f090ec70aaad8390bcb9517a6638d087ae18dd5fa60751eb0847e3",
-        "datetime": 1794494160,
-        "summary": "Thursday, Intuitive Machines reported third-quarter revenue of $269 million. Wall Street was looking for $246 million."
-      },
-      {
-        "headline": "Could Rocket Lab Actually Climb 56%? Or Is Morgan Stanley Totally Wrong?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=381b0a5275775280515bad13aca844614718f2e9b054770c63fc4d5f31e42f1f",
-        "datetime": 1794488126,
-        "summary": "Key TakeawaysMorgan Stanley cut its Rocket Lab price target to $103 from $105 on Nov. 11 and kept its Overweight rating, 56% above the stock\u2019s Nov."
-      },
-      {
-        "headline": "Can RKLB's ESCAPADE Mission Strengthen Its Deep-Space Capabilities?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8c2dad6a4d36d4d2a1d77b40f64d8813d3ba0e19c5daaa883146ee92e0ec59b5",
-        "datetime": 1794485520,
-        "summary": "Rocket Lab's ESCAPADE spacecraft completes precise Mars-bound maneuvers, showcasing its deep-space propulsion, navigation and mission operations capabilities."
-      }
-    ],
-    "ASTS": [
-      {
-        "headline": "AST SpaceMobile, Inc. (ASTS) Discusses Direct-to-Cell Satellite Connectivity and Space Technology Execution Transcript",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=2ccdb07c33601248e9b8b60e30ad89c72492cf4fed6d5f2a0eabf4225f4f1342",
-        "datetime": 1794494360,
-        "summary": "AST SpaceMobile, Inc. (ASTS) Discusses Direct-to-Cell Satellite Connectivity and Space Technology Execution November 12, 2026 10:00 AM ESTCompany..."
-      },
-      {
-        "headline": "AST SpaceMobile: I'm Buying Before The 2027 Breakout",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=85cdb07f87560575e2decab6dcdec28a46efb5b00169b74b2f61cc47786131b8",
-        "datetime": 1794475847,
-        "summary": "AST SpaceMobile's $1.3 billion remaining performance obligations exclude variable carrier revenues. Read why ASTS stock is a Strong Buy."
-      },
-      {
-        "headline": "AST SpaceMobile (ASTS) Stock Fair Value Moves Lower As Analysts Split On Risks",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ccb0937df8e1986afe7b406da790735b3d17c79ec2c74f5dc8da696306747fb5",
-        "datetime": 1794457936,
-        "summary": "The latest update on AST SpaceMobile centers on a reduced implied fair value, shifting from US$74.28 to US$66.18, which analysts link to a recalibrated view of the company\u2019s risk profile. This change sits alongside mixed Street commentary, with some analysts focused on upside from carrier partnerships and others more cautious about launch timing, capital needs and SpaceX\u2019s role. As you read on, you will see how these moving parts feed into the evolving AST SpaceMobile story and what to watch..."
-      },
-      {
-        "headline": "Does The Move In AST SpaceMobile Stock Change Anything?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f6cb0a5edf91c548911e0e5c98b6e5c45e0429cdadb6630a729ea8762974e071",
-        "datetime": 1794428805,
-        "summary": "For questions about this article or underlying research, email help@trefis.com."
-      },
-      {
-        "headline": "Rocket Lab Soars 6% as Morgan Stanley Looks Past \u201cQ3 Margin Noise\u201d to Neutron",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=36d8e1713a9a0623c96c636bfcc0a40bbcdf364835016ac1a5b14adcba2af043",
-        "datetime": 1794424016,
-        "summary": "Key TakeawaysRocket Lab shares jumped 6% after Morgan Stanley kept its Overweight rating and trimmed its target to $103. Rocket Lab\u2019s backlog rose $1."
       }
     ],
     "IREN": [
       {
-        "headline": "IREN: The Market Is Way Too Pessimistic",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=babbd1129885a3c9dc189a5058109dab6763e8e29789ae8e819c64041c0cfb54",
-        "datetime": 1794484025,
-        "summary": "IREN Ltd. (IREN) beat Q1 FY27 estimates, as AI cloud revenue nearly tripled to $200M and adjusted EBITDA margin doubled to 29%."
-      },
-      {
-        "headline": "Nebius Vs. IREN: Same Price Tag, But Only One Has Already Paid For Its Slippage",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=bfe05ec5cddd0d1913fd4ea72f1460b382f172fa8da1a60628023829d5d27f74",
-        "datetime": 1794483178,
-        "summary": "The analyst favors buying IREN and selling Nebius ahead of Q3, as IREN\u00e2\u0080\u0099s correction overshoots and $6B+ in assets supports revenue certainty."
-      },
-      {
-        "headline": "IREN: The Risk/Reward Is Worth It",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b7d7de8cd0c179200be84918949e55d754ac4d883aa43d99a1246ea94f9de821",
-        "datetime": 1794468955,
-        "summary": "IREN remains unprofitable with negative EPS and a substantial $10 billion debt level despite rapid revenue growth. See more on IREN stock."
-      },
-      {
-        "headline": "Voters Rejected Data Centers In 10 States, Raising Regulatory Risk for CoreWeave, Nvidia and AI Build-Out",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=995135e2c31e9ec6524abd6ff552ce82aed3478cbaca6b2971fe3300472c6a78",
-        "datetime": 1794454639,
-        "summary": "Nvidia and AI infrastructure stocks plunged on fears of tighter data center regulations after the midterms."
-      },
-      {
-        "headline": "Wall St futures fall as Nvidia slides on report of possible CEO ouster",
+        "headline": "Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=329c271faa350d06fede8947e98aec8b87d6dacbc90e9d6d70067fddb69b6a92",
-        "datetime": 1794446140,
-        "summary": "Investing.com-- U.S. stock futures fell on Wednesday evening as Nvidia shares tumbled in extended trading following a report that the chipmaker's board was preparing to remove Chief Executive Jensen Huang, raising concerns about stability at the company at the centre of the AI boom."
+        "url": "https://finnhub.io/api/news?id=d9556763d4de349b5c20f69810e46e987e7cad2528fe4ad3ce92d65170320041",
+        "datetime": 1794523720,
+        "summary": "Investors are weighing delivery timing and 2026 revenue execution after the AI cloud provider trimmed its outlook, today, Nov. 12, 2026."
+      },
+      {
+        "headline": "Jensen Huang resigns as Nvidia CEO amid scandal",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9cc8ff33b84e9111e3d916c136e3c6a4e004cd6cbfb03320ab06b723fe6ba4e4",
+        "datetime": 1794516183,
+        "summary": "Nvidia co-founder Jensen Huang has resigned as CEO effective immediately, sending shares down as much as 14% and dragging bitcoin miners-turned-AI data center firms Cipher, IREN, and Terawulf down 5% to 10%. CoinDesk\u2019s Uyen Truong hosts \u201cCoinDesk Daily.\u201d"
+      },
+      {
+        "headline": "Discerning The AI Industrial Buildout Through An Energy Lens",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4428d87e2689063e59dd40e84d7e84e23ed2b84f60632e3fce537388991ddeab",
+        "datetime": 1794502848,
+        "summary": "Real GDP grew 3.4% annualized in Q3, driven by high-income consumption and robust AI-related CapEx."
+      },
+      {
+        "headline": "Nebius Crashes 20% as Jensen Huang Shock Rocks AI Stocks: One ETF Is Having a Field Day",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=6c09694d36eab338dbe3fa0dfd2e0ae8874c2a09f55dae81cfb60c0ee5bf3a28",
+        "datetime": 1794502610,
+        "summary": "Inverse ETF rallies 39% as Nebius shares plunge nearly 20% amid earnings concerns and Jensen Huang shock exit."
+      },
+      {
+        "headline": "Nebius: 3 Overblown Fears Weighing Down the Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4f5b6728dca9d592d50430b49bd004f8ee42de840fdce38229f9fe94bfe9638c",
+        "datetime": 1794502080,
+        "summary": "The sharp disconnect between Nebius Group's surging fundamentals and its depressed share price points to an overreaction by the market."
       }
     ],
     "CRSP": [
@@ -195,6 +195,27 @@
     ],
     "CAVA": [
       {
+        "headline": "Dutch Bros vs. CAVA: Which Stock Is a Better Buy for 2027?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0edf17e7f8581e216c084caa36eb74a1c2b9248804e731c8d46bef275969a7ef",
+        "datetime": 1794597940,
+        "summary": "Dutch Bros trades at a steep discount to CAVA on forward earnings and sales, but its Rebel energy drink reliance and Western concentration raise questions."
+      },
+      {
+        "headline": "CAVA vs. Hershey: Which Stock Is a Better Buy for 2027?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=88a4b6427534efefa1c58b70c99babb85b7cd84ba08d42d93fecde5bbe8ed5eb",
+        "datetime": 1794519257,
+        "summary": "Hershey trades at a far lower forward P/E than CAVA, yet CAVA's revenue growth is roughly five times faster, forcing a choice between price and momentum."
+      },
+      {
+        "headline": "4 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=3c8ab7c6186001fba92561ae299048537c366501b97b70321bbdffbdea2c6809",
+        "datetime": 1794490509,
+        "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will"
+      },
+      {
         "headline": "Investors Heavily Search CAVA Group, Inc. (CAVA): Here is What You Need to Know",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=19ab47566dd0b8e0d548e7665378df13a5f3a5757e4bdc431a36df0aa175d7e2",
@@ -207,30 +228,16 @@
         "url": "https://finnhub.io/api/news?id=e020c04d0e3fd1c52c312c81f20413cd1048f7cf7d838a61d6fd0c9f08b6cc58",
         "datetime": 1794459720,
         "summary": "Tricia Tolivar explains why having general managers ready to lead matters most when deciding how fast to open new restaurants."
-      },
-      {
-        "headline": "Sweetgreen closes 9 restaurants, plans more shutdowns in 2027",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=435f8af0241a370a330ab3bbfa8be02e9b31c2f16f254012c3fa72526e3f0a7f",
-        "datetime": 1794423780,
-        "summary": "The fast-casual chain is slowing expansion and revamping existing restaurants as customer traffic declines."
-      },
-      {
-        "headline": "Should You Approach Dutch Bros Stock With Caution After Q3 Results?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6e4332144c2cb88793096015a7b05b43442949a1123854c7c2766fdf1f393acb",
-        "datetime": 1794413520,
-        "summary": "Should BROS' strong Q3 beat be overshadowed by slowing customer traffic, rising operating costs, aggressive expansion and a premium valuation?"
-      },
-      {
-        "headline": "CAVA Group: High Valuation And Underwhelming Earnings Force A Downgrade",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c7cc1adce2a4479d15689648cf03304977d4c45e1fe588e85166d8b8e8919511",
-        "datetime": 1794374329,
-        "summary": "CAVA Group is downgraded from Buy to Hold due to valuation and recent earnings concerns. Read more on CAVA stock here."
       }
     ],
     "MELI": [
+      {
+        "headline": "Nu Holdings Soars 11% on Record $1.1 Billion Profit as It Takes \u201cFirst Steps Beyond Latin America\u201d",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3081a91da3817120f02a568dc1ee60b100bea4c27c2eeeba8afccb36c1c87d50",
+        "datetime": 1794591089,
+        "summary": "Key TakeawaysNu Holdings shares jumped 11% today on record third-quarter net income of $1. 1 billion."
+      },
       {
         "headline": "Consumer Spending in Emerging Markets Has a Dark Side: Big Debt",
         "source": "Yahoo",
@@ -258,50 +265,43 @@
         "url": "https://finnhub.io/api/news?id=1cbb86f3d04039a43db54612b5394c0ad056534c79c2c9063209d9e48a4eb987",
         "datetime": 1794439202,
         "summary": "Airbnb's lean marketplace model and MercadoLibre's sprawling Latin American ecosystem pull in very different directions, and the margin gap between them tells a story worth weighing."
-      },
-      {
-        "headline": "Michael Burry Re-Enters LULU On Weakness, Boosts Positions In MercadoLibre, PayPal, JD And More",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=251c5a3c76ee601eea34d8209eb63d4b008fd10209e95366b072c64c28d78bc1",
-        "datetime": 1794433087,
-        "summary": "Burry cited lululemon\u2019s new management\u2019s failure so far to reverse a prolonged \u201cblack hole\u201d in marketing and messaging, which has left the stock overlooked during a low-information stretch."
       }
     ],
     "OKLO": [
       {
-        "headline": "Shares of uranium stocks are trading higher. It was reported last week the US will offer up to $3.4 billion for domestic uranium enrichment.",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=d6489271bc716b179776330f10d7900771738b73c1014b585c9e965a445aede5",
-        "datetime": 1794472333,
-        "summary": ""
-      },
-      {
-        "headline": "Can Oklo (OKLO) Be Below Fair Value After Groves Progress?",
+        "headline": "Will NuScale Power Stock's Jump After Earnings Last?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7bb5dcd4820162eaa90480ad6c7305a17078878387653f475b6d51fc590374b1",
-        "datetime": 1794453285,
-        "summary": "Oklo has been volatile, with big gains over the past few years and fresh attention on its advanced nuclear projects. The obvious question now is whether the current share price lines up with what its balance sheet is actually worth. Over the past 5 years the stock has returned about 161.5%, which puts a lot of weight on whether the underlying book value can support that kind of repricing. Recent progress on the Groves reactor platform and Aurora deployments can shape expectations for future..."
-      },
-      {
-        "headline": "What Happened To NuScale Power Stock Over The Past Year?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1d30615cb32f8a005742a84db16124f214367b655dfdbd1c139d5fa43480b2c1",
-        "datetime": 1794446323,
+        "url": "https://finnhub.io/api/news?id=972f9b36678645d5503e7873e0bba76152fd6a9a6569e1b494f136a354c370b6",
+        "datetime": 1794514861,
         "summary": "For questions about this article or underlying research, email help@trefis.com."
       },
       {
-        "headline": "GE Vernova\u2019s Ontario Nuclear Plant Is Facing Delays And Rising Costs",
+        "headline": "NuScale Power Just Dropped 25% in a Month: Nuke Your Shares Now, or Hunker Down and Hold?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c7e1f3d82109d908059d93c2c104efacc828deede20a0780a34866de7a63c92f",
-        "datetime": 1794439599,
-        "summary": "North America\u2019s small modular nuclear reactor project in Ontario is encountering construction delays and cost overruns."
+        "url": "https://finnhub.io/api/news?id=3db196f7da24e74665b1c61454661537e38094251f5c5758dd6e08252c3e0cc2",
+        "datetime": 1794513734,
+        "summary": "NuScale holds the only NRC-certified small modular reactor design and just started building its first commercial module, yet the stock keeps sliding. One pending utility agreement could decide whether that regulatory lead turns into orders or into more dilution."
       },
       {
-        "headline": "Bad News for Nuclear: A Landmark Reactor Just Got Delayed",
+        "headline": "AMD Soars 6%, Broadcom Up 6% as Nvidia CEO Jensen Huang Exits",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=29709ce42511189ecad0212afbdb8a3a02d7b1d15f5e59728fdb4df9a0f1dded",
-        "datetime": 1794426360,
-        "summary": "GE Vernova Hitachi\u2019s small nuclear reactor in Ontario, Canada, is facing delays and cost overruns."
+        "url": "https://finnhub.io/api/news?id=3228204b6e8fe0eef48d9eb4f1b0348782120c2fe7e32b9781da8676eab32fc1",
+        "datetime": 1794503116,
+        "summary": "Key TakeawaysAMD shares jumped 6% after Jensen Huang resigned as Nvidia\u2019s CEO, and Broadcom rose with it. IonQ, SoundHound and Oklo fell instead, as investors cut back on the riskiest AI bets."
+      },
+      {
+        "headline": "Can NuScale's TVA Deal Unlock Its First Major Module Order?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=eace41670e0db55621b01141ff0e430d1bf4db07dcc89a10f2caf165de9d708e",
+        "datetime": 1794497340,
+        "summary": "SMR's manufacturing push and $1.9-billion liquidity position support its reactor ambitions, but key commercial milestones remain unresolved."
+      },
+      {
+        "headline": "Oklo Advances Groves-1 Reactor Into Research and Testing Phase",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5f57c29e8c2ad9b350585d53f677121c73aa4c4d1ce74fee1193e917e0a45845",
+        "datetime": 1794496680,
+        "summary": "OKLO gains DOE clearance for unrestricted Groves-1 operations, paving the way for testing, workforce training and research to support future nuclear projects."
       }
     ]
   }
