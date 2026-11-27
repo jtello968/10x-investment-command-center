@@ -1,58 +1,88 @@
 {
-  "generatedAt": "2026-11-26T22:20:36.602764+00:00",
+  "generatedAt": "2026-11-27T21:57:43.724470+00:00",
   "quotes": {
     "RKLB": {
-      "current": 47.02,
-      "changePct": 2.2619,
-      "change": 1.04,
-      "previousClose": 45.98
+      "current": 50.88,
+      "changePct": 8.2093,
+      "change": 3.86,
+      "previousClose": 47.02
     },
     "ASTS": {
-      "current": 26.02,
-      "changePct": 10.2542,
-      "change": 2.42,
-      "previousClose": 23.6
+      "current": 26.85,
+      "changePct": 3.1899,
+      "change": 0.83,
+      "previousClose": 26.02
     },
     "IREN": {
-      "current": 12.85,
-      "changePct": -0.7722,
-      "change": -0.1,
-      "previousClose": 12.95
+      "current": 13.61,
+      "changePct": 5.9144,
+      "change": 0.76,
+      "previousClose": 12.85
     },
     "CRSP": {
-      "current": 42.56,
-      "changePct": -3.4921,
-      "change": -1.54,
-      "previousClose": 44.1
+      "current": 42.37,
+      "changePct": -0.4464,
+      "change": -0.19,
+      "previousClose": 42.56
     },
     "CAVA": {
-      "current": 55.47,
-      "changePct": 2.0232,
-      "change": 1.1,
-      "previousClose": 54.37
+      "current": 55.73,
+      "changePct": 0.4687,
+      "change": 0.26,
+      "previousClose": 55.47
     },
     "MELI": {
-      "current": 1467.3,
-      "changePct": 1.1715,
-      "change": 16.99,
-      "previousClose": 1450.31
+      "current": 1532.92,
+      "changePct": 4.4722,
+      "change": 65.62,
+      "previousClose": 1467.3
     },
     "OKLO": {
-      "current": 19.47,
-      "changePct": 1.4062,
-      "change": 0.27,
-      "previousClose": 19.2
+      "current": 20.85,
+      "changePct": 7.0878,
+      "change": 1.38,
+      "previousClose": 19.47
     }
   },
   "news": {
     "RKLB": [
       {
-        "headline": "Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?",
+        "headline": "Nvidia\u2019s Key Man Problem",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=321013b5d87b7af2e0dea405c3d2a0b23bacfe10c24793420f90dd7d8a586383",
-        "datetime": 1795707782,
-        "summary": "Shares are back where they were a year ago, but the business behind them is much bigger."
+        "url": "https://finnhub.io/api/news?id=6feb27fa03522a555dd069287e89f990372b54580f6ede9098bd27314e8bd25e",
+        "datetime": 1795802462,
+        "summary": "Talking about Nvidia, Rocket Lab, The Trade Desk, and Anthropic. A full plate."
       },
+      {
+        "headline": "Rocket Lab (RKLB) Completed Its 101st Electron Launch",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd1390cece47ffb44e71af5ac9554c6bcc4e7a25364c5f4a1d548cf0c36c9970",
+        "datetime": 1795792236,
+        "summary": "Rocket Lab (NasdaqGS:RKLB) completed its 101st Electron launch, carrying Synspective's 14th StriX satellite to orbit. The mission marked Rocket Lab's 22nd Electron flight of 2026, reinforcing its role in small-lift orbital services. Synspective has booked 47 Rocket Lab launches through 2031, adding long-dated visibility to the launch provider's commercial pipeline. This 101st Electron mission with Synspective fits into a broader pattern our research has found around Rocket Lab's customer..."
+      },
+      {
+        "headline": "AST SpaceMobile Gains 2% Despite Berenberg\u2019s Price Target Cut to $30, Rocket Lab Climbs 5% After Electron Launch; Cathie Wood-Backed SpaceX Rises 3%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=258c25df3bdf2c35ee758116746259b31e1cf1e9994174e2a74765307da21a5b",
+        "datetime": 1795788292,
+        "summary": "Three space stocks are rallying into the holiday, but only one just got a brutal analyst reset. Is Berenberg's caution on a satellite darling a warning for the whole sector, or just one rocket away from irrelevance?"
+      },
+      {
+        "headline": "SpaceX Cratered 13.5% This Month: Near 300% Returns to Materialize at Today\u2019s Price According to this Pro Analyst",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6b4f77f3f9fecd965a4b835d12518b7e69eee16e2012a2786faff54194cd0145",
+        "datetime": 1795781702,
+        "summary": "County boards are balking at SpaceX's gigawatt-scale AI data centers while merger whispers swirl, yet analysts keep raising their earnings estimates. One Wall Street voice sees a far bigger payoff than anyone else, but its math hinges on a fragile assumption."
+      },
+      {
+        "headline": "Rocket Lab Secures $515 Million in Neutron Launch Orders Ahead of 2027 Debut",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d0a852ed523dbf40af64db3742b30615b37a3f2732444645d9bdb18faf51507",
+        "datetime": 1795779575,
+        "summary": "The company's total order backlog reaches $3.57 billion despite delays in its next-generation rocket program."
+      }
+    ],
+    "ASTS": [
       {
         "headline": "SpaceX Just Slid 11% in a Week. Can Elon Musk\u2019s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
         "source": "Yahoo",
@@ -75,88 +105,65 @@
         "summary": "Key TakeawaysAST SpaceMobile is down 80% from its May high and hit a fresh 52-week low today, in a selloff that also took Rocket Lab and SpaceX sharply lower. AST gave investors more reasons to sell: a $1."
       },
       {
-        "headline": "RKLB vs. LUNR: Which Space Stock Has the Stronger Growth Outlook?",
+        "headline": "SPCX Wins Million-Satellite Nod And Retail Attention \u2014 But ASTS Leads Space Stocks Into Thanksgiving",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3875d456fe45274652628dae43ad34a4f7d2df5023fe10d7444d6901baeaa1ed",
-        "datetime": 1795697400,
-        "summary": "Rocket Lab and Intuitive Machines strengthen their space capabilities through technological advancements and expanding commercial space opportunities."
-      }
-    ],
-    "ASTS": [
-      {
-        "headline": "AST SpaceMobile (ASTS) Stages Impressive Comeback From Record Low",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2afb99445cf03c98441358cb4a8ccb922ec90e8471d752b124aff15d13ee53f4",
-        "datetime": 1795672884,
-        "summary": "AST SpaceMobile Inc. (NASDAQ:ASTS) is one of the 10 Stocks Stealing the Spotlight. AST SpaceMobile Inc. (NASDAQ:ASTS) soared by 10.25 percent on Wednesday to end at $26.02 apiece, as investors resorted to bargain-hunting after its shares fell to a record low in intraday trade. The stock dropped to a 52-week low of $22.50 during the [\u2026]"
+        "url": "https://finnhub.io/api/news?id=5fc40a5e5f00a72e63eb2115ee996417a1502f2db651ebf8756b69ea7da59d5a",
+        "datetime": 1795681559,
+        "summary": "ASTS led the group, gaining nearly 12% over the past week. It rebounded from a 52-week low after a director disclosed that she and her family purchased about $1 million in shares."
       },
       {
-        "headline": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
+        "headline": "AT&T Is Up 10% in a Month. Steve Eisman Calls the Big Three Carriers \u201cUninvestable.\u201d Who\u2019s Right?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b59c15b23c116dc74de1e875f182b2dade0d16b59828b70cf32fa05dd3b40b52",
-        "datetime": 1795652561,
-        "summary": "SpaceX said on Wednesday it would contribute one newly issued Class A share to every currently active Trump Account, the tax-advantaged investment accounts created for American children."
-      },
-      {
-        "headline": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4541db3e4c52fd046321f88f2955ff19b6b79ad19f8bc9f14156faed290740c5",
-        "datetime": 1795633350,
-        "summary": "While SpaceX slips and Rocket Lab barely moves, one space stock is staging a sharp comeback in a falling market. The bounce has a likely trigger, but one unresolved deadline could decide whether it lasts."
-      },
-      {
-        "headline": "AST SpaceMobile Issued 10 Million Shares to Firefly. What Does That Buy?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d76a85f870fd56798d4aab4d7e2b13e68aee14fae2292641587bf1cb8614b117",
-        "datetime": 1795632978,
-        "summary": "Our list of beaten-down stocks insiders are still selling put AST SpaceMobile, Inc. (NASDAQ:ASTS) ninth. The stock closed November 24 at $23.60, a week after the company issued 10 million shares to Firefly Aerospace. The deal gives AST a way to make its own rocket engines, and the rest of the terms show how much [\u2026]"
-      },
-      {
-        "headline": "Firefly Could Fill \u2018Large Supply Gaps\u2019 In Launch Market, Says Needham \u2013 Analyst Sees Over 100% Upside Potential In FLY Stock",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=608c5afc7dea2b40748ec35f8d6c19b9e978b074f5114c3dba9c71a12a705f85",
-        "datetime": 1795619548,
-        "summary": "Needham initiated coverage of Firefly Aerospace with a \u2018Buy\u2019 rating and a $35 price target, citing growing capabilities across multiple space industry segments."
+        "url": "https://finnhub.io/api/news?id=89a64756e717b9036e21f91e1064f666cc6773e068b088678e53dc358f5f479a",
+        "datetime": 1795681485,
+        "summary": "Key TakeawaysAT&T stock is up 10% in the past month as the broader market fell and investors moved into cheap, high-yielding stocks. SpaceX wants to build a fourth US carrier, but the Boost Mobile network it wants to buy runs on AT&T and T-Mobile, which reportedly plan to cut it off."
       }
     ],
     "IREN": [
       {
-        "headline": "Anthropic Earns \u201c$80 a Year per Watt\u201d of GPUs, Says Modal\u2019s CEO. That\u2019s Good News for SpaceX",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=64b8d64c94f3fca5cb72c32c7de1853e4b80668baebbc263bf701369ca71ac3c",
-        "datetime": 1795650106,
-        "summary": "Key TakeawaysAnthropic stock fell 6. 5% on Tuesday, Nov."
+        "headline": "December Might Bring More Pain Than Gain",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c7caf05fb8e5959f0bc487ac4840f5b7e14839f772c11de075196a2593567eab",
+        "datetime": 1795777702,
+        "summary": "The author argues the market has likely not bottomed and suggests treating the Thanksgiving rebound as a relief rally rather than a signal to buy."
       },
       {
-        "headline": "IREN stock price is down 80% over six months. Here\u2019s why",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=82551928e8ac7e4b0e31de87acd94f4da1e7f9286753006b8bc18fc7caca4044",
-        "datetime": 1795637937,
-        "summary": "IREN\u2019s (IREN) shares have plunged nearly 80% over six months as financing uncertainty, execution risks and declining GPU rental prices undermine investor confidence in the bitcoin miner\u2019s AI cloud transition."
+        "headline": "Applied Digital Stock Rises After Steep Monthly Drop Near 52-Week Low",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=d3506b353c59109b0fa0e30261bd486a2881e24b1fd68874ddfc6d26edf1fec6",
+        "datetime": 1795775869,
+        "summary": "Applied Digital stock climbed in Friday premarket trading as the company reached a key North Dakota data center milestone."
       },
       {
-        "headline": "SpaceX Slashes GPU Pricing? Plus, IREN\u2019s Selloff and CoreWeave\u2019s Distressed Bonds",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3a868458ab41c5c156d28e7f7e5a8faae5c3bec6346fa4b4a1eee5a9aa2fd970",
-        "datetime": 1795636676,
-        "summary": "Today, we open up with unconfirmed reports that SpaceX is dropping its GPU rental prices, IREN's stock price selloff, and CoreWeave's bond rout."
+        "headline": "Why Is IREN Stock Surging on Friday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=0dcb24a0260e7bce5540604af42eb6e9c4fd7ea875ed5a3691ac95b6b351509f",
+        "datetime": 1795775170,
+        "summary": "IREN Limited (NASDAQ: IREN) stock gained on Friday without company news as traders bought AI infrastructure stocks amid a broader U.S. technology rebound."
       },
       {
-        "headline": "Will Funding Gap Change IREN Stock Narrative",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=848cd44734b365bdf5a65d6ba70b0972e9810bad4577561e66a9d9c013b289b0",
-        "datetime": 1795630242,
-        "summary": "IREN is pushing ahead with multi gigawatt AI data center projects in Texas and Australia while facing a roughly US$6b funding gap on a nearly US$15b near term build plan, tighter GPU lending terms, and regulatory reviews that affect large power approvals. The business has secured large, contracted AI cloud commitments with partners like Microsoft and Nvidia and has already brought its first Horizon site online. Investor focus has shifted to whether those agreements and existing assets can..."
+        "headline": "TeraWulf Rebounds as AI Infrastructure Bulls Look Past Tech Sell-Off",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=beee5665a70b76a094ac8c015631726d7685f91a49e0aadcf1406f2a384d7865",
+        "datetime": 1795775096,
+        "summary": "TeraWulf stock climbs Friday alongside Nasdaq futures. Read how CEO Paul Prager views AI data center demand and analyst price forecast."
       },
       {
-        "headline": "Freedom Capital Markets\u2019 $314 Target Says Nebius\u2019s Selloff Went Too Far",
+        "headline": "Applied Digital Just Tumbled 33% in a Month. Can APLD Stock Get Back to $20 in 2027?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d0b982bd921e04241e9e07ed766ba0aad4eeb895aad11599cd11a2d88d3e6820",
-        "datetime": 1795626140,
-        "summary": "Key TakeawaysFreedom Capital Markets kept its Buy rating and $314 price target on Nebius Group on Nov. 23."
+        "url": "https://finnhub.io/api/news?id=5d2b2a169074a187ef5565fe5e2b0d292919b6e0ee62f3863e87115081007424",
+        "datetime": 1795712888,
+        "summary": "A record $41 billion backlog hasn't stopped the selling at Applied Digital. Between a construction deadline, mounting debt, and a tenant whose credit is cracking, the road back to a higher share price runs through three risky tests."
       }
     ],
     "CRSP": [
+      {
+        "headline": "Cathie Wood Says AI Could Cut Drug Costs by $1.8 Billion. These 5 ARK-Backed Biotech Stocks Could Benefit",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=eefce86af6f2e48a5e5b0faa6d6347c018a5b074cacf17bceaef2788a5403f7b",
+        "datetime": 1795704307,
+        "summary": "Cathie Wood sees AI cutting drug development costs by $1.8 billion. These five ARK-backed biotech stocks could benefit."
+      },
       {
         "headline": "How Did Cathie Wood Play The Market Crash And Snapback?",
         "source": "Yahoo",
@@ -188,6 +195,13 @@
     ],
     "CAVA": [
       {
+        "headline": "Qualcomm, Cava, and Dutch Bros Earnings and a Robotics IPO",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ae8df20ec2c832a41ed56da5bca857c4a93010308a351e918373c0809241d67e",
+        "datetime": 1795802762,
+        "summary": "Knowing how to control one\u2019s emotions can be just as important as picking the right stocks. Plus, Qualcomm, Cava, and Dutch Bros earnings and a first look at robotics stock Agility Robotics."
+      },
+      {
         "headline": "CAVA Group, Inc. (CAVA) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d52e61acd70eb7f29987405def7d1c15ff7e1825930ff570c5f38c1fae872862",
@@ -214,53 +228,67 @@
         "url": "https://finnhub.io/api/news?id=af98bfc7c13119c19785c8730d0ef1f92cf7ab50c1a54029d1d928fac9feed08",
         "datetime": 1795477778,
         "summary": "This under-the-radar consumer discretionary stock boasts a Superscore of 83 from our Hidden Gems Primary database, part of The Motley Fool's Moneyball Database system. Here's why."
-      },
-      {
-        "headline": "CAVA vs. lululemon athletica: Which Consumer Stock Is a Better Buy for 2027?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1c6a4d28acfdb8b2ba74d974336f4c478f234a05b4eec103ecc116af522211cc",
-        "datetime": 1795369069,
-        "summary": "CAVA's 27% revenue jump and Lululemon's 1.1x sales multiple sit side by side, but one stock's premium valuation raises a question about how much growth is already priced in."
       }
     ],
     "MELI": [
       {
-        "headline": "MercadoLibre (MELI): Near-Term Margin Compression Masks Strong User and Credit Growth",
+        "headline": "'Big Short' Investor Michael Burry Thinks This Chinese Stock Is Worth About 60% More Than Its Price. Should You Buy?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=28a1ba9abd4a2ae0d134551910734e8d1db08b9639fa06a3ed5334ee7945ef51",
-        "datetime": 1795712051,
-        "summary": "Hayden Capital, an investment management firm, released its third-quarter 2026 investment letter. The letter can be downloaded here. In the third quarter, the portfolio fell 0.4%, bringing its year-to-date loss to 23.6%, versus gains of 2.3% and 12.7% for the S&P 500, and 1.2% and 12.9% for MSCI World. The letter acknowledges a difficult year [\u2026]"
+        "url": "https://finnhub.io/api/news?id=e39670b43de212afa9bc8981ec9c110436a8d8787d6ca8b38ae96e3ebdedba00",
+        "datetime": 1795805583,
+        "summary": "Burry has stopped betting against the Nasdaq and is putting his money into cheap stocks overseas, led by one Chinese e-commerce giant."
       },
       {
-        "headline": "Michael Burry Just Flipped Bullish and Went on a Shopping Spree for Stocks",
+        "headline": "PicS (PICS) Stock Is Up 12.0% Today Without Company News",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1b3923d4a2dd46854f609c20a4cf1b1dc4a73ea05b4c6006fb48165e19083d00",
-        "datetime": 1795704736,
-        "summary": "The investor famous for betting against housing now says his portfolio is almost entirely long, with a quarter of it still in cash. Why did expensive puts and pricey U.S. stocks push him overseas, and which of his picks looks like the better buy?"
+        "url": "https://finnhub.io/api/news?id=1ebac54a442acf66b1a4497356294195013831e45283241614ce4289b5588d78",
+        "datetime": 1795794316,
+        "summary": "PicS shares rose 12.0% on Friday, Nov. 27, without company-specific news, as Latin America-linked stocks rallied."
       },
       {
-        "headline": "This Week In E-Commerce - Holiday Shopping Trends: Blending Online and In-Store Buys",
+        "headline": "Patria Investments (PAX) Stock Is Up 6.7% Today in Broad Market Rally",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0bc37b21ca65666b9254edb3cb93197e469802bd2fd2c5413be4a72c611f279c",
-        "datetime": 1795696639,
-        "summary": "The holiday shopping period from Black Friday through Cyber Monday remains crucial for e-commerce, with Circana's study indicating that 43% of consumers plan to conduct the majority of their holiday shopping during this time. However, significant shopping activity is expected to continue into December, with over half of consumers planning to complete their purchases during this month. This trend underscores ongoing opportunities for retailers as consumers mix online and physical store..."
+        "url": "https://finnhub.io/api/news?id=d7e4a2db3b56672248279298a60d9b7a9a13d620a8097c06988b8a9673fcb8d7",
+        "datetime": 1795791610,
+        "summary": "Patria Investments shares rose 6.7% on Friday, Nov. 27, as stocks rallied and Latin America-linked names jumped, with no company-specific news."
       },
       {
-        "headline": "Morgan Stanley Cut Its MercadoLibre Target. It Still Sees 66% Upside",
+        "headline": "10 Best Strong Buy Stocks to Buy and Hold For the Next 5 Years",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0cc3d94114ee3647fe5baf60a137caee99dce70326e15dcc8e66e1175da93304",
-        "datetime": 1795625426,
-        "summary": "Key TakeawaysMorgan Stanley cut its MercadoLibre price target to $2,350 from $2,450 on Nov. 23 and kept its Overweight rating, leaving the target 66% above the stock."
+        "url": "https://finnhub.io/api/news?id=eef881198030e52fb9f50458b101534094e5dd3c80daeedb194d970ab21e8f00",
+        "datetime": 1795789859,
+        "summary": "The S&P 500 fell 3.7% on Friday, November 20, its seventh straight losing session and its longest losing streak since the pandemic crash, according to Jared Blikre, global markets and data editor at Yahoo Finance. The index closed in correction territory, about $8 trillion below its October 6 record, and the Nasdaq-100 dropped 5.6% to [\u2026]"
       },
       {
-        "headline": "Michael Burry Is \u2018Temporarily' Bullish: What His Latest Bets Reveal About the Market",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=67f6cd8c99cd38e15bb58db9d5764f5e223d3726999f0ae6f996bdf8177e2e7a",
-        "datetime": 1795623494,
-        "summary": "Michael Burry is temporarily bullish after the selloff, but keeps Palantir and MetLife puts and plans to short Nvidia near $200."
+        "headline": "Inter (INTR) Stock Jumps 14.5% Premarket: Latin American Stocks Rally",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=356b2a9225d810b18e6152d04918cb66262ef2e3cb2273034bfad6ac6f745862",
+        "datetime": 1795785333,
+        "summary": "Inter & Co shares rose 14.5% in premarket trading on Friday, Nov. 27, without company-specific news, as Latin American stocks rallied."
       }
     ],
     "OKLO": [
+      {
+        "headline": "NuScale Just Dropped 17% in a Week to a New 52-Week Low. Is It Time to Sell, or Load Up?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1d239de4db749463d736e8b1c5f10a11e8fc71db697be2e1fd5ebf2efaf9a80d",
+        "datetime": 1795706471,
+        "summary": "Key TakeawaysNuScale shares fell 17% in a week to a new 52-week low as the AI selloff hit power stocks, including Oklo. NuScale had no news, but with almost no revenue and no signed order, nothing in its numbers slowed the fall."
+      },
+      {
+        "headline": "NuScale Power (SMR) Draws Fresh Investor Focus As AI Power Demand Lifts SMR Appeal",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0206ec4884800afb47487dcb0dfba62530211854cb7915019d4ef95d43bc0131",
+        "datetime": 1795702282,
+        "summary": "NuScale Power (NYSE: SMR) is drawing increased investor interest as AI power demand raises the profile of advanced nuclear options. The company holds a federally certified small modular reactor design from the Nuclear Regulatory Commission, giving it a regulatory edge over Oklo. Analysts point to NuScale's NRC-approved technology and narrowing loss estimates as key factors in its growing appeal with AI infrastructure investors. The growing focus on NuScale's certified SMR design should not..."
+      },
+      {
+        "headline": "Energy Fuels vs. Centrus Energy: Which Uranium Stock Has The Edge Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bf251b9f95e155bb8bf15cb982035a5a354bff65eb7880c2a2d91a76068255b1",
+        "datetime": 1795698960,
+        "summary": "UUUU and LEU offer promising uranium growth prospects, but profitability pressures and execution risks raise questions about which stock has the edge."
+      },
       {
         "headline": "Prediction: Oklo Stock Could Have a Huge Year as Nuclear Energy Demand Accelerates",
         "source": "Yahoo",
@@ -274,27 +302,6 @@
         "url": "https://finnhub.io/api/news?id=fbf474e9b1764037439967ec7d14def84cb2cb5e276f959ad2ff685b1fc0914f",
         "datetime": 1795625822,
         "summary": "Nuclear stocks that rode the AI power boom are now bleeding, and hot inflation and fresh tariffs are only part of the story. Why do three nuclear names fall by different amounts when the same selloff hits them?"
-      },
-      {
-        "headline": "OKLO Has More Cash, But Is NuScale the Better Nuclear Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=70d025e4783af29b3d14383d7eb588ffa02101d63fbc3e0bd11cd1d3ef73e3dc",
-        "datetime": 1795609680,
-        "summary": "OKLO and SMR are targeting the growing power needs of data centers, but their contrasting business models could shape how and when they generate revenues."
-      },
-      {
-        "headline": "Oklo Sinks 14% in a Week, NuScale Down 19%, as the AI Selloff Hits Nuclear Stocks. Time to Buy?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=431b049420e388a644e5496b26a813fcfa5b12826bc96a4ea59b0f9ec962860c",
-        "datetime": 1795594260,
-        "summary": "Key TakeawaysOklo fell 14% in a week with no bad news of its own, as the AI selloff hit NuScale Power and Bloom Energy too. Oklo\u2019s own news was good: a test reactor was cleared, and it signed definitive fuel contracts with Centrus Energy."
-      },
-      {
-        "headline": "1 Reason I Haven\u2019t Bought Oklo Stock -- and Probably Never Will",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4446961a226493de5fbe27f73812b52af7f4f82a2d1ce270c1c7753f8af00679",
-        "datetime": 1795573202,
-        "summary": "Oklo still faces a cash flow dilemma."
       }
     ]
   }
